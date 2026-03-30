@@ -28,6 +28,7 @@ These are custom-built skills for specific workflows.
 | [fix-issue](skills/fix-issue/SKILL.md) | Structured GitHub issue fixing workflow with tests and commits |
 | [frontend-design](skills/frontend-design/SKILL.md) | Frontend design patterns for production-grade, accessible, and responsive interfaces |
 | [go-to-market-strategy](skills/go-to-market-strategy/SKILL.md) | Complete GTM planning with channels, messaging matrix, launch timeline, and success metrics |
+| [jtbd-extractor](skills/jtbd-extractor/SKILL.md) | Turn raw research into Jobs-to-be-Done statements with opportunity scoring, job categorization, and feature request translation |
 | [market-sizing](skills/market-sizing/SKILL.md) | TAM/SAM/SOM calculator using both top-down and bottom-up approaches with assumption tracking |
 | [pdf-processing](skills/pdf-processing/SKILL.md) | PDF text extraction, form filling, and document merging |
 | [pr-summary](skills/pr-summary/SKILL.md) | Pull request change summarization with diff analysis and comment review |
