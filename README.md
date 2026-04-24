@@ -160,7 +160,11 @@ Skills from installed Claude Code plugins. These are managed by the plugin syste
 Feel free to fork this repo and add your own skills. Each skill should have:
 - A `SKILL.md` file with frontmatter (`name`, `description`) and the skill prompt
 - Any supporting scripts in a `scripts/` subdirectory
+- A short usage example in the description so users know when the skill fires
+
+Pull requests are welcome — please keep one skill per PR for easier review.
 
 ## License
 
 MIT
+
