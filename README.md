@@ -1,6 +1,6 @@
 # Claude Code Custom Skills
 
-A curated collection of custom skills for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), Anthropic's official CLI for Claude. These skills extend Claude's capabilities with specialized, reusable workflows for product management, engineering, data analysis, financial modeling, GTM, and more.
+A curated collection of custom skills for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), Anthropic's official CLI for Claude. These skills extend Claude's capabilities with specialized, reusable workflows for product management, engineering, data analysis, financial modeling, GTM, design, and more.
 
 ## What Are Skills?
 
