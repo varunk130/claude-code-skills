@@ -4,7 +4,7 @@ A curated collection of custom skills for [Claude Code](https://docs.anthropic.c
 
 ## What Are Skills?
 
-Skills are reusable prompt templates that give Claude Code domain-specific knowledge and structured workflows. Drop them into your `~/.claude/skills/` directory and invoke them with slash commands or natural language.
+Skills are reusable prompt templates that give Claude Code domain-specific knowledge and structured workflows. Drop them into your `~/.claude/skills/` directory (or a project-local `.claude/skills/` folder) and invoke them with slash commands or natural language.
 
 ---
 
