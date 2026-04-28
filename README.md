@@ -6,6 +6,8 @@ A curated collection of custom skills for [Claude Code](https://docs.anthropic.c
 
 Skills are reusable prompt templates that give Claude Code domain-specific knowledge and structured workflows. Drop them into your `~/.claude/skills/` directory (or a project-local `.claude/skills/` folder) and invoke them with slash commands or natural language.
 
+[![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-D97757?logo=anthropic&logoColor=white)](https://claude.ai/code)
+
 ---
 
 ## Custom Skills
