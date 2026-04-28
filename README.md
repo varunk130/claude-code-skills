@@ -169,3 +169,7 @@ Pull requests are welcome — please keep one skill per PR for easier review.
 
 MIT
 
+---
+
+<sub>Built by [Varun Kulkarni](https://github.com/varunk130) — part of a portfolio of AI agent systems for product teams.</sub>
+
