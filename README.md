@@ -2,6 +2,10 @@
 
 A curated collection of custom skills for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), Anthropic's official CLI for Claude. These skills extend Claude's capabilities with specialized, reusable workflows for product management, engineering, data analysis, financial modeling, GTM, design, and more.
 
+## Authoring a New Skill
+
+See [docs/SKILL_TEMPLATE.md](docs/SKILL_TEMPLATE.md) for the full template, conventions, and quality bar checklist before submitting a new skill.
+
 ## What Are Skills?
 
 Skills are reusable prompt templates that give Claude Code domain-specific knowledge and structured workflows. Drop them into your `~/.claude/skills/` directory (or a project-local `.claude/skills/` folder) and invoke them with slash commands or natural language — Claude will load the relevant skill on demand.
