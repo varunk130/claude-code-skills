@@ -1,16 +1,70 @@
-# Claude Code Custom Skills
+<div align="center">
 
-A curated collection of custom skills for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), Anthropic's official CLI for Claude. These skills extend Claude's capabilities with specialized, reusable workflows for product management, engineering, data analysis, financial modeling, GTM, design, and more.
+# 🧰 Claude Code Custom Skills
+
+### A curated collection of reusable skills for Claude Code — PM, engineering, data, GTM, design, and more.
+
+[![Skills](https://img.shields.io/badge/Custom_Skills-19-blue?style=for-the-badge)](#custom-skills)
+[![Plugin Skills](https://img.shields.io/badge/Plugin_Skills-bundled-green?style=for-the-badge)](#plugin-skills)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+[![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-D97757?logo=anthropic&logoColor=white&style=for-the-badge)](https://claude.ai/code)
+
+**Maintained by [Varun Kulkarni](https://github.com/varunk130)**
+
+</div>
+
+---
+
+## How It Works
+
+```mermaid
+flowchart LR
+    A["💬 You ask in<br/>Claude Code"] --> B["🧠 Claude matches<br/>skill trigger"]
+    B --> C["📖 SKILL.md loads<br/>framework + steps"]
+    C --> D["⚙️ Claude executes<br/>structured workflow"]
+    D --> E["📦 Structured output<br/>(report, doc, code, slide)"]
+
+    classDef step fill:#1a73e8,color:#fff,stroke:#1558b0,stroke-width:2px,rx:6,ry:6
+    classDef io fill:#f8f9fa,color:#202124,stroke:#dadce0,stroke-width:1px,rx:6,ry:6
+    class B,C,D step
+    class A,E io
+```
+
+A *skill* is a single markdown file that gives Claude Code domain-specific knowledge and a structured workflow. Drop it into `~/.claude/skills/` and Claude loads it on demand — via slash command or natural language.
+
+---
+
+## ⚡ Quickstart
+
+```bash
+# 1. Clone this repo
+git clone https://github.com/varunk130/claude-code-skills.git
+
+# 2. Install all skills globally for Claude Code
+mkdir -p ~/.claude/skills
+cp -r claude-code-skills/skills/* ~/.claude/skills/
+
+# 3. Restart Claude Code, then invoke any skill
+#    Examples:
+#      /ai-decision-engine
+#      /market-sizing
+#      /pricing-strategy-analyzer
+```
+
+**Project-local install** (only for one project):
+
+```bash
+mkdir -p .claude/skills
+cp -r /path/to/claude-code-skills/skills/* .claude/skills/
+```
+
+> 💡 New to Claude Code skills? See the [official skills guide](https://docs.anthropic.com/en/docs/claude-code/skills) for installation locations and discovery rules.
+
+---
 
 ## Authoring a New Skill
 
 See [docs/SKILL_TEMPLATE.md](docs/SKILL_TEMPLATE.md) for the full template, conventions, and quality bar checklist before submitting a new skill.
-
-## What Are Skills?
-
-Skills are reusable prompt templates that give Claude Code domain-specific knowledge and structured workflows. Drop them into your `~/.claude/skills/` directory (or a project-local `.claude/skills/` folder) and invoke them with slash commands or natural language — Claude will load the relevant skill on demand.
-
-[![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-D97757?logo=anthropic&logoColor=white)](https://claude.ai/code)
 
 ---
 
