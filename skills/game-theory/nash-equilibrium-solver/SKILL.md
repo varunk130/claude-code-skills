@@ -9,7 +9,7 @@ description: "Models a strategic interaction as a normal-form (or extensive-form
 
 ## What this skill is
 
-A workflow that formalizes a real-world strategic interaction as a game — players, actions, payoffs — then solves for pure and mixed-strategy Nash equilibria, applies iterated elimination of dominated strategies, checks subgame perfection in extensive form, and tests robustness to information assumptions. Produces a recommendation grounded in the equilibrium analysis, not in intuition.
+A workflow that formalizes a real-world strategic interaction as a game — players, actions, payoffs — then solves for pure and mixed-strategy Nash equilibria, applies Iterated Elimination of Dominated Strategies (IEDS), checks Subgame-Perfect Equilibrium (SPE) in extensive form, and tests robustness to information assumptions. Produces a recommendation grounded in equilibrium analysis, not intuition.
 
 ## What it solves
 
@@ -22,10 +22,10 @@ A workflow that formalizes a real-world strategic interaction as a game — play
 ## When to invoke
 
 - Pricing decisions where competitor response is decisive
-- Capacity / supply commitments in a concentrated industry
+- Capacity or supply commitments in a concentrated industry
 - Bidding strategy in auctions and tenders
-- Market entry / exit decisions
-- Negotiation prep where multiple equilibria are credible
+- Market entry or exit decisions
+- Negotiation preparation where multiple equilibria are credible
 - Regulatory or policy interactions
 
 ## Phase 1: Define the game
@@ -43,10 +43,10 @@ Document every assumption. Bad payoff estimates make the equilibrium meaningless
 
 | Game type | Use | Tool |
 |-----------|-----|------|
-| Simultaneous, complete info | Normal form (payoff matrix) | n-dim matrix |
-| Sequential, complete info | Extensive form (game tree) | tree with payoffs at leaves |
-| Incomplete information | Bayesian game | type distributions |
-| Repeated interaction | Stage game + folk theorem | discount factor δ |
+| Simultaneous, complete information | Normal form (payoff matrix) | n-dimensional matrix |
+| Sequential, complete information | Extensive form (game tree) | Tree with payoffs at leaves |
+| Incomplete information | Bayesian game | Type distributions |
+| Repeated interaction | Stage game plus folk theorem | Discount factor δ |
 
 Start with the simplest representation that captures the strategic essence.
 
@@ -54,13 +54,13 @@ Start with the simplest representation that captures the strategic essence.
 
 For each player, eliminate **strictly dominated** strategies (always worse than another strategy regardless of others' actions). Then iterate.
 
-Iterated elimination of dominated strategies (IEDS) often solves the game without further machinery. If a unique strategy survives for each player, that profile is the equilibrium.
+Iterated Elimination of Dominated Strategies (IEDS) often solves the game without further machinery. If a unique strategy survives for each player, that profile is the equilibrium.
 
 Note: **weakly dominated** strategies can survive in equilibrium — be careful eliminating them.
 
 ## Phase 4: Find pure-strategy Nash equilibria
 
-A pure-strategy Nash equilibrium is a profile where no player can improve by unilaterally deviating.
+A pure-strategy Nash equilibrium (NE) is a profile where no player can improve by unilaterally deviating.
 
 Procedure for a normal-form game:
 - For each cell, check whether the row player would deviate row-wise
@@ -71,15 +71,15 @@ A game may have zero, one, or multiple pure NE. **Always report all of them**.
 
 ## Phase 5: Find mixed-strategy Nash equilibria
 
-If pure NE doesn't exist or is unsatisfactory, solve for the mixed-strategy equilibrium.
+If a pure NE doesn't exist or is unsatisfactory, solve for the mixed-strategy equilibrium.
 
-For a 2×2 game with players A (rows) and B (columns):
+For a 2-by-2 game with players A (rows) and B (columns):
 - Let p = probability A plays strategy 1
 - Let q = probability B plays strategy 1
 - Set A's expected payoffs equal so B is indifferent (solves for q)
 - Set B's expected payoffs equal so A is indifferent (solves for p)
 
-For larger games, use the support-enumeration method or numerical solvers (Gambit, nashpy in Python).
+For larger games, use support enumeration or numerical solvers (Gambit, nashpy in Python).
 
 Interpret the mixed strategy:
 - In a one-shot game, the player literally randomizes
@@ -88,7 +88,7 @@ Interpret the mixed strategy:
 
 ## Phase 6: Extensive form — subgame perfection
 
-For sequential games, the standard NE concept is too weak (it allows non-credible threats). Use **subgame-perfect equilibrium (SPE)** via backward induction:
+For sequential games, the standard NE concept is too weak (it allows non-credible threats). Use **Subgame-Perfect Equilibrium (SPE)** via backward induction:
 
 1. Start at the terminal nodes
 2. Pick the action giving the highest payoff to the player whose move it is
@@ -97,13 +97,13 @@ For sequential games, the standard NE concept is too weak (it allows non-credibl
 
 The path traced is the SPE. Any "threats" off the path are non-credible if they would require a player to act against their own interest.
 
-## Phase 7: Equilibrium refinements & selection
+## Phase 7: Equilibrium refinements and selection
 
 When multiple equilibria exist, apply refinements:
 - **Subgame perfection** — eliminates non-credible threats
 - **Pareto dominance** — pick the equilibrium that everyone weakly prefers (when it exists)
 - **Risk dominance** — pick the equilibrium that is the safer choice under uncertainty about others
-- **Focal point (Schelling)** — convention, salience, history (e.g., split 50/50)
+- **Focal point (Thomas Schelling)** — convention, salience, history (e.g., split 50/50)
 - **Forward induction** — actions reveal beliefs
 
 State which refinement you applied and why.
@@ -114,7 +114,7 @@ Before recommending:
 - Sensitivity: how does the equilibrium change with ±20% payoffs?
 - Information asymmetry: what if the opponent has private information?
 - Repeated interaction: does folk-theorem cooperation become available?
-- Outside option: what's the BATNA / disagreement payoff?
+- Outside option: what's the Best Alternative to a Negotiated Agreement (BATNA) or disagreement payoff?
 - Behavioral deviations: would loss-aversion, social preferences, or framing shift the equilibrium?
 
 Equilibria that flip on small payoff changes are fragile — flag them.
@@ -128,7 +128,7 @@ Equilibria that flip on small payoff changes are fragile — flag them.
 - Mixed-strategy equilibria with derivation
 - SPE for sequential games via backward induction
 - Equilibrium selection reasoning if multiple exist
-- Sensitivity / robustness commentary
+- Sensitivity and robustness commentary
 - Recommended action with explicit caveats
 
 ## Operating rules

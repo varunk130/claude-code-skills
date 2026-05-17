@@ -1,6 +1,6 @@
 ---
 name: negotiation-strategist
-description: "Prepares for a negotiation using BATNA, reservation price, ZOPA, multi-issue trade design, anchoring tactics, and concession plans, then simulates the counterparty and produces a play-by-play strategy. Use before commercial negotiations, M&A talks, vendor or partnership deals, internal resource negotiations, hiring offers, or any multi-issue bargaining where preparation outranks instinct."
+description: "Prepares for a negotiation using the Best Alternative to a Negotiated Agreement (BATNA), reservation price, Zone of Possible Agreement (ZOPA), multi-issue trade design, anchoring tactics, and concession plans, then simulates the counterparty and produces a play-by-play strategy. Use before commercial negotiations, Mergers and Acquisitions (M&A) talks, vendor or partnership deals, internal resource negotiations, hiring offers, or any multi-issue bargaining where preparation outranks instinct."
 ---
 
 # Negotiation Strategist
@@ -9,7 +9,7 @@ description: "Prepares for a negotiation using BATNA, reservation price, ZOPA, m
 
 ## What this skill is
 
-A pre-negotiation workflow that codifies your interests, your BATNA, your reservation price, the likely ZOPA, the issues available for multi-issue trades, an anchoring plan, a concession schedule, and a simulated counterparty profile. Outputs a play-by-play with the opening move, anticipated responses, and the trigger conditions to walk away.
+A pre-negotiation workflow that codifies your interests, your Best Alternative to a Negotiated Agreement (BATNA), your reservation price, the likely Zone of Possible Agreement (ZOPA), the issues available for multi-issue trades, an anchoring plan, a concession schedule, and a simulated counterparty profile. Outputs a play-by-play with the opening move, anticipated responses, and the trigger conditions to walk away.
 
 ## What it solves
 
@@ -22,40 +22,40 @@ A pre-negotiation workflow that codifies your interests, your BATNA, your reserv
 ## When to invoke
 
 - Commercial contract negotiations (vendor, customer, partner)
-- M&A or financing term sheet talks
+- Mergers and Acquisitions (M&A) or financing term-sheet talks
 - Internal negotiations (budget, headcount, scope, deadlines)
-- Hiring offer / counter-offer
-- Salary or comp review
+- Hiring offer or counter-offer
+- Salary or compensation review
 - Multi-party coalition deals
 
 ## Phase 1: Identify interests, not just positions
 
 For each side, list:
-- **Stated positions** — what they say they want (e.g., "$50/seat/month")
-- **Underlying interests** — why they want it (e.g., "hit Q4 budget; show win to CFO; reduce vendor sprawl")
+- **Stated positions** — what they say they want (e.g., "$50 per seat per month")
+- **Underlying interests** — why they want it (e.g., "hit Q4 budget; show win to Chief Financial Officer (CFO); reduce vendor sprawl")
 - **Constraints** — what they cannot do (regulatory, internal policy, signed precedent)
 
 Interests outnumber positions and overlap more than positions do. The negotiation moves when you find an interest-level alignment.
 
-## Phase 2: Compute BATNA & reservation price
+## Phase 2: Compute BATNA and reservation price
 
-**BATNA** (Best Alternative to a Negotiated Agreement) is your fallback if this deal falls through:
+**Best Alternative to a Negotiated Agreement (BATNA)** is your fallback if this deal falls through:
 - List actual alternatives, not hypothetical ones
 - Quantify each (revenue, cost, time)
 - Pick the best — that's your BATNA
 
 **Reservation price** is the worst deal you'd still accept (one notch better than BATNA). Below this, you walk.
 
-Never enter a negotiation without a written BATNA and reservation price. Improve your BATNA before negotiating if you can — it's the single highest-leverage prep move.
+Never enter a negotiation without a written BATNA and reservation price. Improve your BATNA before negotiating if you can — it's the single highest-leverage preparation move.
 
 ## Phase 3: Estimate the counterparty's BATNA and reservation
 
 Use whatever you have:
-- Their public alternatives (RFP responses, vendor list, public M&A history)
+- Their public alternatives (Request for Proposal (RFP) responses, vendor list, public M&A history)
 - Internal signals (urgency, end-of-quarter pressure, regulatory timelines)
 - Past behavior (have they walked before? at what level?)
 
-If your reservation price ≤ their reservation price, there is a **ZOPA** (Zone of Possible Agreement). Negotiation happens inside it. If no ZOPA, the deal isn't viable — change the issues.
+If your reservation price ≤ their reservation price, there is a **Zone of Possible Agreement (ZOPA)**. Negotiation happens inside it. If no ZOPA, the deal isn't viable — change the issues.
 
 ## Phase 4: Expand to multi-issue trades
 
@@ -69,15 +69,15 @@ For each side, list all issues and rank by importance (1 = most, n = least):
 | Payment terms | 5 | 2 | High — they care more |
 | Contract length | 2 | 5 | High — you care more |
 | Exclusivity | 3 | 4 | Modest |
-| SLA | 4 | 3 | Modest |
+| Service Level Agreement (SLA) | 4 | 3 | Modest |
 
 The high-trade-potential issues are where value is created. Concede on what they value, get what you value.
 
-## Phase 5: Anchoring & opening move
+## Phase 5: Anchoring and opening move
 
 The opener defines the range. Anchoring rules:
-- Open **ambitious but justifiable** — well outside the midpoint, with a rationale (precedent, comp, internal cost)
-- The rationale matters more than the number — "industry comp says $X"
+- Open **ambitious but justifiable** — well outside the midpoint, with a rationale (precedent, comparables, internal cost)
+- The rationale matters more than the number — "industry comparables say $X"
 - If they open first, **don't counter-anchor immediately** — ask for the rationale, then reframe
 
 Decide: do you go first, or wait? Go first if you have better information about ZOPA. Wait if you don't.
@@ -92,9 +92,9 @@ Plan concessions before the meeting. Rules:
 
 | Round | Your move | Counter-ask | Walk-away trigger |
 |-------|-----------|-------------|--------------------|
-| 1 | Open at $X, 36mo, SLA Y | — | They counter below $W |
-| 2 | $X-10, 36mo, SLA Y | Add Z | Below reservation |
-| 3 | $X-15, 24mo, SLA Y | Approval timing | etc. |
+| 1 | Open at $X, 36 months, SLA Y | — | They counter below $W |
+| 2 | $X-10, 36 months, SLA Y | Add Z | Below reservation |
+| 3 | $X-15, 24 months, SLA Y | Approval timing | etc. |
 
 ## Phase 7: Tactical playbook
 
@@ -116,13 +116,13 @@ Pre-game with a colleague playing the counterparty. Specifically:
 
 ## Output
 
-- Interests + positions for both sides
+- Interests and positions for both sides
 - BATNA and reservation price for both sides
-- ZOPA verdict (exists / doesn't / depends on issue expansion)
+- ZOPA verdict (exists, doesn't, or depends on issue expansion)
 - Multi-issue trade matrix
 - Anchoring plan with justified opener
 - Concession schedule with conditional asks
-- Tactical playbook with named anticipated tactics
+- Tactical playbook with anticipated tactics named
 - Walk-away triggers — explicit
 - Post-negotiation review template
 
