@@ -1,146 +1,167 @@
 # SKILL.md Template
 
-Copy this template when authoring a new skill. Replace placeholders in `<angle brackets>` and delete sections that don't apply, but preserve the section *order* — it's what readers (and AI agents matching descriptions) expect.
+Every custom skill in this library follows the same structure so they are easy to learn, compose, and extend. Copy this template when authoring a new skill — replace placeholders in `<angle brackets>` and keep the section order.
+
+---
+
+## Template
 
 ```markdown
 ---
 name: <skill-name-in-kebab-case>
-description: '<One paragraph describing what the skill does. End with: Use when: <trigger phrase 1>, <trigger phrase 2>, <trigger phrase 3>.>'
+description: "<One sentence on what the skill produces.> Use when <trigger 1>; <trigger 2>; <trigger 3>; <trigger 4>."
 ---
 
-# <Skill Display Name>
+# <Skill Title>
 
-<Two-sentence elevator pitch: what this skill does and why it exists. The reader should be able to decide in 10 seconds whether to invoke this skill or a different one.>
+> <One-line tagline / positioning statement.>
 
-## Core Principle
+## What this skill is
 
-**<The single key insight that the skill embodies, bolded.>** <One paragraph elaborating why this principle matters and what failures it prevents.>
+<2–3 sentences. What is this skill? What approach does it take? Why does it exist?>
 
-## What You'll Get
+## What it solves
 
-| Artifact | Description |
-|----------|-------------|
-| **<Output 1>** | <One-sentence description> |
-| **<Output 2>** | <One-sentence description> |
-| **<Output 3>** | <One-sentence description> |
+- <Pain 1 — concrete failure mode this skill prevents>
+- <Pain 2>
+- <Pain 3>
+- <Pain 4>
+
+## When to invoke
+
+- <Trigger situation 1 — concrete, specific>
+- <Trigger situation 2>
+- <Trigger situation 3>
+- <Trigger situation 4>
+
+## Phase 1: <Name>
+
+<What this phase produces, with any required tables, formulas, or rules.>
+
+## Phase 2: <Name>
+
+<...>
+
+## Phase N: <Name>
+
+<...>
 
 ## Output
 
-Save to `outputs/<topic>-[name]-[YYYY-MM-DD].md`
+- <Deliverable 1 produced by the skill>
+- <Deliverable 2>
+- <Deliverable 3>
 
-## Process
+## Operating rules
 
-### Step 1: <Intake / Frame the Problem>
-I'll ask:
-> "<The 1–2 questions that frame the skill's input.>"
+**Always**
+- <Rule 1>
+- <Rule 2>
+- <Rule 3>
 
-### Step 2: <Core Step>
-<What the skill does mechanically. Be specific.>
-
-### Step 3: <Synthesize / Output>
-<How outputs are produced and structured.>
-
-## Demo Scenario (optional)
-
-**Input:**
-> <A realistic prompt the skill could receive.>
-
-**Sample Output (excerpt):**
-
-| <Column 1> | <Column 2> | <Column 3> |
-|------------|------------|------------|
-| ... | ... | ... |
-
-## Tips
-1. **<Tip headline>.** <One-sentence elaboration.>
-2. **<Tip headline>.** <One-sentence elaboration.>
-3. **<Tip headline>.** <One-sentence elaboration.>
-
-## Pairs With (optional)
-- **<other-skill>** — <how they compose>
+**Never**
+- <Rule 1>
+- <Rule 2>
+- <Rule 3>
 ```
 
 ---
 
-## Authoring Conventions
+## Field-by-field guidance
 
-These are the rules that make a skill *good*, not just complete.
+### `name`
 
-### Frontmatter
+Kebab-case. Must match the folder name. Examples: `dcf-valuation-builder`, `opportunity-solution-tree`, `repeated-game-strategist`.
 
-| Field | Required? | Notes |
-|-------|-----------|-------|
-| `name` | Yes | Must match the folder name (kebab-case) |
-| `description` | Yes | Two parts: the *what* (one paragraph) + the *Use when* trigger list |
-| Other fields | No | Don't add them — they confuse compatibility across agents |
+### `description`
 
-The `Use when:` clause matters more than the description body. AI agents match user intent against trigger phrases; ambiguous triggers mean the skill never gets selected.
+Two parts in one sentence each:
 
-### Tone
+1. **What the skill produces** — concrete output, not a tagline.
+2. **Use when…** — at least 3 trigger phrases a user would actually type. AI agents match user intent against these triggers; vague triggers mean the skill never gets selected.
 
-- Direct and decision-oriented
-- No hedging filler ("may potentially possibly")
-- Tables over long prose where structure exists
-- Quantitative where possible
+Bad: *"The best DCF tool. Use when you want to value something."*
+Good: *"Builds a discounted cash flow valuation with WACC derivation, terminal value reconciliation, and football-field summary. Use when valuing a company, business unit, or acquisition target; preparing a board valuation memo; or stress-testing assumptions against precedent transactions."*
 
-### Section Order (don't reorder)
+### Title and tagline
 
-1. **Core Principle** — the insight
-2. **What You'll Get / Output** — the deliverable
-3. **Process** — how the skill operates
-4. **Demo Scenario** (optional) — concrete example
-5. **Tips** — operating wisdom
-6. **Pairs With** (optional) — composition with other skills
+- One H1 only — the skill title in Title Case.
+- A blockquote one-liner immediately after, capturing the positioning. Should fit on a single line.
 
-### Length Guidelines
+### What this skill is
 
-| Skill complexity | Target length |
-|------------------|---------------|
-| Simple (single output, single framework) | 1.5–3 KB |
-| Standard (multi-step process, scoring rubric) | 3–6 KB |
-| Complex (multiple sub-frameworks, demos) | 6–10 KB |
-| Larger | Almost always means the skill should be split into 2 |
+2–3 sentences. Answer: *what is this skill, what's its method, why does it exist?* This is the elevator pitch — a reader should know within 10 seconds whether to invoke this skill or a different one.
 
-If you're over 10 KB, decompose: each major sub-framework becomes its own skill, with a "pairs with" link.
+### What it solves
+
+4–6 bullets, each a concrete failure mode the skill prevents. Not generic pains ("bad decisions") — specific symptoms a practitioner would recognize.
+
+### When to invoke
+
+4–6 bullets. Each one is a situation in which a user might invoke this skill. These overlap with the frontmatter `Use when` triggers but are more concrete and discoverable in the body.
+
+### Phases
+
+The structured workflow. Numbered phases, each with a clear purpose.
+
+- Use tables for any structured data (scoring rubrics, frameworks, checklists).
+- Use code fences for formulas.
+- Keep prose tight — practitioners scan, they don't read.
+
+Aim for 3–8 phases. Fewer than 3 → the skill might not need phases. More than 8 → the skill might need to split into two.
+
+### Output
+
+The concrete deliverables the skill produces. Bullet list. Each item is something a user could hand to a stakeholder.
+
+### Operating rules
+
+Two short subsections — **Always** and **Never** — each with 4–6 bullets. These are the guardrails that distinguish a good run of the skill from a bad one. Treat them as the operating wisdom of the skill.
 
 ---
 
-## Quality Bar Checklist
+## Length guidelines
 
-Before opening a PR for a new skill, verify:
+| Skill complexity | Target size |
+|------------------|-------------|
+| Simple (single output, single framework) | 2–4 KB |
+| Standard (multi-phase, scoring rubric) | 4–7 KB |
+| Complex (multi-framework, sensitivity analysis) | 7–10 KB |
+| Larger | Almost always means the skill should split into 2 |
+
+If you're over 10 KB, decompose: each major sub-framework becomes its own skill.
+
+---
+
+## Quality checklist
+
+Before opening a PR for a new skill:
 
 - [ ] `name` matches folder name (kebab-case)
-- [ ] `description` ends with a `Use when:` clause containing ≥ 3 trigger phrases
-- [ ] Core Principle is a single bolded sentence followed by one paragraph
-- [ ] Process has at least 3 numbered steps
-- [ ] Output location is specified (`outputs/<topic>-...md`)
-- [ ] At least 3 Tips, each with a bolded headline
-- [ ] No external API dependencies (or, if scaffolded for future wiring, an explicit "not wired" notice)
-- [ ] No real customer / company names in examples — use anonymized stand-ins
+- [ ] `description` ends with a `Use when` clause containing ≥ 3 specific trigger phrases
+- [ ] Skill lives in the correct category folder (`skills/<category>/<skill-name>/SKILL.md`)
+- [ ] One H1 only (the skill title); H2 / H3 for everything else
+- [ ] Tagline blockquote immediately under the H1
+- [ ] All six core sections present: *What this skill is*, *What it solves*, *When to invoke*, *Phase N*, *Output*, *Operating rules*
+- [ ] At least 3 phases
+- [ ] Operating rules has both **Always** and **Never** sections
+- [ ] No external API or network dependencies in the skill itself
+- [ ] No real customer / company names — use anonymized stand-ins
 - [ ] No PII or secrets anywhere in the file
-- [ ] Total length is appropriate (see Length Guidelines above)
+- [ ] Total length within the guidelines above
+- [ ] Main README updated with the new skill in its category table
+- [ ] Category README updated with the new skill
 
 ---
 
-## Common Mistakes to Avoid
+## Common mistakes to avoid
 
 | Mistake | Fix |
 |---------|-----|
-| `description` reads like a tagline ("the best X tool!") | Replace with a behavioral description: what the skill *does*, not what it *is* |
-| `Use when:` triggers are vague ("when needed") | Concrete phrases the user might actually type |
-| One H1 per file is violated | Exactly one H1 (the skill name); use H2 / H3 for everything else |
-| Process steps lack a clear "I'll ask" intake | Skills without intake feel impersonal; explicit intake builds trust |
-| Tips are generic platitudes | Tips should be the *operating wisdom* — what someone learns running this skill 50 times |
-| Demo uses real customer names | Always anonymize ("[Customer X], 1,200 FTEs in your industry") |
-| Skill claims to "integrate with X" without wiring | Either wire it, or explicitly mark as "scaffolded, not wired" with a path to live mode |
-
----
-
-## Submitting a New Skill
-
-1. Open an issue describing the gap and the proposed skill name (kebab-case)
-2. Wait for thumbs-up from a maintainer
-3. Create `skills/<skill-name>/SKILL.md` from the template above
-4. Optionally add `examples/` and `tests.yaml`
-5. Update the catalog table in the root README
-6. Open a PR titled `feat(skills): add <skill-name> skill`
+| `description` reads like a tagline | Replace with a behavioral description: what the skill *produces*, not what it *is* |
+| `Use when` triggers are vague | Concrete phrases the user might actually type |
+| Multiple H1s | Exactly one H1 (the skill title) |
+| Phase descriptions are prose walls | Use tables, formulas in code fences, bullets |
+| Operating rules are platitudes | They should be the wisdom from running this skill 50 times |
+| Skill claims to integrate with X without wiring | Either wire it, or omit the claim |
+| Examples use real company names | Use anonymized placeholders |
