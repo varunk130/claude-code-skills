@@ -1,6 +1,6 @@
 ---
 name: opportunity-solution-tree
-description: "Builds Teresa Torres-style Opportunity Solution Trees: desired outcome at the top, prioritized opportunities, candidate solutions, and assumption tests that connect discovery work to a measurable business outcome. Use when planning continuous product discovery, deciding what to research next, structuring quarterly discovery work, or aligning a product trio (PM / design / eng) on what to test."
+description: "Builds an Opportunity Solution Tree (OST) — desired outcome at the top, prioritized opportunities, candidate solutions, and assumption tests that connect discovery work to a measurable business outcome. Use when planning continuous product discovery, deciding what to research next, structuring quarterly discovery work, or aligning a product trio (product manager / designer / engineer) on what to test."
 ---
 
 # Opportunity Solution Tree
@@ -9,7 +9,7 @@ description: "Builds Teresa Torres-style Opportunity Solution Trees: desired out
 
 ## What this skill is
 
-A workflow for building an Opportunity Solution Tree (OST) — Teresa Torres's framework that anchors discovery work to a clear outcome, surfaces opportunities (unmet customer needs / pain points / desires), generates multiple solution candidates, and identifies the assumption tests that need to run before committing. Produces a living artifact a product trio can update weekly.
+A workflow for building an Opportunity Solution Tree (OST) — the discovery framework popularized by Teresa Torres that anchors discovery work to a clear outcome, surfaces opportunities (unmet customer needs, pain points, desires), generates multiple solution candidates, and identifies the assumption tests that need to run before committing. Produces a living artifact a product trio can update weekly.
 
 ## What it solves
 
@@ -37,24 +37,24 @@ Outcome statement format:
 Rules for a good outcome:
 - It is a behavior, not a feature ("more activations" not "ship onboarding v2")
 - It is measurable today (you can see the baseline)
-- It has a target — vague aspirations hide tradeoffs
+- It has a target — vague aspirations hide trade-offs
 - It is owned by the product trio for the cycle
 
-If the outcome is a business KPI (revenue, retention), restate it as the **leading customer behavior** that drives it.
+If the outcome is a business Key Performance Indicator (KPI) such as revenue or retention, restate it as the **leading customer behavior** that drives it.
 
 ## Phase 2: Map opportunities
 
 Opportunities are customer **needs, pain points, and desires** — never solutions. Source them from:
 - Customer interviews (continuous discovery weekly cadence)
-- Support tickets, NPS verbatims
+- Support tickets, Net Promoter Score (NPS) verbatims
 - Sales call recordings
 - Behavioral analytics (funnel drop-offs)
-- Internal observation (CS escalations, churn calls)
+- Internal observation (customer success escalations, churn calls)
 
 For each opportunity, write:
 - A short title in the **customer's voice**
 - Source citations (which interview, which ticket)
-- The job stage it sits in (using the job map)
+- The job stage it sits in (using the job map from the Jobs-to-be-Done (JTBD) skill)
 
 Structure the opportunities into a tree:
 - **Parent opportunities** are broad (e.g., "It's hard to know if I'm making progress")
@@ -70,7 +70,7 @@ Score each opportunity on:
 - **Strategic alignment** — does solving it support the outcome at the top?
 - **Confidence** — how sure are we, based on evidence?
 
-Use a 2×2 of **opportunity size × strategic alignment**. Pick **one opportunity** per cycle for the trio to focus on. Multiple parallel opportunities dilute discovery.
+Use a 2-by-2 matrix of **opportunity size × strategic alignment**. Pick **one opportunity** per cycle for the trio to focus on. Multiple parallel opportunities dilute discovery.
 
 ## Phase 4: Generate solution candidates
 
@@ -83,22 +83,22 @@ Solution-generation prompts:
 - Service-not-software: what if a human did it?
 - Existing-flow: what change to a current flow would do it?
 
-For each candidate, write a 1-paragraph description and a sketch (Loom, Figma, or rough wireframe).
+For each candidate, write a 1-paragraph description and a sketch (Loom video, Figma frame, or rough wireframe).
 
 ## Phase 5: Identify assumption tests
 
-For each solution candidate, list the assumptions that must be true for it to work. Use Marty Cagan's four risk categories:
+For each solution candidate, list the assumptions that must be true for it to work. Use the four risk categories described by Marty Cagan:
 
 | Risk | Question |
 |------|----------|
 | Value | Will customers use it? |
 | Usability | Can they figure out how to use it? |
-| Feasibility | Can we build it with available tech / time? |
-| Business viability | Does it work for legal, sales, support, finance? |
+| Feasibility | Can we build it with available technology and time? |
+| Business viability | Does it work for legal, sales, support, and finance? |
 
 For each assumption, design the **cheapest possible test**:
-- Survey, prototype test, fake-door, concierge MVP, A/B test, technical spike
-- Define the success / kill criteria **before** running the test
+- Survey, prototype test, fake-door experiment, concierge Minimum Viable Product (MVP), A/B test, technical spike
+- Define the success and kill criteria **before** running the test
 
 Run the test. Update the tree weekly.
 

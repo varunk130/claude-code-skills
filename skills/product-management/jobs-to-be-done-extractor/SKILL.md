@@ -1,6 +1,6 @@
 ---
 name: jobs-to-be-done-extractor
-description: "Extracts Jobs-to-be-Done statements (functional, emotional, social) from raw research — interviews, surveys, support tickets, sales calls — and produces a job map with progress measures and outcome statements. Use when reframing a product around customer outcomes, segmenting beyond demographics, building a competitive switching analysis, prioritizing features, or aligning product, marketing, and sales on the same job."
+description: "Extracts Jobs-to-be-Done (JTBD) statements (functional, emotional, social) from raw research — interviews, surveys, support tickets, sales calls — and produces a job map with progress measures and outcome statements. Use when reframing a product around customer outcomes, segmenting beyond demographics, building a competitive switching analysis, prioritizing features, or aligning product, marketing, and sales on the same job."
 ---
 
 # Jobs-to-be-Done Extractor
@@ -9,7 +9,7 @@ description: "Extracts Jobs-to-be-Done statements (functional, emotional, social
 
 ## What this skill is
 
-A workflow that turns unstructured customer research into JTBD artifacts: functional + emotional + social job statements, a job map, force diagrams (push / pull / habit / anxiety), outcome statements, and a hire/fire analysis. Built on the Ulwick (ODI) and Christensen schools, with explicit handling of overserved vs. underserved outcomes.
+A workflow that turns unstructured customer research into Jobs-to-be-Done (JTBD) artifacts: functional, emotional, and social job statements; a job map; force diagrams (push / pull / habit / anxiety); outcome statements; and a hire / fire analysis. Built on the Outcome-Driven Innovation (ODI) school of Anthony Ulwick and the milkshake school of Clayton Christensen, with explicit handling of overserved versus underserved outcomes.
 
 ## What it solves
 
@@ -21,21 +21,21 @@ A workflow that turns unstructured customer research into JTBD artifacts: functi
 
 ## When to invoke
 
-- Synthesizing customer interviews, switching interviews, or win/loss calls
+- Synthesizing customer interviews, switching interviews, or win-loss calls
 - Re-segmenting the market beyond firmographics
 - Building positioning or messaging that resonates with the actual job
 - Prioritizing the roadmap by underserved outcome importance
-- Aligning product, marketing, sales, and CS on a shared customer model
+- Aligning product, marketing, sales, and customer success on a shared customer model
 
 ## Phase 1: Source the raw material
 
 Catalog what you have:
-- Customer interview transcripts (switching, churn, win/loss, discovery)
-- Sales call recordings + notes
-- Support tickets and CSAT verbatims
+- Customer interview transcripts (switching, churn, win-loss, discovery)
+- Sales call recordings plus notes
+- Support tickets and Customer Satisfaction (CSAT) verbatims
 - Survey free-text responses
-- Reviews (G2, Capterra, Reddit, Twitter)
-- Internal Slack from CS / sales
+- Reviews (G2, Capterra, Reddit, Twitter / X)
+- Internal Slack messages from customer success and sales
 
 Log source, recency, sample size, and any selection bias.
 
@@ -50,16 +50,16 @@ Categorize each into:
 - **Emotional** — how the customer wants to feel
 - **Social** — how they want to be perceived
 
-Most products serve a primary functional job plus 1–2 emotional / social jobs. Identify the **main job** vs. **related jobs** vs. **little hires**.
+Most products serve a primary functional job plus 1–2 emotional or social jobs. Identify the **main job** versus **related jobs** versus **little hires**.
 
 ## Phase 3: Build the job map
 
-Decompose the main job into Ulwick's 8 universal stages:
+Decompose the main job into the 8 universal job stages:
 
 | Stage | Question | Example |
 |-------|----------|---------|
 | Define | What do they need to decide before starting? | |
-| Locate | What inputs / context do they need to gather? | |
+| Locate | What inputs or context do they need to gather? | |
 | Prepare | How do they set up the work? | |
 | Confirm | How do they verify they're ready? | |
 | Execute | What is the core task? | |
@@ -69,7 +69,7 @@ Decompose the main job into Ulwick's 8 universal stages:
 
 For each stage, list the **desired outcomes** the customer wants to optimize.
 
-## Phase 4: Outcome statements & importance × satisfaction
+## Phase 4: Outcome statements and importance × satisfaction
 
 Convert each desired outcome into a measurable statement:
 
@@ -84,14 +84,14 @@ Score each outcome on 1–10:
 Plot on the Opportunity Score matrix:
 
 ```
-Opportunity = Importance + max(Importance − Satisfaction, 0)
+Opportunity Score = Importance + max(Importance − Satisfaction, 0)
 ```
 
-Outcomes scoring ≥15 are **underserved** (innovation opportunity). Outcomes scoring <10 with high satisfaction are **overserved** (cost-reduction or simplification opportunity).
+Outcomes scoring ≥ 15 are **underserved** (innovation opportunity). Outcomes scoring < 10 with high satisfaction are **overserved** (cost-reduction or simplification opportunity).
 
 ## Phase 5: Forces of progress analysis
 
-For switching / adoption decisions, map the four forces:
+For switching or adoption decisions, map the four forces:
 
 | Force | Pulls toward new | Pulls toward old |
 |-------|------------------|------------------|
@@ -111,18 +111,18 @@ For each segment, identify:
 
 ## Output
 
-- 5–12 prioritized job statements (functional + emotional + social)
+- 5–12 prioritized job statements (functional plus emotional plus social)
 - Job map with 8 stages and desired outcomes per stage
 - Opportunity Score matrix flagging underserved and overserved outcomes
 - Forces of progress diagram for top switching scenarios
-- Hire/fire analysis per segment
+- Hire / fire analysis per segment
 - 3–5 messaging seeds for marketing and sales
 
 ## Operating rules
 
 **Always**
 - Quote customer language verbatim before paraphrasing
-- Distinguish functional vs. emotional vs. social
+- Distinguish functional versus emotional versus social
 - Score outcomes for both importance and satisfaction
 - Use the canonical situation / motivation / outcome statement form
 - Map all four forces, not just push and pull

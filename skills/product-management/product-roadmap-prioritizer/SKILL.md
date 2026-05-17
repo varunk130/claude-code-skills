@@ -1,6 +1,6 @@
 ---
 name: product-roadmap-prioritizer
-description: "Runs candidate features through RICE, Kano, MoSCoW, and Cost-of-Delay scoring, surfaces convergence and divergence across frameworks, and produces a defensible quarterly priority list with explicit trade-offs. Use when building a quarterly or annual roadmap, resolving conflicting stakeholder input, justifying a deprioritization to a stakeholder, or normalizing requests from multiple sources (sales, CS, leadership) into one queue."
+description: "Runs candidate features through Reach-Impact-Confidence-Effort (RICE), Kano, Must-Should-Could-Won't (MoSCoW), and Cost-of-Delay scoring, surfaces convergence and divergence across frameworks, and produces a defensible quarterly priority list with explicit trade-offs. Use when building a quarterly or annual roadmap, resolving conflicting stakeholder input, justifying a deprioritization to a stakeholder, or normalizing requests from multiple sources (sales, customer success, leadership) into one queue."
 ---
 
 # Product Roadmap Prioritizer
@@ -9,33 +9,33 @@ description: "Runs candidate features through RICE, Kano, MoSCoW, and Cost-of-De
 
 ## What this skill is
 
-A workflow that scores candidate features across four complementary prioritization frameworks (RICE, Kano, MoSCoW, Cost of Delay), surfaces where they agree and disagree, and turns that into a ranked quarterly roadmap with explicit reasoning. Designed so that every "no" can be defended with the same rigor as every "yes."
+A workflow that scores candidate features across four complementary prioritization frameworks — Reach-Impact-Confidence-Effort (RICE), Kano, Must-Should-Could-Won't (MoSCoW), and Cost of Delay — surfaces where they agree and disagree, and turns that into a ranked quarterly roadmap with explicit reasoning. Designed so that every "no" can be defended with the same rigor as every "yes."
 
 ## What it solves
 
-- HiPPO-driven (highest-paid-person's opinion) prioritization
+- Highest-Paid-Person's-Opinion (HiPPO) driven prioritization
 - Feature ranking that ignores effort or confidence
 - Single-framework analysis that misses the trade-off (RICE without Kano misses delighters; Kano without RICE misses scale)
-- Sales/CS/exec requests that bypass any structured queue
+- Sales, customer success, and executive requests that bypass any structured queue
 - Inability to explain to a stakeholder why their request didn't make the cut
 
 ## When to invoke
 
 - Quarterly or annual roadmap planning
-- Resolving conflicting input from sales, CS, and leadership
+- Resolving conflicting input from sales, customer success, and leadership
 - Justifying a deprioritization in writing
 - Normalizing a backlog of 50+ requests into a ranked queue
-- Pre-OKR planning to align roadmap with stated objectives
+- Pre-Objectives and Key Results (pre-OKR) planning to align roadmap with stated objectives
 
 ## Phase 1: Inventory candidates
 
 Collect every candidate from every source:
 - Sales requests (deal-driven asks)
-- CS / support themes (volume, severity)
-- Leadership / board / strategy directives
+- Customer success and support themes (volume, severity)
+- Leadership, board, or strategy directives
 - Customer interview opportunity tree
-- Tech debt and platform investments
-- Engineering quality / reliability work
+- Technical debt and platform investments
+- Engineering quality and reliability work
 
 For each, capture: title, sponsor, source link, hypothesized outcome, hypothesized customer.
 
@@ -46,7 +46,7 @@ Reject anything missing sponsor or outcome.
 For each candidate:
 
 ```
-RICE = (Reach × Impact × Confidence) / Effort
+Reach-Impact-Confidence-Effort (RICE) = (Reach × Impact × Confidence) / Effort
 ```
 
 - **Reach** — number of users affected per time period
@@ -63,7 +63,7 @@ For each candidate, classify the **customer perception**:
 | Kano category | Definition | Investment posture |
 |---------------|------------|---------------------|
 | Must-have | Expected baseline; absence → dissatisfaction | Reach parity, then stop |
-| Performance | More is better; linear satisfaction | Invest while ROI holds |
+| Performance | More is better; linear satisfaction | Invest while Return on Investment (ROI) holds |
 | Delighter | Unexpected; non-linear satisfaction | Invest selectively for differentiation |
 | Indifferent | No effect on satisfaction | Defer or kill |
 | Reverse | More → less satisfaction | Avoid |
@@ -74,7 +74,7 @@ A roadmap of all must-haves is a defensive crouch. A roadmap of all delighters i
 
 ## Phase 4: Categorize with MoSCoW (per release)
 
-For each candidate **within a release window**:
+For each candidate **within a release window**, apply the Must-Should-Could-Won't (MoSCoW) categorization:
 - **Must** — non-negotiable; release fails without it
 - **Should** — important; release weaker without it
 - **Could** — nice to have; first to cut
@@ -84,7 +84,7 @@ Rule of thumb: Must ≤ 60% of release capacity. Anything higher means everythin
 
 ## Phase 5: Weight with Cost of Delay
 
-For time-sensitive items:
+For time-sensitive items, compute Cost of Delay Divided by Duration (CD3):
 
 ```
 CD3 = Cost of Delay / Duration
@@ -93,9 +93,9 @@ CD3 = Cost of Delay / Duration
 Cost of delay components:
 - Revenue at risk (deal blockers, churn risk)
 - Competitive timing (feature parity windows)
-- Compliance / regulatory deadlines
+- Compliance or regulatory deadlines
 - Dependency unblocking (other teams gated)
-- Brand / PR opportunity
+- Brand or public-relations opportunity
 
 CD3 sorts the queue for sequencing within a release.
 
@@ -107,7 +107,7 @@ Build the convergence table:
 |-----------|----------:|------|--------|---------:|-------------|
 | A | 1 | Performance | Must | 1 | Strong yes |
 | B | 5 | Delighter | Should | 3 | Mixed — investigate |
-| C | 12 | Must-have | Must | 8 | Tablestakes — do |
+| C | 12 | Must-have | Must | 8 | Table stakes — do |
 | D | 2 | Indifferent | Could | 15 | RICE alone is misleading |
 
 Where frameworks agree → high confidence to commit. Where they disagree → the disagreement IS the strategy conversation. Don't average; investigate.
@@ -115,10 +115,10 @@ Where frameworks agree → high confidence to commit. Where they disagree → th
 ## Phase 7: Quarterly roadmap
 
 For the chosen quarter:
-- 60% capacity → Must-haves and high-converging items
-- 25% capacity → Performance and delighter bets
-- 10% capacity → Tech debt / platform investment
-- 5% capacity → Discovery experiments (no committed output)
+- 60% capacity → must-haves and high-converging items
+- 25% capacity → performance and delighter bets
+- 10% capacity → technical debt and platform investment
+- 5% capacity → discovery experiments (no committed output)
 
 Stakeholder reply template for declined requests:
 > Thanks for the request. We scored [X] using RICE / Kano / MoSCoW. It scored [Y], which puts it behind [Z]. We'd reconsider if [explicit trigger]. Here's what we're doing instead: [items A, B, C] and the outcome we expect.
@@ -126,7 +126,7 @@ Stakeholder reply template for declined requests:
 ## Output
 
 - Scored candidate table across all four frameworks
-- Convergence/divergence analysis with reasoning
+- Convergence and divergence analysis with reasoning
 - Ranked quarterly roadmap with capacity allocation
 - Explicit "won't do this quarter" list with reasoning
 - Stakeholder decline templates per declined request
@@ -145,5 +145,5 @@ Stakeholder reply template for declined requests:
 - Score with confidence above what the evidence supports
 - Use one framework alone
 - Promote a request because the sponsor is senior
-- Treat tech debt as automatically deferrable
+- Treat technical debt as automatically deferrable
 - Confuse a feature with an outcome
