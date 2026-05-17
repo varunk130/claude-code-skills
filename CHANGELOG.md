@@ -10,6 +10,10 @@ Notable changes to this project, newest first.
 - Added a category README to each folder with skill index, target audience, and design principles
 - Rewrote the top-level README with a complete category-by-category table of contents
 - Standardized every custom skill on the same format: *What this skill is → What it solves → When to invoke → Phases → Output → Operating rules*
+- Rewrote `docs/SKILL_TEMPLATE.md` to match the unified format and added a quality checklist
+- Removed `docs/AUTHORING_QUICKSTART.md` (duplicated `SKILL_TEMPLATE.md` with a different format)
+- Removed `docs/CROSS_AGENT_TEST_HARNESS.md` (unwired design doc; will return when implemented)
+- Updated `CONTRIBUTING.md` to reflect the new category structure and unified format
 
 ### New skills — Financial Analysis (5)
 - `dcf-valuation-builder` — defensible DCF with WACC build, terminal-value reconciliation, sensitivity, football field
@@ -38,12 +42,3 @@ Notable changes to this project, newest first.
 - `competitive-response-modeler` — multi-round action-reaction tree with commitment and signaling
 - `mechanism-design-planner` — auctions, matching, pricing with IC / IR / revenue equivalence
 - `repeated-game-strategist` — discount factor analysis, tit-for-tat variants, reputation, retaliation
-
-## 2026-05-02 — Documentation polish
-
-- Documentation polish: tightened README phrasing and clarified install steps.
-- Maintenance: normalized markdown table spacing across docs.
-- Documentation: added cross-references between related docs.
-- Maintenance: minor wording consistency pass on top-level README.
-- Documentation: standardized terminology (skill / agent / playbook) usage.
-- Maintenance: tidied trailing whitespace and final-newline conventions.
