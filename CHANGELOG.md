@@ -6,7 +6,7 @@ Notable changes to this project, newest first.
 
 ### Polish
 - Removed the `engineering/` and `data-analysis/` categories to focus the library on business decision-making (finance, product, strategy, game theory) and keep `document-processing/`
-- Renamed the `wardley-mapping` skill to `strategic-landscape-mapper` and replaced branded terminology with neutral, professional vocabulary (operating principles, environmental forces, strategic plays, maturity axis)
+- Renamed the prior landscape-mapping skill to `strategic-landscape-mapper` and replaced branded terminology with neutral, professional vocabulary (operating principles, environmental forces, strategic plays, maturity axis)
 - Spelled out every acronym on first use across all 20 newly-added skills with the abbreviation in parentheses (e.g., Discounted Cash Flow (DCF), Weighted Average Cost of Capital (WACC), Best Alternative to a Negotiated Agreement (BATNA)). Universal acronyms like ASCII are not expanded
 - Updated the root README and category README to reflect the new structure and counts
 
