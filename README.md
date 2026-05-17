@@ -2,10 +2,10 @@
 
 # 🧰 Claude Code Custom Skills
 
-### A curated, categorized library of production-grade skills for Claude Code — finance, product, strategy, game theory, engineering, data, and documents.
+### A curated, categorized library of production-grade skills for Claude Code — finance, product, strategy, and game theory.
 
-[![Custom Skills](https://img.shields.io/badge/Custom_Skills-39-blue?style=for-the-badge)](#-skill-categories)
-[![Categories](https://img.shields.io/badge/Categories-7-orange?style=for-the-badge)](#-skill-categories)
+[![Custom Skills](https://img.shields.io/badge/Custom_Skills-29-blue?style=for-the-badge)](#-skill-categories)
+[![Categories](https://img.shields.io/badge/Categories-5-orange?style=for-the-badge)](#-skill-categories)
 [![Plugin Skills](https://img.shields.io/badge/Plugin_Skills-bundled-green?style=for-the-badge)](#-plugin-skills-bundled)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-D97757?logo=anthropic&logoColor=white&style=for-the-badge)](https://claude.ai/code)
@@ -26,8 +26,6 @@
   - [Product Management](#product-management-8-skills)
   - [Strategic Management](#strategic-management-9-skills)
   - [Game Theory](#game-theory-5-skills)
-  - [Engineering](#engineering-8-skills)
-  - [Data Analysis](#data-analysis-2-skills)
   - [Document Processing](#document-processing-1-skill)
 - [Plugin skills (bundled)](#-plugin-skills-bundled)
 - [Standard skill format](#standard-skill-format)
@@ -75,7 +73,7 @@ cp -r skills/* ~/.claude/skills/
 #    Examples:
 #      /dcf-valuation-builder
 #      /opportunity-solution-tree
-#      /wardley-mapping
+#      /strategic-landscape-mapper
 #      /negotiation-strategist
 ```
 
@@ -99,16 +97,14 @@ cp -r /path/to/claude-code-skills/skills/<category>/* .claude/skills/
 
 ## 📂 Skill Categories
 
-Skills are organized into seven categories. Each category folder has its own README with the full skill index and design principles.
+Skills are organized into five categories. Each category folder has its own README with the full skill index and design principles.
 
 | Category | Skills | What it's for |
 |----------|-------:|---------------|
 | [💰 Financial Analysis](skills/financial-analysis/) | 6 | Valuation, capital allocation, SaaS economics, cash management, fundamental analysis |
 | [📦 Product Management](skills/product-management/) | 8 | Discovery, prioritization, customer research, strategic decisions, communication |
-| [🧭 Strategic Management](skills/strategic-management/) | 9 | Industry analysis, positioning, landscape mapping, OKRs, GTM |
+| [🧭 Strategic Management](skills/strategic-management/) | 9 | Industry analysis, positioning, landscape mapping, OKRs, go-to-market |
 | [♟️ Game Theory](skills/game-theory/) | 5 | Equilibrium analysis, negotiation, competitive dynamics, mechanism design |
-| [🛠️ Engineering](skills/engineering/) | 8 | API design, deployment, code review, frontend, issue resolution |
-| [📊 Data Analysis](skills/data-analysis/) | 2 | SQL conventions, SaaS metrics, deep research |
 | [📄 Document Processing](skills/document-processing/) | 1 | PDF extraction, form filling, merging |
 
 ### Financial Analysis (6 skills)
@@ -117,27 +113,27 @@ Skills are organized into seven categories. Each category folder has its own REA
 
 | Skill | What it produces |
 |-------|------------------|
-| [ai-agent-financial-analyst](skills/financial-analysis/ai-agent-financial-analyst/SKILL.md) | SaaS financial models: unit economics, ROI calculators, pricing scenarios, revenue projections |
+| [ai-agent-financial-analyst](skills/financial-analysis/ai-agent-financial-analyst/SKILL.md) | Software as a Service (SaaS) financial models: unit economics, ROI calculators, pricing scenarios, revenue projections |
 | [burn-rate-runway-planner](skills/financial-analysis/burn-rate-runway-planner/SKILL.md) | Burn decomposition, scenario plans, lever stack, 13-week cash forecast, fundraise trigger calendar |
-| [capital-allocation-framework](skills/financial-analysis/capital-allocation-framework/SKILL.md) | Ranked investment portfolio across NPV / IRR / PI / EAA + strategic option value and risk-adjusted frontier |
-| [dcf-valuation-builder](skills/financial-analysis/dcf-valuation-builder/SKILL.md) | Full DCF with WACC build, two terminal-value methods reconciled, sensitivity table, football field |
-| [financial-statement-analyzer](skills/financial-analysis/financial-statement-analyzer/SKILL.md) | 10-K / 10-Q teardown with margin waterfall, quality-of-earnings score, accounting red-flag log |
+| [capital-allocation-framework](skills/financial-analysis/capital-allocation-framework/SKILL.md) | Ranked investment portfolio across NPV / IRR / PI / EAA plus strategic option value and risk-adjusted frontier |
+| [dcf-valuation-builder](skills/financial-analysis/dcf-valuation-builder/SKILL.md) | Full Discounted Cash Flow (DCF) with WACC build, two terminal-value methods reconciled, sensitivity table, football field |
+| [financial-statement-analyzer](skills/financial-analysis/financial-statement-analyzer/SKILL.md) | Form 10-K and Form 10-Q teardown with margin waterfall, quality-of-earnings score, accounting red-flag log |
 | [saas-cohort-analyzer](skills/financial-analysis/saas-cohort-analyzer/SKILL.md) | Cohort retention triangles, NRR / GRR, LTV, CAC payback, movement bridge, segmentation cuts |
 
 ### Product Management (8 skills)
 
-> Skills for the modern PM and product trio: continuous discovery, multi-framework prioritization, customer research synthesis. — [Category README](skills/product-management/README.md)
+> Skills for the modern product manager and product trio: continuous discovery, multi-framework prioritization, customer research synthesis. — [Category README](skills/product-management/README.md)
 
 | Skill | What it produces |
 |-------|------------------|
-| [ai-decision-engine](skills/product-management/ai-decision-engine/SKILL.md) | Multi-framework strategic recommendations from full project context (PRDs, research, metrics, competitive intel) |
+| [ai-decision-engine](skills/product-management/ai-decision-engine/SKILL.md) | Multi-framework strategic recommendations from full project context (Product Requirement Documents (PRDs), research, metrics, competitive intel) |
 | [ai-product-strategy](skills/product-management/ai-product-strategy/SKILL.md) | AI opportunity assessments with build / buy / partner analysis and data moat evaluation |
-| [ai-stakeholder-translator](skills/product-management/ai-stakeholder-translator/SKILL.md) | 5 audience-tailored communications (eng, exec, board, customers, sales) from one product update |
-| [customer-interview-synthesizer](skills/product-management/customer-interview-synthesizer/SKILL.md) | Coded transcripts, themes, JTBD signals, forces of progress, opportunity hypotheses |
+| [ai-stakeholder-translator](skills/product-management/ai-stakeholder-translator/SKILL.md) | 5 audience-tailored communications (engineering, executives, board, customers, sales) from one product update |
+| [customer-interview-synthesizer](skills/product-management/customer-interview-synthesizer/SKILL.md) | Coded transcripts, themes, Jobs-to-be-Done (JTBD) signals, forces of progress, opportunity hypotheses |
 | [jobs-to-be-done-extractor](skills/product-management/jobs-to-be-done-extractor/SKILL.md) | Functional / emotional / social job statements, job map, outcome scoring, hire / fire analysis |
-| [opportunity-solution-tree](skills/product-management/opportunity-solution-tree/SKILL.md) | Outcome → opportunities → solutions → assumption tests living tree (Teresa Torres style) |
+| [opportunity-solution-tree](skills/product-management/opportunity-solution-tree/SKILL.md) | Outcome → opportunities → solutions → assumption tests, as a living tree |
 | [product-discovery-coach](skills/product-management/product-discovery-coach/SKILL.md) | Continuous discovery practice: weekly trio cadence, assumption mapping, discovery / delivery dual track |
-| [product-roadmap-prioritizer](skills/product-management/product-roadmap-prioritizer/SKILL.md) | RICE + Kano + MoSCoW + Cost of Delay scoring with convergence analysis and quarterly roadmap |
+| [product-roadmap-prioritizer](skills/product-management/product-roadmap-prioritizer/SKILL.md) | Reach-Impact-Confidence-Effort (RICE) plus Kano plus Must-Should-Could-Won't (MoSCoW) plus Cost of Delay scoring with convergence analysis and quarterly roadmap |
 
 ### Strategic Management (9 skills)
 
@@ -145,15 +141,15 @@ Skills are organized into seven categories. Each category folder has its own REA
 
 | Skill | What it produces |
 |-------|------------------|
-| [blue-ocean-strategy-canvas](skills/strategic-management/blue-ocean-strategy-canvas/SKILL.md) | As-is and to-be value curves, ERRC grid, non-customer analysis, buyer utility map, sequence test |
-| [go-to-market-strategy](skills/strategic-management/go-to-market-strategy/SKILL.md) | Complete GTM plan: channels, messaging matrix, launch timeline, success metrics |
-| [gtm-engineering](skills/strategic-management/gtm-engineering/SKILL.md) | GTM data infrastructure: lead scoring, routing, lifecycle automation, attribution, reverse ETL contracts |
-| [market-sizing](skills/strategic-management/market-sizing/SKILL.md) | TAM / SAM / SOM via top-down and bottom-up with assumption tracking |
-| [okr-cascade-planner](skills/strategic-management/okr-cascade-planner/SKILL.md) | Company → function → team OKR cascade with alignment map and quarterly rituals |
+| [blue-ocean-strategy-canvas](skills/strategic-management/blue-ocean-strategy-canvas/SKILL.md) | As-is and to-be value curves, Eliminate-Reduce-Raise-Create (ERRC) grid, non-customer analysis, buyer utility map, sequence test |
+| [go-to-market-strategy](skills/strategic-management/go-to-market-strategy/SKILL.md) | Complete go-to-market plan: channels, messaging matrix, launch timeline, success metrics |
+| [gtm-engineering](skills/strategic-management/gtm-engineering/SKILL.md) | Go-to-market data infrastructure: lead scoring, routing, lifecycle automation, attribution, reverse-ETL contracts |
+| [market-sizing](skills/strategic-management/market-sizing/SKILL.md) | Total / Serviceable / Obtainable Addressable Market (TAM / SAM / SOM) via top-down and bottom-up with assumption tracking |
+| [okr-cascade-planner](skills/strategic-management/okr-cascade-planner/SKILL.md) | Company → function → team Objectives and Key Results (OKRs) cascade with alignment map and quarterly rituals |
 | [porters-five-forces-analyzer](skills/strategic-management/porters-five-forces-analyzer/SKILL.md) | Five Forces scorecard with dominant force, trajectory, and strategic moves per force |
 | [pricing-strategy-analyzer](skills/strategic-management/pricing-strategy-analyzer/SKILL.md) | Pricing analysis with competitive positioning, packaging, and revenue modeling |
-| [swot-tows-analyzer](skills/strategic-management/swot-tows-analyzer/SKILL.md) | Evidence-anchored SWOT + TOWS matrix producing prioritized strategic options |
-| [wardley-mapping](skills/strategic-management/wardley-mapping/SKILL.md) | User-need value chain on the evolution axis with climatic patterns, doctrine, and gameplay |
+| [strategic-landscape-mapper](skills/strategic-management/strategic-landscape-mapper/SKILL.md) | User-need value chain on a maturity axis with environmental forces, operating principles, and strategic plays |
+| [swot-tows-analyzer](skills/strategic-management/swot-tows-analyzer/SKILL.md) | Evidence-anchored SWOT plus TOWS matrix producing prioritized strategic options |
 
 ### Game Theory (5 skills)
 
@@ -162,34 +158,10 @@ Skills are organized into seven categories. Each category folder has its own REA
 | Skill | What it produces |
 |-------|------------------|
 | [competitive-response-modeler](skills/game-theory/competitive-response-modeler/SKILL.md) | Multi-round action-reaction tree with reaction functions, commitment moves, and signaling analysis |
-| [mechanism-design-planner](skills/game-theory/mechanism-design-planner/SKILL.md) | Mechanism design for auctions, matching, and pricing with IC, IR, revenue equivalence, and collusion stress tests |
+| [mechanism-design-planner](skills/game-theory/mechanism-design-planner/SKILL.md) | Mechanism design for auctions, matching, and pricing with Incentive Compatibility (IC), Individual Rationality (IR), revenue equivalence, and collusion stress tests |
 | [nash-equilibrium-solver](skills/game-theory/nash-equilibrium-solver/SKILL.md) | Pure and mixed Nash equilibria, dominance, subgame perfection, and equilibrium selection |
-| [negotiation-strategist](skills/game-theory/negotiation-strategist/SKILL.md) | BATNA, ZOPA, multi-issue trade matrix, anchoring plan, concession schedule, tactical playbook |
-| [repeated-game-strategist](skills/game-theory/repeated-game-strategist/SKILL.md) | Critical discount factor, strategy selection (TFT, grim, Pavlov), reputation, and retaliation policy |
-
-### Engineering (8 skills)
-
-> API design, deployment, code review, frontend, and issue resolution workflows. — [Category README](skills/engineering/README.md)
-
-| Skill | What it produces |
-|-------|------------------|
-| [api-conventions](skills/engineering/api-conventions/SKILL.md) | RESTful API design patterns and consistent error handling conventions |
-| [codebase-visualizer](skills/engineering/codebase-visualizer/SKILL.md) | Interactive HTML tree visualization of project file structure with file sizes and type colors |
-| [deploy](skills/engineering/deploy/SKILL.md) | Application deployment workflow with test, build, and push steps |
-| [explain-code](skills/engineering/explain-code/SKILL.md) | Code explanation with analogies, ASCII diagrams, step-by-step walkthroughs, and gotcha highlights |
-| [fidelity-scorecard](skills/engineering/fidelity-scorecard/SKILL.md) | 3-pass design-to-code fidelity scoring using Figma tokens extraction and Playwright comparison |
-| [fix-issue](skills/engineering/fix-issue/SKILL.md) | Structured GitHub issue fixing workflow with tests and commits |
-| [frontend-design](skills/engineering/frontend-design/SKILL.md) | Frontend design patterns for production-grade, accessible, responsive interfaces |
-| [pr-summary](skills/engineering/pr-summary/SKILL.md) | Pull request change summarization with diff analysis and comment review |
-
-### Data Analysis (2 skills)
-
-> SQL conventions, SaaS metrics, and deep research workflows. — [Category README](skills/data-analysis/README.md)
-
-| Skill | What it produces |
-|-------|------------------|
-| [data-scientist-analysis](skills/data-analysis/data-scientist-analysis/SKILL.md) | SQL best practices, SaaS metrics definitions, and structured data analysis conventions |
-| [deep-research](skills/data-analysis/deep-research/SKILL.md) | Thorough topic research using codebase search and file analysis tools |
+| [negotiation-strategist](skills/game-theory/negotiation-strategist/SKILL.md) | Best Alternative to a Negotiated Agreement (BATNA), Zone of Possible Agreement (ZOPA), multi-issue trade matrix, anchoring plan, concession schedule, tactical playbook |
+| [repeated-game-strategist](skills/game-theory/repeated-game-strategist/SKILL.md) | Critical discount factor, strategy selection (Tit-for-Tat, grim trigger, Pavlov), reputation, and retaliation policy |
 
 ### Document Processing (1 skill)
 
@@ -211,19 +183,19 @@ Skills from installed Claude Code plugins. These are managed by the plugin syste
 |-------|-------------|
 | [algorithmic-art](plugin-skills/document-skills/algorithmic-art/SKILL.md) | Generative art with p5.js, seeded randomness, interactive parameters |
 | [brand-guidelines](plugin-skills/document-skills/brand-guidelines/SKILL.md) | Apply Anthropic brand colors and typography to artifacts |
-| [canvas-design](plugin-skills/document-skills/canvas-design/SKILL.md) | Museum-quality visual art as .pdf or .png |
+| [canvas-design](plugin-skills/document-skills/canvas-design/SKILL.md) | Museum-quality visual art as PDF or PNG |
 | [doc-coauthoring](plugin-skills/document-skills/doc-coauthoring/SKILL.md) | Structured 3-stage workflow for co-authoring documentation |
-| [docx](plugin-skills/document-skills/docx/SKILL.md) | Create, read, edit Word docs with tracked changes, comments, formatting |
-| [internal-comms](plugin-skills/document-skills/internal-comms/SKILL.md) | 3P updates, newsletters, FAQs, status reports |
-| [mcp-builder](plugin-skills/document-skills/mcp-builder/SKILL.md) | Build MCP servers to integrate LLMs with external services |
-| [pdf](plugin-skills/document-skills/pdf/SKILL.md) | Full PDF processing: read, merge, split, rotate, watermark, OCR, encrypt, forms |
-| [pptx](plugin-skills/document-skills/pptx/SKILL.md) | Create, read, edit PowerPoint with design guidelines and visual QA |
+| [docx](plugin-skills/document-skills/docx/SKILL.md) | Create, read, and edit Word documents with tracked changes, comments, and formatting |
+| [internal-comms](plugin-skills/document-skills/internal-comms/SKILL.md) | Three-Paragraph (3P) updates, newsletters, FAQs, status reports |
+| [mcp-builder](plugin-skills/document-skills/mcp-builder/SKILL.md) | Build Model Context Protocol (MCP) servers to integrate Large Language Models (LLMs) with external services |
+| [pdf](plugin-skills/document-skills/pdf/SKILL.md) | Full PDF processing: read, merge, split, rotate, watermark, OCR, encrypt, fill forms |
+| [pptx](plugin-skills/document-skills/pptx/SKILL.md) | Create, read, and edit PowerPoint with design guidelines and visual QA |
 | [skill-creator](plugin-skills/document-skills/skill-creator/SKILL.md) | Create effective Claude Code skills with progressive disclosure |
 | [slack-gif-creator](plugin-skills/document-skills/slack-gif-creator/SKILL.md) | Animated GIFs optimized for Slack with PIL and easing functions |
 | [theme-factory](plugin-skills/document-skills/theme-factory/SKILL.md) | 10 pre-set themes plus custom theme generation |
-| [web-artifacts-builder](plugin-skills/document-skills/web-artifacts-builder/SKILL.md) | Multi-component HTML artifacts with React, Tailwind, shadcn/ui |
-| [webapp-testing](plugin-skills/document-skills/webapp-testing/SKILL.md) | Test local web apps with Playwright + server lifecycle management |
-| [xlsx](plugin-skills/document-skills/xlsx/SKILL.md) | Spreadsheets with formulas, formatting, financial modeling conventions |
+| [web-artifacts-builder](plugin-skills/document-skills/web-artifacts-builder/SKILL.md) | Multi-component HTML artifacts with React, Tailwind CSS, and shadcn/ui |
+| [webapp-testing](plugin-skills/document-skills/webapp-testing/SKILL.md) | Test local web applications with Playwright plus server lifecycle management |
+| [xlsx](plugin-skills/document-skills/xlsx/SKILL.md) | Spreadsheets with formulas, formatting, and financial modeling conventions |
 
 ### Figma Plugin
 
@@ -231,7 +203,7 @@ Skills from installed Claude Code plugins. These are managed by the plugin syste
 |-------|-------------|
 | [code-connect-components](plugin-skills/figma/code-connect-components/SKILL.md) | Connect Figma design components to code implementations |
 | [create-design-system-rules](plugin-skills/figma/create-design-system-rules/SKILL.md) | Generate project-specific design system rules |
-| [implement-design](plugin-skills/figma/implement-design/SKILL.md) | Translate Figma designs into production-ready code (1:1 fidelity) |
+| [implement-design](plugin-skills/figma/implement-design/SKILL.md) | Translate Figma designs into production-ready code with 1:1 fidelity |
 
 ### Notion Plugin
 
@@ -239,8 +211,8 @@ Skills from installed Claude Code plugins. These are managed by the plugin syste
 |-------|-------------|
 | [knowledge-capture](plugin-skills/notion/knowledge-capture/SKILL.md) | Conversations to structured Notion documentation |
 | [meeting-intelligence](plugin-skills/notion/meeting-intelligence/SKILL.md) | Meeting prep with Notion context and Claude research |
-| [research-documentation](plugin-skills/notion/research-documentation/SKILL.md) | Search Notion workspace + synthesize into research docs |
-| [spec-to-implementation](plugin-skills/notion/spec-to-implementation/SKILL.md) | Specs to Notion tasks with implementation plans and tracking |
+| [research-documentation](plugin-skills/notion/research-documentation/SKILL.md) | Search Notion workspace and synthesize into research documents |
+| [spec-to-implementation](plugin-skills/notion/spec-to-implementation/SKILL.md) | Specifications to Notion tasks with implementation plans and tracking |
 
 ### Stripe Plugin
 
@@ -252,64 +224,64 @@ Skills from installed Claude Code plugins. These are managed by the plugin syste
 
 ## Standard skill format
 
-Every custom skill in this repository follows the same structure so they're easy to learn, easy to compose, and easy to extend:
+Every custom skill in this repository follows the same structure so they are easy to learn, compose, and extend:
 
 ```markdown
 ---
-name: skill-name
-description: "What it produces + when to use. Use when [trigger 1]; [trigger 2]; [trigger 3]."
+name: <skill-name>
+description: "<What the skill produces.> Use when <trigger 1>; <trigger 2>; <trigger 3>."
 ---
 
-# Skill Title
+# <Skill Title>
 
-> One-line tagline / positioning statement
+> <One-line tagline / positioning statement.>
 
 ## What this skill is
-2–3 sentences describing the skill's role and approach.
+<2–3 sentences describing the skill's role and approach.>
 
 ## What it solves
-- Pain 1
-- Pain 2
-- Pain 3
+- <Pain 1>
+- <Pain 2>
+- <Pain 3>
 
 ## When to invoke
-- Trigger 1
-- Trigger 2
-- Trigger 3
+- <Trigger 1>
+- <Trigger 2>
+- <Trigger 3>
 
 ## Phase 1: ...
 ## Phase 2: ...
 ...
 
 ## Output
-Bullet list of deliverables produced.
+<Bullet list of deliverables produced.>
 
 ## Operating rules
 **Always:** ...
 **Never:** ...
 ```
 
-The format gives users a consistent mental model: see what a skill is, what it solves, when to use it, how it works, what comes out, and what the guardrails are.
+Skills also follow two writing conventions: **acronyms are spelled out at first use** with the abbreviation in parentheses, and content uses **professional, neutral vocabulary** that travels well across organizations.
 
 ---
 
 ## Authoring a new skill
 
-See [docs/SKILL_TEMPLATE.md](docs/SKILL_TEMPLATE.md) for the full template, conventions, and quality bar before submitting a new skill.
+See [docs/SKILL_TEMPLATE.md](docs/SKILL_TEMPLATE.md) for the full template, field-by-field guidance, length targets, and the quality checklist.
 
 Quick checklist:
 - Single `SKILL.md` per skill, placed in the right category folder
 - Frontmatter with `name` and `description`
 - Description includes explicit "Use when…" triggers
 - Follows the [Standard skill format](#standard-skill-format) above
-- Optional supporting `scripts/` directory if the skill needs runnable helpers
+- Acronyms spelled out on first use
 
 ---
 
 ## Contributing
 
-Pull requests are welcome. Please keep:
-- One skill per PR for easier review
+Pull requests welcome. Please keep:
+- One skill per pull request for easier review
 - Skill placed in the correct category folder
 - Format consistent with the standard above
 - Description includes the trigger phrases people would actually type
