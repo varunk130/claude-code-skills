@@ -1,6 +1,6 @@
 ---
 name: swot-tows-analyzer
-description: "Performs a structured SWOT analysis plus a TOWS matrix that pairs internal strengths/weaknesses with external opportunities/threats to generate concrete strategic options (SO, ST, WO, WT). Use when refreshing strategy after a major external change, framing a strategic-planning offsite, justifying a market move with internal-vs-external logic, or producing a quick but rigorous strategic situation read."
+description: "Performs a structured Strengths-Weaknesses-Opportunities-Threats (SWOT) analysis plus a Threats-Opportunities-Weaknesses-Strengths (TOWS) matrix that pairs internal strengths and weaknesses with external opportunities and threats to generate concrete strategic options. Use when refreshing strategy after a major external change, framing a strategic-planning offsite, justifying a market move with internal-versus-external logic, or producing a quick but rigorous strategic situation read."
 ---
 
 # SWOT-TOWS Analyzer
@@ -9,7 +9,7 @@ description: "Performs a structured SWOT analysis plus a TOWS matrix that pairs 
 
 ## What this skill is
 
-A workflow that runs a disciplined SWOT (Strengths / Weaknesses / Opportunities / Threats) with evidence requirements, then constructs the TOWS matrix to generate four families of strategic options: SO (use strengths to capture opportunities), ST (use strengths to defend against threats), WO (fix weaknesses to capture opportunities), WT (fix weaknesses to defend against threats). Forces the team to act on the SWOT, not just describe it.
+A workflow that runs a disciplined Strengths-Weaknesses-Opportunities-Threats (SWOT) analysis with evidence requirements, then constructs the Threats-Opportunities-Weaknesses-Strengths (TOWS) matrix to generate four families of strategic options: SO (use strengths to capture opportunities), ST (use strengths to defend against threats), WO (fix weaknesses to capture opportunities), and WT (fix weaknesses to defend against threats). Forces the team to act on the SWOT, not just describe it.
 
 ## What it solves
 
@@ -23,8 +23,8 @@ A workflow that runs a disciplined SWOT (Strengths / Weaknesses / Opportunities 
 
 - Annual strategic planning offsite
 - After a material external change (regulatory shift, new entrant, macro event)
-- Onboarding a new exec or board member to the strategic context
-- Defending or challenging a major commitment with internal/external logic
+- Onboarding a new executive or board member to the strategic context
+- Defending or challenging a major commitment with internal-versus-external logic
 - Quick-turn strategy brief when a deeper framework isn't warranted
 
 ## Phase 1: Source the evidence
@@ -34,38 +34,38 @@ Before drafting any quadrant, gather:
 - Financial trends (revenue, margin, share, capital structure)
 - Competitive intelligence (recent moves, hires, pricing, partnerships)
 - Industry analyst reports
-- Internal capabilities assessment (skills, IP, data, tech, brand)
+- Internal capabilities assessment (skills, intellectual property, data, technology, brand)
 - Employee survey signals
-- Macro / regulatory trackers
+- Macroeconomic and regulatory trackers
 
 Each quadrant entry must reference a source. "No evidence" is itself an entry — flag it.
 
 ## Phase 2: Strengths
 
-Internal factors **today**, observable, distinctive vs. competitors. Bar to clear:
+Internal factors **today**, observable, distinctive versus competitors. Bar to clear:
 - Is it actually distinctive, or just present? (Every player has a website.)
-- Is it observable / measurable? (Customer perception, market share, NPS, win rate.)
+- Is it observable and measurable? (Customer perception, market share, Net Promoter Score (NPS), win rate.)
 - Is it sustainable, or eroding?
 
 For each strength, score:
-- Distinctiveness vs. competitors (1–5)
+- Distinctiveness versus competitors (1–5)
 - Trajectory (improving / stable / eroding)
 
 ## Phase 3: Weaknesses
 
-Internal factors that depress performance vs. competitors or vs. ambition. Honest list.
+Internal factors that depress performance versus competitors or versus ambition. Honest list.
 
 Test each weakness:
 - Material — does it actually impair execution or perception?
 - Comparative — relative to whom?
 - Actionable — within management control?
 
-Common honest-weakness categories: capability gaps, data gaps, tech debt, organizational design, cultural friction, distribution gaps.
+Common honest-weakness categories: capability gaps, data gaps, technical debt, organizational design, cultural friction, distribution gaps.
 
 ## Phase 4: Opportunities
 
 External trends, gaps, or events the company could capture. Sources:
-- Underserved segments (from JTBD or market sizing)
+- Underserved segments (from a Jobs-to-be-Done (JTBD) or market-sizing analysis)
 - Regulatory tailwinds
 - Adjacent markets enabled by current capabilities
 - Distribution channel shifts
@@ -78,13 +78,13 @@ Quality bar: an "opportunity" must specify the **action available**, not just de
 
 External factors that could damage the business. Sources:
 - New entrants (specifically — who?)
-- Substitute technologies / business models
+- Substitute technologies or business models
 - Regulatory headwinds
 - Customer-segment decline
-- Macro / FX / supply-chain risk
+- Macroeconomic, foreign-exchange, or supply-chain risk
 - Reputational risk
 
-Each threat: probability (low / med / high), severity (low / med / high), time horizon (now / 1y / 3y).
+For each threat: probability (low / medium / high), severity (low / medium / high), time horizon (now / 1 year / 3 years).
 
 ## Phase 6: Construct the TOWS matrix
 
@@ -94,8 +94,8 @@ Each threat: probability (low / med / high), severity (low / med / high), time h
 | **Weaknesses** | **WO** — Mini-Maxi: fix weaknesses to capture opportunities | **WT** — Mini-Mini: defensive moves, retreat, divest |
 
 For each cell, generate 2–4 **specific strategic options** that pair a real internal factor with a real external one. Example:
-- SO: "Our distribution scale × new buyer segment X → launch dedicated SKU in Q2"
-- WT: "Our tech-debt weakness × incumbent moving into our space → consider partnership or divest non-core line"
+- SO: "Our distribution scale × new buyer segment X → launch dedicated stock-keeping unit in Q2"
+- WT: "Our technical-debt weakness × incumbent moving into our space → consider partnership or divest non-core line"
 
 Generic statements ("invest more") are not strategic options.
 

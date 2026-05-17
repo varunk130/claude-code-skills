@@ -1,6 +1,6 @@
 ---
 name: porters-five-forces-analyzer
-description: "Performs a rigorous Porter's Five Forces analysis: industry structure, supplier power, buyer power, threat of new entrants, substitutes, and rivalry intensity, with quantified pressure scoring and a strategic-positioning recommendation. Use when entering a new market, defending an existing position, evaluating an industry's structural attractiveness, advising on M&A in a new vertical, or preparing a competitive strategy memo."
+description: "Performs a rigorous Porter's Five Forces analysis: industry structure, supplier power, buyer power, threat of new entrants, substitutes, and rivalry intensity, with quantified pressure scoring and a strategic-positioning recommendation. Use when entering a new market, defending an existing position, evaluating an industry's structural attractiveness, advising on Mergers and Acquisitions (M&A) in a new vertical, or preparing a competitive strategy memo."
 ---
 
 # Porter's Five Forces Analyzer
@@ -9,7 +9,7 @@ description: "Performs a rigorous Porter's Five Forces analysis: industry struct
 
 ## What this skill is
 
-A workflow that applies Michael Porter's Five Forces framework with quantitative pressure scoring (1–5 per force) and the structural drivers behind each score. It surfaces the dominant force, identifies where the company can move the structure in its favor, and produces a positioning recommendation that goes beyond "the industry is attractive / unattractive."
+A workflow that applies the Five Forces framework developed by Michael Porter with quantitative pressure scoring (1–5 per force) and the structural drivers behind each score. It surfaces the dominant force, identifies where the company can move the structure in its favor, and produces a positioning recommendation that goes beyond "the industry is attractive or unattractive."
 
 ## What it solves
 
@@ -22,17 +22,17 @@ A workflow that applies Michael Porter's Five Forces framework with quantitative
 ## When to invoke
 
 - Entering a new vertical, geography, or product category
-- Pre-M&A diligence in an unfamiliar industry
+- Pre-Mergers and Acquisitions (M&A) diligence in an unfamiliar industry
 - Defending current strategy when challenger dynamics shift
 - Annual strategic plan industry-context refresh
 - Board memo justifying a market exit or entry
 
 ## Phase 1: Define the industry boundary
 
-Industries are not obvious — and bad boundary choice invalidates the analysis. Decide:
-- **Product / service scope** — what's in, what's out (e.g., "B2B fleet telematics" vs. "vehicle hardware")
+Industries are not obvious — and a bad boundary choice invalidates the analysis. Decide:
+- **Product or service scope** — what's in, what's out (e.g., "Business-to-Business (B2B) fleet telematics" vs. "vehicle hardware")
 - **Geography** — global, regional, country-specific
-- **Customer segment** — enterprise vs. SMB; consumer vs. industrial
+- **Customer segment** — enterprise versus small and medium business; consumer versus industrial
 - **Value chain stage** — manufacturer, distributor, retailer, service provider
 
 Different boundaries can produce different forces. Document the choice explicitly.
@@ -50,7 +50,7 @@ Score 1 (weak) to 5 (strong) and explain drivers:
 | Substitute inputs | None | Many viable |
 | Differentiation of inputs | Highly differentiated | Commoditized |
 
-Cite specific suppliers when known (e.g., TSMC for advanced silicon).
+Cite specific suppliers when known (e.g., Taiwan Semiconductor Manufacturing Company (TSMC) for advanced silicon).
 
 ## Phase 3: Force 2 — Buyer power
 
@@ -59,11 +59,11 @@ Cite specific suppliers when known (e.g., TSMC for advanced silicon).
 | Buyer concentration | Few large buyers | Many small buyers |
 | Switching costs | Low for buyer | High (lock-in, contracts) |
 | Backward integration threat | Credible | Not feasible |
-| Price sensitivity | Product is large % of buyer's cost | Small share |
+| Price sensitivity | Product is large percent of buyer's cost | Small share |
 | Product differentiation | Commoditized | Highly differentiated |
 | Buyer information | Full price transparency | Asymmetric |
 
-Sub-segment buyers — enterprise behaves differently from SMB.
+Sub-segment buyers — enterprise behaves differently from small and medium business.
 
 ## Phase 4: Force 3 — Threat of new entrants
 
@@ -74,9 +74,9 @@ Sub-segment buyers — enterprise behaves differently from SMB.
 | Network effects | Strong | None |
 | Switching costs for buyers | High | Low |
 | Access to distribution | Locked up | Open |
-| Brand / customer loyalty | Strong | Weak |
+| Brand and customer loyalty | Strong | Weak |
 | Regulatory licenses | Required, scarce | None |
-| Proprietary technology / data | Defensible | Replicable |
+| Proprietary technology or data | Defensible | Replicable |
 | Incumbent retaliation | Credible | Unlikely |
 
 Score the **net entry barrier** 1 (low → high entry threat) to 5 (high → low threat).
@@ -84,12 +84,12 @@ Score the **net entry barrier** 1 (low → high entry threat) to 5 (high → low
 ## Phase 5: Force 4 — Threat of substitutes
 
 Substitutes are alternative solutions to the same customer job — not direct competitors. Examples:
-- Video conferencing → in-person meetings, async video, written docs
+- Video conferencing → in-person meetings, asynchronous video, written documents
 - Ride-sharing → public transit, walking, owning a car, working from home
 
 | Driver | Pushes threat UP | Pushes threat DOWN |
 |--------|------------------|--------------------|
-| Substitute price/performance | Improving | Degrading |
+| Substitute price-performance | Improving | Degrading |
 | Buyer propensity to substitute | High | Low (entrenched habits) |
 | Cost of switching to substitute | Low | High |
 
@@ -100,16 +100,16 @@ Map the **performance trajectory** of substitutes over the next 3–5 years.
 | Driver | Higher rivalry | Lower rivalry |
 |--------|---------------|---------------|
 | Competitor concentration | Many similarly-sized | Few, with clear leader |
-| Industry growth | Slow / declining | Fast |
-| Fixed costs / capacity | High (drives price competition) | Low |
+| Industry growth | Slow or declining | Fast |
+| Fixed costs or capacity | High (drives price competition) | Low |
 | Product differentiation | Low | High |
 | Exit barriers | High (forces stay-and-fight) | Low |
 | Strategic stakes | High for multiple players | Low |
 
-## Phase 7: Aggregate & dominant force
+## Phase 7: Aggregate and dominant force
 
-| Force | Score (1–5) | Dominant drivers | Trajectory (3y) |
-|-------|------------:|------------------|-----------------|
+| Force | Score (1–5) | Dominant drivers | Trajectory (3 years) |
+|-------|------------:|------------------|----------------------|
 | Supplier power | x | | ↑↓→ |
 | Buyer power | x | | ↑↓→ |
 | New entrants | x | | ↑↓→ |
@@ -118,19 +118,19 @@ Map the **performance trajectory** of substitutes over the next 3–5 years.
 
 Identify:
 - **Dominant force** — the one most depressing industry profitability
-- **Industry attractiveness** — sum scores; <12 attractive, 12–18 moderate, >18 difficult
+- **Industry attractiveness** — sum scores; under 12 attractive, 12–18 moderate, over 18 difficult
 - **Direction of travel** — net force pressure trajectory
 
 ## Phase 8: Strategic implications
 
-The point of Five Forces is not just "what's the industry like?" but **what to do about it**. For each force, identify the strategic lever:
+The point of the Five Forces is not just "what's the industry like?" but **what to do about it**. For each force, identify the strategic lever:
 
 | Force | Strategic moves |
 |-------|-----------------|
 | Supplier power | Vertically integrate, multi-source, build alternatives, build internal capability |
 | Buyer power | Differentiate, raise switching costs, segment, build ecosystem |
-| Entrants | Raise barriers (scale, network effects, IP), pre-empt, M&A consolidation |
-| Substitutes | Improve relative price/performance, redefine the job, partner with substitutes |
+| Entrants | Raise barriers (scale, network effects, intellectual property), pre-empt, M&A consolidation |
+| Substitutes | Improve relative price-performance, redefine the job, partner with substitutes |
 | Rivalry | Differentiate, segment, consolidate via M&A, signal credibly to discourage price wars |
 
 ## Output
@@ -152,7 +152,7 @@ The point of Five Forces is not just "what's the industry like?" but **what to d
 - Translate analysis into specific strategic moves
 
 **Never**
-- Treat Five Forces as a static one-time exercise
+- Treat the Five Forces as a static one-time exercise
 - Confuse substitutes with direct competitors
 - Conflate industry attractiveness with company performance
 - Skip the boundary definition

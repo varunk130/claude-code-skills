@@ -1,6 +1,6 @@
 ---
 name: okr-cascade-planner
-description: "Cascades strategy into OKRs across company, function, and team levels with explicit alignment, leading vs. lagging indicators, scoring conventions, and a quarterly review ritual. Use when designing OKRs from scratch, fixing a broken OKR program, aligning company-level strategy to team-level execution, training a new team on OKR mechanics, or preparing a quarterly OKR review."
+description: "Cascades strategy into Objectives and Key Results (OKRs) across company, function, and team levels with explicit alignment, leading versus lagging indicators, scoring conventions, and a quarterly review ritual. Use when designing OKRs from scratch, fixing a broken OKR program, aligning company-level strategy to team-level execution, training a new team on OKR mechanics, or preparing a quarterly OKR review."
 ---
 
 # OKR Cascade Planner
@@ -9,7 +9,7 @@ description: "Cascades strategy into OKRs across company, function, and team lev
 
 ## What this skill is
 
-A workflow that translates a company strategy into OKRs at three levels (company → function → team), enforces vertical and horizontal alignment, distinguishes leading from lagging KRs, sets honest scoring conventions, and installs the quarterly rituals that make OKRs work. Built to avoid the two most common failures: KRs that are tasks, and cascades that become wishlists.
+A workflow that translates a company strategy into Objectives and Key Results (OKRs) at three levels (company → function → team), enforces vertical and horizontal alignment, distinguishes leading from lagging Key Results (KRs), sets honest scoring conventions, and installs the quarterly rituals that make OKRs work. Built to avoid the two most common failures: KRs that are tasks, and cascades that become wishlists.
 
 ## What it solves
 
@@ -23,7 +23,7 @@ A workflow that translates a company strategy into OKRs at three levels (company
 
 - First-time OKR rollout
 - Fixing a broken OKR program after Q1–Q2 disappointment
-- Annual planning → quarterly OKR translation
+- Annual planning to quarterly OKR translation
 - Onboarding a new team or function to OKR mechanics
 - Pre-quarter-end review to score and reset
 
@@ -55,16 +55,16 @@ For each Objective, write 3–5 Key Results.
 
 KR test (every KR must pass):
 - **Measurable** — single number you'd bet on
-- **Time-bound** — by end of quarter / year
+- **Time-bound** — by end of quarter or year
 - **Outcome, not output** — moves a real-world metric, not "did we ship X"
-- **Set the bar credibly** — at ~70% confidence; 100% should mean stretch
+- **Set the bar credibly** — at approximately 70% confidence; 100% should mean stretch
 - **Owned by a single person** — multiple owners = no owner
 
 Bad: *Launch new onboarding.* (output)
 Better: *Reduce time-to-first-value from 14 days to 5 days.*
 
 Mix leading and lagging KRs:
-- **Lagging** — confirms direction (NRR, ARR growth) — slow signal
+- **Lagging** — confirms direction (Net Revenue Retention (NRR), Annual Recurring Revenue (ARR) growth) — slow signal
 - **Leading** — predicts (activation rate, demo conversion) — fast signal
 
 A KR set with only lagging measures arrives too late to course-correct.
@@ -74,16 +74,16 @@ A KR set with only lagging measures arrives too late to course-correct.
 Each function (and each team within) writes 2–4 Objectives that **support** at least one company Objective.
 
 Cascade rules:
-- Function/team OKRs **support** company OKRs — they are not copies
-- Each function/team identifies its **unique contribution** to the parent Objective
+- Function and team OKRs **support** company OKRs — they are not copies
+- Each function or team identifies its **unique contribution** to the parent Objective
 - A function may have its own functional Objectives (e.g., engineering quality) that don't ladder up — that's fine; cap at 1 per function
 
 Build the alignment map:
 
 | Company OKR | Function OKR | Team OKR | Owner |
 |-------------|--------------|----------|-------|
-| Default choice in mid-market | Sales: win-rate up in mid-market | SDR team: qualified pipeline up 2x | Name |
-| | Product: mid-market feature parity by Q3 | Platform team: SSO + audit log Q2 | Name |
+| Default choice in mid-market | Sales: win-rate up in mid-market | Sales Development Representative (SDR) team: qualified pipeline up 2x | Name |
+| | Product: mid-market feature parity by Q3 | Platform team: Single Sign-On (SSO) plus audit log Q2 | Name |
 
 ## Phase 5: Horizontal alignment check
 
@@ -105,9 +105,9 @@ Decide upfront — and write it down — what scores mean:
 | 0.4 | Genuine progress but the goal wasn't reached |
 | 0.0 | No meaningful progress |
 
-Target average: 0.6–0.7 across the org. Average too low → over-set. Average too high → under-set.
+Target average: 0.6–0.7 across the organization. Average too low → over-set. Average too high → under-set.
 
-Compensation linkage: keep OKRs out of comp formulas. Tying directly creates sandbagging.
+Compensation linkage: keep OKRs out of compensation formulas. Tying directly creates sandbagging.
 
 ## Phase 7: Quarterly rituals
 
@@ -115,17 +115,17 @@ Four rituals make OKRs work:
 
 | Cadence | Ritual | Duration | Output |
 |---------|--------|----------|--------|
-| Weekly | Team check-in on KR progress | 15 min | RYG status, blockers |
-| Monthly | Cross-function alignment review | 60 min | Risks, re-pri, dependency unblock |
-| Quarter-end | Scoring + retro | 90 min | Honest scores, what worked / didn't |
-| Pre-quarter | Drafting + alignment | 2 weeks | New OKRs committed |
+| Weekly | Team check-in on KR progress | 15 minutes | Red-Yellow-Green (RYG) status, blockers |
+| Monthly | Cross-function alignment review | 60 minutes | Risks, re-prioritization, dependency unblocking |
+| Quarter-end | Scoring plus retrospective | 90 minutes | Honest scores, what worked and what didn't |
+| Pre-quarter | Drafting plus alignment | 2 weeks | New OKRs committed |
 
-No drafting committee. No 6-week planning process. Two weeks max.
+No drafting committee. No 6-week planning process. Two weeks maximum.
 
 ## Phase 8: Anti-patterns to watch
 
 - **KRs as tasks** — "Launch X" → fail
-- **Too many OKRs** — >3 Objectives per team kills focus
+- **Too many OKRs** — more than 3 Objectives per team kills focus
 - **Set-and-forget** — no weekly check-in → drift
 - **Re-baseline mid-quarter** — undermines the discipline
 - **Cascade as copy** — every team has the same KRs → no division of labor
@@ -136,7 +136,7 @@ No drafting committee. No 6-week planning process. Two weeks max.
 - Function and team OKRs with alignment map
 - Dependency graph with accepted commitments
 - Scoring rubric and target average
-- Weekly / monthly / quarterly ritual calendar
+- Weekly, monthly, and quarterly ritual calendar
 - Pre-mortem: where could the cascade fail?
 - Re-planning trigger: what changes would force a reset?
 

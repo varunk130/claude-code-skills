@@ -1,6 +1,6 @@
 ---
 name: blue-ocean-strategy-canvas
-description: "Builds a Blue Ocean Strategy Canvas with the as-is competitive value curve, ERRC grid (Eliminate / Reduce / Raise / Create), the to-be value curve, and a non-customer analysis to find uncontested market space. Use when an industry is commoditizing, when differentiating against an entrenched incumbent, when designing a new category, or when reframing strategy around buyer utility instead of feature parity."
+description: "Builds a Blue Ocean Strategy Canvas with the as-is competitive value curve, the Eliminate-Reduce-Raise-Create (ERRC) grid, the to-be value curve, and a non-customer analysis to find uncontested market space. Use when an industry is commoditizing, when differentiating against an entrenched incumbent, when designing a new category, or when reframing strategy around buyer utility instead of feature parity."
 ---
 
 # Blue Ocean Strategy Canvas
@@ -9,7 +9,7 @@ description: "Builds a Blue Ocean Strategy Canvas with the as-is competitive val
 
 ## What this skill is
 
-A workflow built on Kim & Mauborgne's Blue Ocean Strategy: map the industry value curve, identify which factors to Eliminate / Reduce / Raise / Create (ERRC), profile the three tiers of non-customers, and design a to-be value curve that breaks the value–cost trade-off. Produces a defendable strategic move with a buyer utility map and a sequence test.
+A workflow built on the Blue Ocean Strategy work of W. Chan Kim and Renée Mauborgne: map the industry value curve, identify which factors to Eliminate, Reduce, Raise, or Create (ERRC), profile the three tiers of non-customers, and design a to-be value curve that breaks the value–cost trade-off. Produces a defensible strategic move with a buyer utility map and a sequence test.
 
 ## What it solves
 
@@ -17,19 +17,19 @@ A workflow built on Kim & Mauborgne's Blue Ocean Strategy: map the industry valu
 - Roadmaps that compete on every dimension instead of choosing which to abandon
 - Feature parity wars that erode margins
 - Ignoring non-customers (the largest source of new demand)
-- Confusing "different" with "differentiated" — different on dimensions that buyers don't value
+- Confusing "different" with "differentiated" — different on dimensions buyers don't value
 
 ## When to invoke
 
 - Industry commoditization with margin compression
 - Entering a market with an entrenched incumbent
-- Designing a new category vs. competing in an existing one
+- Designing a new category versus competing in an existing one
 - Refreshing positioning when feature lists no longer differentiate
 - Reframing strategy around buyer utility instead of competitor benchmarks
 
 ## Phase 1: Map the as-is strategy canvas
 
-The strategy canvas plots **competing factors** on the X-axis and **offering level** (low to high) on the Y-axis.
+The strategy canvas plots **competing factors** on the horizontal axis and **offering level** (low to high) on the vertical axis.
 
 For each major competitor and the company:
 - List the 6–12 factors the industry currently competes on (price, feature set, service levels, brand prestige, etc.)
@@ -84,11 +84,12 @@ If the to-be curve fails any test, iterate.
 For the to-be offering, map utility levers across the buyer experience cycle:
 
 ```
-Stages: Purchase → Delivery → Use → Supplements → Maintenance → Disposal
-Levers: Productivity, Simplicity, Convenience, Risk, Fun/Image, Environmental friendliness
+Stages:  Purchase → Delivery → Use → Supplements → Maintenance → Disposal
+Levers:  Productivity, Simplicity, Convenience, Risk, Fun and Image,
+         Environmental friendliness
 ```
 
-A 6×6 = 36 cell map. The current industry occupies one or two cells. Most blue oceans come from finding utility in an empty cell.
+A 6-by-6 map produces 36 cells. The current industry occupies one or two cells. Most blue oceans come from finding utility in an empty cell.
 
 ## Phase 6: Sequence test (the 4 hurdles)
 
@@ -115,7 +116,7 @@ Sequence execution around tipping points instead of broad parallel investment.
 - As-is strategy canvas with company and 2–3 competitors plotted
 - Non-customer tier analysis with insight per tier
 - ERRC grid with at least 2 entries in each column
-- To-be value curve passing focus / divergence / tagline tests
+- To-be value curve passing focus, divergence, and tagline tests
 - Buyer utility map highlighting target utility cells
 - Sequence test verdict (utility, price, cost, adoption)
 - Tipping-point execution plan with first 90-day moves
@@ -126,7 +127,7 @@ Sequence execution around tipping points instead of broad parallel investment.
 - Plot at least 2 competitor value curves before your own
 - Include all 4 ERRC actions
 - Test against all three tiers of non-customers
-- Validate the to-be curve with the focus / divergence / tagline tests
+- Validate the to-be curve with the focus, divergence, and tagline tests
 - Run the sequence test before committing
 
 **Never**
