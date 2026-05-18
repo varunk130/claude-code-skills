@@ -29,7 +29,7 @@ Maintainers will explain enforcement decisions when asked.
 
 ## Reporting
 
-If you experience or witness behavior that violates this Code of Conduct, please contact the maintainer through the contact details on their GitHub profile. Reports will be handled discreetly.
+If you experience or witness behavior that violates this Code of Conduct, please contact the maintainer through the contact details on the maintainer's GitHub profile. Reports will be handled discreetly.
 
 When reporting, please include:
 
