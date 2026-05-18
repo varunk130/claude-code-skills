@@ -16,7 +16,7 @@ Thanks for considering a contribution to this skills library.
 
 Every skill follows the same structure:
 
-```
+```text
 What this skill is → What it solves → When to invoke → Phase N → Output → Operating rules
 ```
 
