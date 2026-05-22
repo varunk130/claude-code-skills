@@ -126,7 +126,7 @@ Skills are organized into five categories. Each category folder has its own READ
 
 | Skill | What it produces |
 |-------|------------------|
-| [ai-decision-engine](skills/product-management/ai-decision-engine/SKILL.md) | Multi-framework strategic recommendations from full project context (Product Requirement Documents (PRDs), research, metrics, competitive intel) |
+| [ai-decision-engine](skills/product-management/ai-decision-engine/SKILL.md) | Multi-framework strategic recommendations from full project context (Product Requirements Documents (PRDs), research, metrics, competitive intel) |
 | [ai-product-strategy](skills/product-management/ai-product-strategy/SKILL.md) | AI opportunity assessments with build / buy / partner analysis and data moat evaluation |
 | [ai-stakeholder-translator](skills/product-management/ai-stakeholder-translator/SKILL.md) | 5 audience-tailored communications (engineering, executives, board, customers, sales) from one product update |
 | [customer-interview-synthesizer](skills/product-management/customer-interview-synthesizer/SKILL.md) | Coded transcripts, themes, Jobs-to-be-Done (JTBD) signals, forces of progress, opportunity hypotheses |
