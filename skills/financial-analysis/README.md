@@ -17,8 +17,8 @@ CFOs, FP&A leads, investors, founders, strategy teams, and product leaders makin
 
 ## Design principles
 
-- **Show the math** — every formula and assumption is visible
-- **Cite the source** — every input ties back to data or benchmark
-- **Quantify ranges, not points** — sensitivity is part of the answer
-- **Surface red flags early** — accounting, working capital, and earnings-quality checks built in
-- **Defensible under pushback** — outputs survive an IC or board grilling
+- **Show the math** - every formula and assumption is visible
+- **Cite the source** - every input ties back to data or benchmark
+- **Quantify ranges, not points** - sensitivity is part of the answer
+- **Surface red flags early** - accounting, working capital, and earnings-quality checks built in
+- **Defensible under pushback** - outputs survive an IC or board grilling

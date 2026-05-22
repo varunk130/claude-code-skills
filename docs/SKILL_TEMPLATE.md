@@ -1,6 +1,6 @@
 # SKILL.md Template
 
-Every custom skill in this library follows the same structure so they are easy to learn, compose, and extend. Copy this template when authoring a new skill — replace placeholders in `<angle brackets>` and keep the section order.
+Every custom skill in this library follows the same structure so they are easy to learn, compose, and extend. Copy this template when authoring a new skill - replace placeholders in `<angle brackets>` and keep the section order.
 
 ---
 
@@ -77,28 +77,28 @@ Kebab-case. Must match the folder name. Examples: `dcf-valuation-builder`, `oppo
 
 Two parts in one sentence each:
 
-1. **What the skill produces** — concrete output, not a tagline.
-2. **Use when…** — at least 3 trigger phrases a user would actually type. AI agents match user intent against these triggers; vague triggers mean the skill never gets selected.
+1. **What the skill produces** - concrete output, not a tagline.
+2. **Use when…** - at least 3 trigger phrases a user would actually type. AI agents match user intent against these triggers; vague triggers mean the skill never gets selected.
 
 Bad: *"The best DCF tool. Use when you want to value something."*
 Good: *"Builds a discounted cash flow valuation with WACC derivation, terminal value reconciliation, and football-field summary. Use when valuing a company, business unit, or acquisition target; preparing a board valuation memo; or stress-testing assumptions against precedent transactions."*
 
 ### Title and tagline
 
-- One H1 only — the skill title in Title Case.
+- One H1 only - the skill title in Title Case.
 - A blockquote one-liner immediately after, capturing the positioning. Should fit on a single line.
 
 ### What this skill is
 
-2–3 sentences. Answer: *what is this skill, what's its method, why does it exist?* This is the elevator pitch — a reader should know within 10 seconds whether to invoke this skill or a different one.
+2-3 sentences. Answer: *what is this skill, what's its method, why does it exist?* This is the elevator pitch - a reader should know within 10 seconds whether to invoke this skill or a different one.
 
 ### What it solves
 
-4–6 bullets, each a concrete failure mode the skill prevents. Not generic pains ("bad decisions") — specific symptoms a practitioner would recognize.
+4-6 bullets, each a concrete failure mode the skill prevents. Not generic pains ("bad decisions") - specific symptoms a practitioner would recognize.
 
 ### When to invoke
 
-4–6 bullets. Each one is a situation in which a user might invoke this skill. These overlap with the frontmatter `Use when` triggers but are more concrete and discoverable in the body.
+4-6 bullets. Each one is a situation in which a user might invoke this skill. These overlap with the frontmatter `Use when` triggers but are more concrete and discoverable in the body.
 
 ### Phases
 
@@ -106,9 +106,9 @@ The structured workflow. Numbered phases, each with a clear purpose.
 
 - Use tables for any structured data (scoring rubrics, frameworks, checklists).
 - Use code fences for formulas.
-- Keep prose tight — practitioners scan, they don't read.
+- Keep prose tight - practitioners scan, they don't read.
 
-Aim for 3–8 phases. Fewer than 3 → the skill might not need phases. More than 8 → the skill might need to split into two.
+Aim for 3-8 phases. Fewer than 3 → the skill might not need phases. More than 8 → the skill might need to split into two.
 
 ### Output
 
@@ -116,7 +116,7 @@ The concrete deliverables the skill produces. Bullet list. Each item is somethin
 
 ### Operating rules
 
-Two short subsections — **Always** and **Never** — each with 4–6 bullets. These are the guardrails that distinguish a good run of the skill from a bad one. Treat them as the operating wisdom of the skill.
+Two short subsections - **Always** and **Never** - each with 4-6 bullets. These are the guardrails that distinguish a good run of the skill from a bad one. Treat them as the operating wisdom of the skill.
 
 ---
 
@@ -124,9 +124,9 @@ Two short subsections — **Always** and **Never** — each with 4–6 bullets. 
 
 | Skill complexity | Target size |
 |------------------|-------------|
-| Simple (single output, single framework) | 2–4 KB |
-| Standard (multi-phase, scoring rubric) | 4–7 KB |
-| Complex (multi-framework, sensitivity analysis) | 7–10 KB |
+| Simple (single output, single framework) | 2-4 KB |
+| Standard (multi-phase, scoring rubric) | 4-7 KB |
+| Complex (multi-framework, sensitivity analysis) | 7-10 KB |
 | Larger | Almost always means the skill should split into 2 |
 
 If you're over 10 KB, decompose: each major sub-framework becomes its own skill.
@@ -146,7 +146,7 @@ Before opening a PR for a new skill:
 - [ ] At least 3 phases
 - [ ] Operating rules has both **Always** and **Never** sections
 - [ ] No external API or network dependencies in the skill itself
-- [ ] No real customer / company names — use anonymized stand-ins
+- [ ] No real customer / company names - use anonymized stand-ins
 - [ ] No PII or secrets anywhere in the file
 - [ ] Total length within the guidelines above
 - [ ] Main README updated with the new skill in its category table

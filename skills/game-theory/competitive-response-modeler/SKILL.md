@@ -1,6 +1,6 @@
 ---
 name: competitive-response-modeler
-description: "Models multi-round competitive interactions: who reacts, how fast, with what move, and what payoff outcome — using reaction functions, commitment value, and signaling theory. Use when planning a pricing change, market entry, product launch, capacity addition, or any move where competitor reaction will determine whether the move pays off."
+description: "Models multi-round competitive interactions: who reacts, how fast, with what move, and what payoff outcome - using reaction functions, commitment value, and signaling theory. Use when planning a pricing change, market entry, product launch, capacity addition, or any move where competitor reaction will determine whether the move pays off."
 ---
 
 # Competitive Response Modeler
@@ -9,7 +9,7 @@ description: "Models multi-round competitive interactions: who reacts, how fast,
 
 ## What this skill is
 
-A workflow for simulating competitive interactions across multiple rounds: identify likely respondents, characterize each competitor's profile and capacity to respond, model the reaction function, compute the post-reaction payoff, and stress-test commitment moves (capacity, contracts, public statements) that change the game. Built on the Industrial Organization (IO) economics of strategic moves — entry deterrence, predation, accommodation, and signaling.
+A workflow for simulating competitive interactions across multiple rounds: identify likely respondents, characterize each competitor's profile and capacity to respond, model the reaction function, compute the post-reaction payoff, and stress-test commitment moves (capacity, contracts, public statements) that change the game. Built on the Industrial Organization (IO) economics of strategic moves - entry deterrence, predation, accommodation, and signaling.
 
 ## What it solves
 
@@ -22,7 +22,7 @@ A workflow for simulating competitive interactions across multiple rounds: ident
 ## When to invoke
 
 - Pricing changes (cut, raise, repackage)
-- New market entry — anticipating incumbent response
+- New market entry - anticipating incumbent response
 - Product launch in a category with strong rivals
 - Capacity additions (manufacturing, sales force, channel)
 - Major Mergers and Acquisitions (M&A) move that re-orders the competitive set
@@ -37,16 +37,16 @@ List every competitor whose response could materially affect the move's payoff. 
 - Recent moves (last 12 months)
 - Public posture (aggressive, accommodating, niche)
 
-Cut the list to **3–5 material respondents**. Modeling all isn't useful.
+Cut the list to **3-5 material respondents**. Modeling all isn't useful.
 
 ## Phase 2: Profile each competitor's response capacity
 
 For each:
-- **Means** — can they technically and financially respond? (capacity, capability, capital)
-- **Motive** — do they care about this move? Is it a core market or peripheral?
-- **Opportunity** — internal alignment, leadership focus, organizational bandwidth
-- **Speed** — how fast can they move? days, weeks, quarters?
-- **History** — what did they do the last 3 times something like this happened?
+- **Means** - can they technically and financially respond? (capacity, capability, capital)
+- **Motive** - do they care about this move? Is it a core market or peripheral?
+- **Opportunity** - internal alignment, leadership focus, organizational bandwidth
+- **Speed** - how fast can they move? days, weeks, quarters?
+- **History** - what did they do the last 3 times something like this happened?
 
 A competitor with means but no motive may not respond. A competitor with motive but no means is loud but harmless. The dangerous response comes from competitors with all three.
 
@@ -85,38 +85,38 @@ The headline question is **not** "is round 0 profitable?" but **"is the terminal
 Standard game theory: making yourself less flexible can improve outcomes if it changes the rival's calculation.
 
 Commitment types:
-- **Capacity commitment** — invest in capacity that only pays back at high volume, signaling commitment to compete hard
-- **Long-term contracts** — lock customers, raise rival's cost of poaching
-- **Public statements** — CEO commitment publicly disclosed, harder to walk back
-- **Most-Favored-Nation (MFN) clauses** — make discounting expensive (price war deterrent or cartel facilitator)
-- **Burning bridges** — exit an alternative market to focus, signaling commitment
+- **Capacity commitment** - invest in capacity that only pays back at high volume, signaling commitment to compete hard
+- **Long-term contracts** - lock customers, raise rival's cost of poaching
+- **Public statements** - CEO commitment publicly disclosed, harder to walk back
+- **Most-Favored-Nation (MFN) clauses** - make discounting expensive (price war deterrent or cartel facilitator)
+- **Burning bridges** - exit an alternative market to focus, signaling commitment
 
-Commitment cuts both ways: it strengthens you when credible but boxes you in when wrong. Score each commitment for **credibility** (1–5) and **reversibility cost**.
+Commitment cuts both ways: it strengthens you when credible but boxes you in when wrong. Score each commitment for **credibility** (1-5) and **reversibility cost**.
 
 ## Phase 6: Signaling
 
 Moves carry information about your type, intentions, and capacity. Consider what each move signals:
-- **Tough type** — willingness to absorb short-term loss to discipline rivals
-- **Accommodating type** — willingness to share the market
-- **Limited capacity** — easier to enter against
-- **Unlimited capacity** — entry deterrence
+- **Tough type** - willingness to absorb short-term loss to discipline rivals
+- **Accommodating type** - willingness to share the market
+- **Limited capacity** - easier to enter against
+- **Unlimited capacity** - entry deterrence
 
 Test the signal:
 - What inference would a rational competitor draw from this move?
 - Could you signal the same thing more cheaply with a different move?
 - Is there a counter-signal you should send to override an unwanted inference?
 
-## Phase 7: Game-theoretic check — repeated versus one-shot
+## Phase 7: Game-theoretic check - repeated versus one-shot
 
 Most real competitive interactions are repeated. Apply the folk-theorem intuition:
 
 | Interaction | Likely equilibrium |
 |-------------|--------------------|
-| One-shot, no future | Prisoner's-dilemma defection — undercut, take share |
+| One-shot, no future | Prisoner's-dilemma defection - undercut, take share |
 | Repeated, infinite horizon, observable actions | Cooperation sustainable via grim trigger or tit-for-tat |
 | Repeated, finite horizon | Unravels to defection (unless reputation effects with asymmetric information) |
 | Many small rivals | Coordination collapses; act like one-shot |
-| Few large rivals | Implicit coordination is possible (legal and dangerous areas — flag) |
+| Few large rivals | Implicit coordination is possible (legal and dangerous areas - flag) |
 
 The recommendation must be consistent with the time horizon of the interaction.
 
@@ -145,7 +145,7 @@ Synthesize:
 ## Operating rules
 
 **Always**
-- Identify 3–5 material respondents, not the whole market
+- Identify 3-5 material respondents, not the whole market
 - Score each on means, motive, opportunity, and speed
 - Compute payoff at terminal equilibrium, not just round 0
 - Match the equilibrium concept to the time horizon

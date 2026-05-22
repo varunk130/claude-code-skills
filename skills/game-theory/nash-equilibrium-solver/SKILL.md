@@ -9,7 +9,7 @@ description: "Models a strategic interaction as a normal-form (or extensive-form
 
 ## What this skill is
 
-A workflow that formalizes a real-world strategic interaction as a game — players, actions, payoffs — then solves for pure and mixed-strategy Nash equilibria, applies Iterated Elimination of Dominated Strategies (IEDS), checks Subgame-Perfect Equilibrium (SPE) in extensive form, and tests robustness to information assumptions. Produces a recommendation grounded in equilibrium analysis, not intuition.
+A workflow that formalizes a real-world strategic interaction as a game - players, actions, payoffs - then solves for pure and mixed-strategy Nash equilibria, applies Iterated Elimination of Dominated Strategies (IEDS), checks Subgame-Perfect Equilibrium (SPE) in extensive form, and tests robustness to information assumptions. Produces a recommendation grounded in equilibrium analysis, not intuition.
 
 ## What it solves
 
@@ -31,11 +31,11 @@ A workflow that formalizes a real-world strategic interaction as a game — play
 ## Phase 1: Define the game
 
 Specify five elements:
-- **Players** — every party whose decision matters (don't omit the regulator, the customer, the partner)
-- **Actions** — discrete options per player; group continuous decisions into representative levels
-- **Information** — complete or incomplete; perfect or imperfect; simultaneous or sequential
-- **Timing** — one-shot or repeated; finite or infinite horizon
-- **Payoffs** — quantified outcomes per action combination, in a common metric (profit, market share, utility)
+- **Players** - every party whose decision matters (don't omit the regulator, the customer, the partner)
+- **Actions** - discrete options per player; group continuous decisions into representative levels
+- **Information** - complete or incomplete; perfect or imperfect; simultaneous or sequential
+- **Timing** - one-shot or repeated; finite or infinite horizon
+- **Payoffs** - quantified outcomes per action combination, in a common metric (profit, market share, utility)
 
 Document every assumption. Bad payoff estimates make the equilibrium meaningless.
 
@@ -56,7 +56,7 @@ For each player, eliminate **strictly dominated** strategies (always worse than 
 
 Iterated Elimination of Dominated Strategies (IEDS) often solves the game without further machinery. If a unique strategy survives for each player, that profile is the equilibrium.
 
-Note: **weakly dominated** strategies can survive in equilibrium — be careful eliminating them.
+Note: **weakly dominated** strategies can survive in equilibrium - be careful eliminating them.
 
 ## Phase 4: Find pure-strategy Nash equilibria
 
@@ -86,7 +86,7 @@ Interpret the mixed strategy:
 - In a repeated game, the mix represents the long-run frequency of pure-strategy choices
 - In a populations game, the mix represents the share of the population playing each strategy
 
-## Phase 6: Extensive form — subgame perfection
+## Phase 6: Extensive form - subgame perfection
 
 For sequential games, the standard NE concept is too weak (it allows non-credible threats). Use **Subgame-Perfect Equilibrium (SPE)** via backward induction:
 
@@ -100,11 +100,11 @@ The path traced is the SPE. Any "threats" off the path are non-credible if they 
 ## Phase 7: Equilibrium refinements and selection
 
 When multiple equilibria exist, apply refinements:
-- **Subgame perfection** — eliminates non-credible threats
-- **Pareto dominance** — pick the equilibrium that everyone weakly prefers (when it exists)
-- **Risk dominance** — pick the equilibrium that is the safer choice under uncertainty about others
-- **Focal point (Thomas Schelling)** — convention, salience, history (e.g., split 50/50)
-- **Forward induction** — actions reveal beliefs
+- **Subgame perfection** - eliminates non-credible threats
+- **Pareto dominance** - pick the equilibrium that everyone weakly prefers (when it exists)
+- **Risk dominance** - pick the equilibrium that is the safer choice under uncertainty about others
+- **Focal point (Thomas Schelling)** - convention, salience, history (e.g., split 50/50)
+- **Forward induction** - actions reveal beliefs
 
 State which refinement you applied and why.
 
@@ -117,7 +117,7 @@ Before recommending:
 - Outside option: what's the Best Alternative to a Negotiated Agreement (BATNA) or disagreement payoff?
 - Behavioral deviations: would loss-aversion, social preferences, or framing shift the equilibrium?
 
-Equilibria that flip on small payoff changes are fragile — flag them.
+Equilibria that flip on small payoff changes are fragile - flag them.
 
 ## Output
 

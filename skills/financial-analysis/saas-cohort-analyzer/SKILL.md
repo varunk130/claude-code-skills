@@ -5,19 +5,19 @@ description: "Performs rigorous Software as a Service (SaaS) cohort analysis: re
 
 # SaaS Cohort Analyzer
 
-> Cohort math is the single most truthful lens on a subscription business — this skill makes it defensible.
+> Cohort math is the single most truthful lens on a subscription business - this skill makes it defensible.
 
 ## What this skill is
 
-A repeatable workflow that takes raw subscription data and produces a complete cohort report for a Software as a Service (SaaS) business: retention curves, Lifetime Value (LTV), Customer Acquisition Cost (CAC) payback, Net Revenue Retention (NRR), Gross Revenue Retention (GRR), and the revenue movement bridge. It segments by acquisition channel, Ideal Customer Profile (ICP), and contract type, and flags the easy mistakes (survivorship bias, re-segmentation drift, dollar–logo divergence) before they end up in a board deck.
+A repeatable workflow that takes raw subscription data and produces a complete cohort report for a Software as a Service (SaaS) business: retention curves, Lifetime Value (LTV), Customer Acquisition Cost (CAC) payback, Net Revenue Retention (NRR), Gross Revenue Retention (GRR), and the revenue movement bridge. It segments by acquisition channel, Ideal Customer Profile (ICP), and contract type, and flags the easy mistakes (survivorship bias, re-segmentation drift, dollar-logo divergence) before they end up in a board deck.
 
 ## What it solves
 
 - Blended NRR numbers that hide segment-level decay
-- LTV calculations using revenue (not contribution margin) — overstating returns
+- LTV calculations using revenue (not contribution margin) - overstating returns
 - Cohort cherry-picking where only the best months get reported
 - Survivorship bias from reporting only cohorts that finished the window
-- Confusing logo churn with revenue churn — they tell very different stories
+- Confusing logo churn with revenue churn - they tell very different stories
 
 ## When to invoke
 
@@ -42,9 +42,9 @@ Document every exclusion. Report both filtered and unfiltered counts.
 
 Produce three matrices side-by-side:
 
-- **Logo retention (percent)** — customers active in month N / cohort starting customers
-- **Gross Dollar Retention (GDR, percent)** — revenue from cohort in month N / starting revenue, capped at 100% (excludes expansion)
-- **Net Dollar Retention (NDR, percent)** — same as GDR but includes expansion, contraction, and churn
+- **Logo retention (percent)** - customers active in month N / cohort starting customers
+- **Gross Dollar Retention (GDR, percent)** - revenue from cohort in month N / starting revenue, capped at 100% (excludes expansion)
+- **Net Dollar Retention (NDR, percent)** - same as GDR but includes expansion, contraction, and churn
 
 Plot each as a curve with at least 6 cohorts overlaid. Look for:
 - Smiling curve (NDR > 100%) → expansion engine
@@ -98,9 +98,9 @@ Re-run the cohort analysis sliced by:
 - ICP fit score
 - Onboarding completion (activated within 30 days versus not)
 - Contract length (monthly versus annual)
-- Annual Contract Value (ACV) band (< $10k, $10–50k, $50–250k, $250k+)
+- Annual Contract Value (ACV) band (< $10k, $10-50k, $50-250k, $250k+)
 
-The blended number always hides the variance — surface the best and worst segment.
+The blended number always hides the variance - surface the best and worst segment.
 
 ## Phase 6: Diagnostics and red flags
 
@@ -116,7 +116,7 @@ The blended number always hides the variance — surface the best and worst segm
 - One-page summary: blended NRR / GRR, LTV, CAC payback, LTV/CAC ratio, with 4-quarter trend
 - Top 3 retention drivers and top 3 churn drivers from the segmentation cuts
 - Recommended intervention for each churn driver
-- Explicit "what we don't know" — data gaps
+- Explicit "what we don't know" - data gaps
 
 ## Operating rules
 
@@ -129,7 +129,7 @@ The blended number always hides the variance — surface the best and worst segm
 
 **Never**
 - Quote NRR without naming the cohort window
-- Use trailing-12 churn × 12 as annualized — use the actual cohort
+- Use trailing-12 churn × 12 as annualized - use the actual cohort
 - Hide involuntary churn inside voluntary
 - Compare cohorts of different acquisition mix without normalizing
 - Confuse logo churn with revenue churn

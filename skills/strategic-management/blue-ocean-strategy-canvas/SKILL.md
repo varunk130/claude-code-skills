@@ -9,7 +9,7 @@ description: "Builds a Blue Ocean Strategy Canvas with the as-is competitive val
 
 ## What this skill is
 
-A workflow built on the Blue Ocean Strategy work of W. Chan Kim and Renée Mauborgne: map the industry value curve, identify which factors to Eliminate, Reduce, Raise, or Create (ERRC), profile the three tiers of non-customers, and design a to-be value curve that breaks the value–cost trade-off. Produces a defensible strategic move with a buyer utility map and a sequence test.
+A workflow built on the Blue Ocean Strategy work of W. Chan Kim and Renée Mauborgne: map the industry value curve, identify which factors to Eliminate, Reduce, Raise, or Create (ERRC), profile the three tiers of non-customers, and design a to-be value curve that breaks the value-cost trade-off. Produces a defensible strategic move with a buyer utility map and a sequence test.
 
 ## What it solves
 
@@ -17,7 +17,7 @@ A workflow built on the Blue Ocean Strategy work of W. Chan Kim and Renée Maubo
 - Roadmaps that compete on every dimension instead of choosing which to abandon
 - Feature parity wars that erode margins
 - Ignoring non-customers (the largest source of new demand)
-- Confusing "different" with "differentiated" — different on dimensions buyers don't value
+- Confusing "different" with "differentiated" - different on dimensions buyers don't value
 
 ## When to invoke
 
@@ -32,24 +32,24 @@ A workflow built on the Blue Ocean Strategy work of W. Chan Kim and Renée Maubo
 The strategy canvas plots **competing factors** on the horizontal axis and **offering level** (low to high) on the vertical axis.
 
 For each major competitor and the company:
-- List the 6–12 factors the industry currently competes on (price, feature set, service levels, brand prestige, etc.)
+- List the 6-12 factors the industry currently competes on (price, feature set, service levels, brand prestige, etc.)
 - Score each factor 1 (low offering) to 5 (high offering)
 - Plot the value curve
 
 The as-is canvas typically shows:
 - Most players hugging the same curve (convergence → red ocean)
-- Industry-wide overinvestment in 1–2 factors (the standards-arms race)
+- Industry-wide overinvestment in 1-2 factors (the standards-arms race)
 - Industry-wide underinvestment in factors buyers actually care about
 
 ## Phase 2: Identify non-customers (three tiers)
 
 | Tier | Definition | Question |
 |------|------------|----------|
-| 1 — Soon-to-be | Use the industry minimally, ready to switch out | Why are they on the verge of leaving? |
-| 2 — Refusing | Considered the industry, rejected it | What would have to change for them to consider? |
-| 3 — Unexplored | Never considered the industry | What job are they doing instead? |
+| 1 - Soon-to-be | Use the industry minimally, ready to switch out | Why are they on the verge of leaving? |
+| 2 - Refusing | Considered the industry, rejected it | What would have to change for them to consider? |
+| 3 - Unexplored | Never considered the industry | What job are they doing instead? |
 
-The biggest pool of latent demand is Tier 3 — non-customers who didn't realize this industry serves their job.
+The biggest pool of latent demand is Tier 3 - non-customers who didn't realize this industry serves their job.
 
 ## Phase 3: Apply the ERRC grid
 
@@ -73,9 +73,9 @@ Re-plot the canvas with:
 - New factors (create column)
 
 The to-be curve must satisfy three tests:
-- **Focus** — the curve has clear high points, not flat across all factors
-- **Divergence** — it diverges visibly from competitor curves
-- **Compelling tagline** — the strategy can be summarized in one sentence
+- **Focus** - the curve has clear high points, not flat across all factors
+- **Divergence** - it diverges visibly from competitor curves
+- **Compelling tagline** - the strategy can be summarized in one sentence
 
 If the to-be curve fails any test, iterate.
 
@@ -95,25 +95,25 @@ A 6-by-6 map produces 36 cells. The current industry occupies one or two cells. 
 
 In order:
 
-1. **Buyer utility** — does the offering deliver exceptional utility?
-2. **Strategic price** — is the price attainable by the mass of target buyers?
-3. **Cost target** — can we hit the cost given the strategic price?
-4. **Adoption hurdles** — what stops customers, partners, employees, regulators from adopting?
+1. **Buyer utility** - does the offering deliver exceptional utility?
+2. **Strategic price** - is the price attainable by the mass of target buyers?
+3. **Cost target** - can we hit the cost given the strategic price?
+4. **Adoption hurdles** - what stops customers, partners, employees, regulators from adopting?
 
 If any hurdle fails, return to Phase 3.
 
 ## Phase 7: Tipping-point execution
 
 Identify the high-leverage actors:
-- **Cool spots** — areas of disproportionate impact (segments, geographies, channels)
-- **Hot spots** — bottleneck constraints to overcome first
-- **Key influencers** — small group whose adoption tips the wider market
+- **Cool spots** - areas of disproportionate impact (segments, geographies, channels)
+- **Hot spots** - bottleneck constraints to overcome first
+- **Key influencers** - small group whose adoption tips the wider market
 
 Sequence execution around tipping points instead of broad parallel investment.
 
 ## Output
 
-- As-is strategy canvas with company and 2–3 competitors plotted
+- As-is strategy canvas with company and 2-3 competitors plotted
 - Non-customer tier analysis with insight per tier
 - ERRC grid with at least 2 entries in each column
 - To-be value curve passing focus, divergence, and tagline tests

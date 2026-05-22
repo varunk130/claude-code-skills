@@ -5,7 +5,7 @@ Thanks for considering a contribution to this skills library.
 ## Adding a new skill
 
 1. **Open an issue** describing the gap and the proposed skill name (kebab-case).
-2. **Wait for a thumbs-up** from a maintainer — this avoids duplicate work.
+2. **Wait for a thumbs-up** from a maintainer - this avoids duplicate work.
 3. **Create the file** at `skills/<category>/<skill-name>/SKILL.md` using [`docs/SKILL_TEMPLATE.md`](docs/SKILL_TEMPLATE.md). Categories live under `skills/`: `financial-analysis`, `product-management`, `strategic-management`, `game-theory`, `document-processing`.
 4. **Update the catalog**:
    - Add a row to the corresponding table in the root [README.md](README.md).
@@ -33,7 +33,7 @@ description: "<What the skill produces.> Use when <trigger 1>; <trigger 2>; <tri
 ---
 ```
 
-The `description` is what AI agents match against when deciding to invoke the skill — make the trigger phrases specific.
+The `description` is what AI agents match against when deciding to invoke the skill - make the trigger phrases specific.
 
 ## Style
 
@@ -41,7 +41,7 @@ The `description` is what AI agents match against when deciding to invoke the sk
 - Tables over long prose where structure exists
 - Formulas in code fences
 - No external API calls or network dependencies in the skill itself
-- No real customer / company names — use anonymized stand-ins
+- No real customer / company names - use anonymized stand-ins
 - No secrets or PII anywhere
 
 ## Reporting issues

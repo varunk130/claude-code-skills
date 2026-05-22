@@ -3,7 +3,7 @@ name: ai-agent-financial-analyst
 description: "SaaS financial modeling engine that generates unit economics models, feature ROI calculators, pricing scenario analyses, TAM/SAM/SOM sizing, build-vs-buy comparisons, and revenue projections from natural language inputs. Use when building business cases, calculating LTV/CAC/payback, modeling pricing changes, estimating feature revenue impact, running sensitivity analyses, or preparing financial justifications for product investments. Produces actual calculations with explicit assumptions and sensitivity ranges."
 ---
 
-# SaaS Finance Lab — Financial Modeling for Product Managers
+# SaaS Finance Lab - Financial Modeling for Product Managers
 
 Turns natural language product questions into rigorous financial models with explicit assumptions, sensitivity analysis, and decision-ready output.
 
@@ -14,13 +14,13 @@ Before building any model, extract or request these inputs. Use SaaS defaults wh
 **Always needed:**
 | Input | Default if unknown |
 |-------|-------------------|
-| ACV / ARPU | Ask — no safe default |
-| Customer count | Ask — no safe default |
+| ACV / ARPU | Ask - no safe default |
+| Customer count | Ask - no safe default |
 | Growth rate (MoM or YoY) | 5% MoM for growth-stage |
 | Gross margin | 75% for SaaS |
 | Monthly churn rate | 2% SMB, 0.5% enterprise |
 
-**Critical rule:** State EVERY assumption explicitly. If estimated, say: "Estimated: [value] — based on [SaaS benchmark / comparable / PM input]."
+**Critical rule:** State EVERY assumption explicitly. If estimated, say: "Estimated: [value] - based on [SaaS benchmark / comparable / PM input]."
 
 ## STEP 2: Model Selection
 
@@ -46,8 +46,8 @@ Before building any model, extract or request these inputs. Use SaaS defaults wh
 **Unit Economics:**
 - LTV = ARPU x Gross Margin % / Monthly Churn Rate
 - CAC = Total Sales & Marketing Spend / New Customers
-- LTV:CAC ratio — Target > 3:1
-- CAC payback = CAC / (ARPU x Gross Margin %) — Target < 18 months
+- LTV:CAC ratio - Target > 3:1
+- CAC payback = CAC / (ARPU x Gross Margin %) - Target < 18 months
 - NRR = (Beginning MRR + Expansion - Contraction - Churn) / Beginning MRR x 100
 
 **Health Check with traffic lights:**
@@ -62,10 +62,10 @@ Before building any model, extract or request these inputs. Use SaaS defaults wh
 **Investment table:**
 | Cost Component | One-time | Monthly Ongoing | 12-month Total |
 |---------------|----------|-----------------|----------------|
-| Engineering (engineers x weeks x $/week) | $ | — | $ |
-| Design | $ | — | $ |
+| Engineering (engineers x weeks x $/week) | $ | - | $ |
+| Design | $ | - | $ |
 | Infrastructure | $ | $/mo | $ |
-| Maintenance (20% of build cost/year) | — | $/mo | $ |
+| Maintenance (20% of build cost/year) | - | $/mo | $ |
 | **Total** | **$** | **$** | **$** |
 
 **Return table:**
@@ -77,7 +77,7 @@ Before building any model, extract or request these inputs. Use SaaS defaults wh
 
 **ROI calculation:** 12-mo investment, 12-mo revenue impact, net return, ROI %, payback period (months), NPV (3-year, 10% discount)
 
-**Sensitivity:** Bear (50% of base assumptions), Base, Bull (150%) — show ROI and payback for each
+**Sensitivity:** Bear (50% of base assumptions), Base, Bull (150%) - show ROI and payback for each
 
 **Decision:** "Ship if you believe [conditions]" / "Kill if [conditions]" / "De-risk by [validation approach]"
 

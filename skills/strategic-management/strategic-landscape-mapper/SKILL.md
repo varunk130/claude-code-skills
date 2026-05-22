@@ -13,7 +13,7 @@ A workflow that produces a Strategic Landscape Map: a user-need value chain from
 
 ## What it solves
 
-- Strategy decks that have no map — only frameworks and slides
+- Strategy decks that have no map - only frameworks and slides
 - Decisions to build in-house what is becoming commoditized (or vice versa)
 - Missing the predictable transition from custom-built to productized to utility
 - Confusing operational efficiency with strategic positioning
@@ -50,7 +50,7 @@ Layers typically follow:
 - Data (e.g., transaction history)
 - Infrastructure (e.g., compute, storage, network)
 
-Connect each child to its parent with a dependency edge. The chain typically has 3–6 layers.
+Connect each child to its parent with a dependency edge. The chain typically has 3-6 layers.
 
 ## Phase 3: Plot on the maturity axis
 
@@ -63,18 +63,18 @@ Place each component on the horizontal axis based on its maturity stage:
 | **Productized** | Multiple vendors, comparable offerings | Vector databases |
 | **Commoditized / utility** | Standardized, undifferentiated, metered | Compute, storage, bandwidth |
 
-Plot each component as a node at the right horizontal position. Components shift right over time — never left.
+Plot each component as a node at the right horizontal position. Components shift right over time - never left.
 
 ## Phase 4: Apply environmental forces
 
-Environmental forces are inevitable structural shifts — like weather. You don't control them; you account for them.
+Environmental forces are inevitable structural shifts - like weather. You don't control them; you account for them.
 
 Key forces to check:
-- **Everything matures** — assume rightward drift; ask "what will commoditize in 3–5 years?"
-- **Commoditization of one component enables novel uses above it** — cloud commoditization unlocked the Software as a Service (SaaS) explosion
-- **Past success breeds inertia** — incumbents resist commoditization of their core
-- **Practice co-evolves with activity** — DevOps emerged with cloud, not separately
-- **Long stability, then rapid transition** — identify which components are near a tipping point
+- **Everything matures** - assume rightward drift; ask "what will commoditize in 3-5 years?"
+- **Commoditization of one component enables novel uses above it** - cloud commoditization unlocked the Software as a Service (SaaS) explosion
+- **Past success breeds inertia** - incumbents resist commoditization of their core
+- **Practice co-evolves with activity** - DevOps emerged with cloud, not separately
+- **Long stability, then rapid transition** - identify which components are near a tipping point
 
 ## Phase 5: Apply operating principles
 
@@ -94,16 +94,16 @@ Score the organization on each. Principle gaps are easier to fix than strategy m
 ## Phase 6: Identify strategic plays
 
 Strategic plays are deliberate moves available on the map:
-- **Accelerate maturity** — invest to push a component right (commoditize a competitor's differentiation)
-- **Slow maturity** — patent, regulate, raise fear-uncertainty-doubt (defensible only short-term)
-- **Open source** — commoditize complements; a classic move used by International Business Machines (IBM), Red Hat, and Google
-- **Build a market** — create demand for a component (Stripe did this for "online payments")
+- **Accelerate maturity** - invest to push a component right (commoditize a competitor's differentiation)
+- **Slow maturity** - patent, regulate, raise fear-uncertainty-doubt (defensible only short-term)
+- **Open source** - commoditize complements; a classic move used by International Business Machines (IBM), Red Hat, and Google
+- **Build a market** - create demand for a component (Stripe did this for "online payments")
 - **Sensible** trade-off between methods at each stage:
   - Novel → in-house lean / agile
   - Custom-built → in-house or contractor
   - Productized → buy off-the-shelf
   - Commoditized → use a utility provider
-- **Pioneer / Settler / Town Planner** — explicit team structure matched to maturity stage
+- **Pioneer / Settler / Town Planner** - explicit team structure matched to maturity stage
 
 ## Phase 7: Strategic recommendations
 
@@ -136,7 +136,7 @@ Cross-check against:
 - Start with the user and their need
 - Plot on maturity stage, not just dependency
 - Apply environmental forces first (the inevitable), then operating principles, then strategic plays
-- Re-map every 6–12 months
+- Re-map every 6-12 months
 - Identify inertia explicitly
 
 **Never**

@@ -2,7 +2,7 @@
 
 # 🧰 Claude Code Custom Skills
 
-### A curated, categorized library of production-grade skills for Claude Code — finance, product, strategy, and game theory.
+### A curated, categorized library of production-grade skills for Claude Code - finance, product, strategy, and game theory.
 
 [![Custom Skills](https://img.shields.io/badge/Custom_Skills-29-blue?style=for-the-badge)](#-skill-categories)
 [![Categories](https://img.shields.io/badge/Categories-5-orange?style=for-the-badge)](#-skill-categories)
@@ -37,7 +37,7 @@
 
 ## What is a skill?
 
-A **skill** is a single markdown file (`SKILL.md`) that gives Claude Code domain-specific knowledge, a structured workflow, and clear output expectations. Drop the file into `~/.claude/skills/` and Claude loads it on demand — invoked by slash command or by natural-language match against the description.
+A **skill** is a single markdown file (`SKILL.md`) that gives Claude Code domain-specific knowledge, a structured workflow, and clear output expectations. Drop the file into `~/.claude/skills/` and Claude loads it on demand - invoked by slash command or by natural-language match against the description.
 
 Every skill in this repository follows the **same standard format** (see [Standard skill format](#standard-skill-format)) so they're easy to learn, easy to compose, and easy to extend.
 
@@ -109,7 +109,7 @@ Skills are organized into five categories. Each category folder has its own READ
 
 ### Financial Analysis (6 skills)
 
-> Rigorous, defensible financial modeling and analysis. Outputs survive an investment committee or board grilling. — [Category README](skills/financial-analysis/README.md)
+> Rigorous, defensible financial modeling and analysis. Outputs survive an investment committee or board grilling. - [Category README](skills/financial-analysis/README.md)
 
 | Skill | What it produces |
 |-------|------------------|
@@ -122,7 +122,7 @@ Skills are organized into five categories. Each category folder has its own READ
 
 ### Product Management (8 skills)
 
-> Skills for the modern product manager and product trio: continuous discovery, multi-framework prioritization, customer research synthesis. — [Category README](skills/product-management/README.md)
+> Skills for the modern product manager and product trio: continuous discovery, multi-framework prioritization, customer research synthesis. - [Category README](skills/product-management/README.md)
 
 | Skill | What it produces |
 |-------|------------------|
@@ -137,7 +137,7 @@ Skills are organized into five categories. Each category folder has its own READ
 
 ### Strategic Management (9 skills)
 
-> Classical and modern strategy frameworks executed with rigor. — [Category README](skills/strategic-management/README.md)
+> Classical and modern strategy frameworks executed with rigor. - [Category README](skills/strategic-management/README.md)
 
 | Skill | What it produces |
 |-------|------------------|
@@ -153,7 +153,7 @@ Skills are organized into five categories. Each category folder has its own READ
 
 ### Game Theory (5 skills)
 
-> Apply game theory to real decisions: pricing wars, negotiation, mechanism design, repeated interactions. — [Category README](skills/game-theory/README.md)
+> Apply game theory to real decisions: pricing wars, negotiation, mechanism design, repeated interactions. - [Category README](skills/game-theory/README.md)
 
 | Skill | What it produces |
 |-------|------------------|
@@ -165,7 +165,7 @@ Skills are organized into five categories. Each category folder has its own READ
 
 ### Document Processing (1 skill)
 
-> Document extraction, transformation, merging, and form handling. — [Category README](skills/document-processing/README.md)
+> Document extraction, transformation, merging, and form handling. - [Category README](skills/document-processing/README.md)
 
 | Skill | What it produces |
 |-------|------------------|
@@ -300,6 +300,6 @@ For security issues, see [SECURITY.md](SECURITY.md).
 
 <div align="center">
 
-<sub>Built by <a href="https://github.com/varunk130">Varun Kulkarni</a> — part of a portfolio of AI agent systems for product, finance, and strategy teams.</sub>
+<sub>Built by <a href="https://github.com/varunk130">Varun Kulkarni</a> - part of a portfolio of AI agent systems for product, finance, and strategy teams.</sub>
 
 </div>

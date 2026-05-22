@@ -5,7 +5,7 @@ description: "Performs a structured Strengths-Weaknesses-Opportunities-Threats (
 
 # SWOT-TOWS Analyzer
 
-> Goes beyond a SWOT list — pairs internal and external factors to produce real strategic options.
+> Goes beyond a SWOT list - pairs internal and external factors to produce real strategic options.
 
 ## What this skill is
 
@@ -38,7 +38,7 @@ Before drafting any quadrant, gather:
 - Employee survey signals
 - Macroeconomic and regulatory trackers
 
-Each quadrant entry must reference a source. "No evidence" is itself an entry — flag it.
+Each quadrant entry must reference a source. "No evidence" is itself an entry - flag it.
 
 ## Phase 2: Strengths
 
@@ -48,7 +48,7 @@ Internal factors **today**, observable, distinctive versus competitors. Bar to c
 - Is it sustainable, or eroding?
 
 For each strength, score:
-- Distinctiveness versus competitors (1–5)
+- Distinctiveness versus competitors (1-5)
 - Trajectory (improving / stable / eroding)
 
 ## Phase 3: Weaknesses
@@ -56,9 +56,9 @@ For each strength, score:
 Internal factors that depress performance versus competitors or versus ambition. Honest list.
 
 Test each weakness:
-- Material — does it actually impair execution or perception?
-- Comparative — relative to whom?
-- Actionable — within management control?
+- Material - does it actually impair execution or perception?
+- Comparative - relative to whom?
+- Actionable - within management control?
 
 Common honest-weakness categories: capability gaps, data gaps, technical debt, organizational design, cultural friction, distribution gaps.
 
@@ -77,7 +77,7 @@ Quality bar: an "opportunity" must specify the **action available**, not just de
 ## Phase 5: Threats
 
 External factors that could damage the business. Sources:
-- New entrants (specifically — who?)
+- New entrants (specifically - who?)
 - Substitute technologies or business models
 - Regulatory headwinds
 - Customer-segment decline
@@ -90,10 +90,10 @@ For each threat: probability (low / medium / high), severity (low / medium / hig
 
 |              | Opportunities                       | Threats                                  |
 |--------------|--------------------------------------|------------------------------------------|
-| **Strengths** | **SO** — Maxi-Maxi: use strengths to capture opportunities | **ST** — Maxi-Mini: use strengths to defend against threats |
-| **Weaknesses** | **WO** — Mini-Maxi: fix weaknesses to capture opportunities | **WT** — Mini-Mini: defensive moves, retreat, divest |
+| **Strengths** | **SO** - Maxi-Maxi: use strengths to capture opportunities | **ST** - Maxi-Mini: use strengths to defend against threats |
+| **Weaknesses** | **WO** - Mini-Maxi: fix weaknesses to capture opportunities | **WT** - Mini-Mini: defensive moves, retreat, divest |
 
-For each cell, generate 2–4 **specific strategic options** that pair a real internal factor with a real external one. Example:
+For each cell, generate 2-4 **specific strategic options** that pair a real internal factor with a real external one. Example:
 - SO: "Our distribution scale × new buyer segment X → launch dedicated stock-keeping unit in Q2"
 - WT: "Our technical-debt weakness × incumbent moving into our space → consider partnership or divest non-core line"
 
@@ -101,14 +101,14 @@ Generic statements ("invest more") are not strategic options.
 
 ## Phase 7: Filter to a shortlist
 
-For each candidate option, score 1–5:
+For each candidate option, score 1-5:
 - Strategic fit (with stated direction)
 - Resource feasibility (capital, talent, capacity)
 - Time-to-impact
 - Reversibility
 - Risk-adjusted upside
 
-Shortlist the top 5–7 options across the four quadrants. Reject options that exist in only one quadrant — strategy that pairs only strengths with opportunities ignores defense.
+Shortlist the top 5-7 options across the four quadrants. Reject options that exist in only one quadrant - strategy that pairs only strengths with opportunities ignores defense.
 
 ## Phase 8: Action plan
 
@@ -122,8 +122,8 @@ For each shortlisted option:
 ## Output
 
 - Evidence-anchored SWOT with sources per item
-- TOWS matrix with 8–16 specific strategic options
-- Shortlist of 5–7 priorities with scoring
+- TOWS matrix with 8-16 specific strategic options
+- Shortlist of 5-7 priorities with scoring
 - 90-day action plan per priority
 - Watch-list: which external signals would shift the analysis
 - Pre-mortem: how each top option could fail
@@ -139,7 +139,7 @@ For each shortlisted option:
 
 **Never**
 - Confuse capabilities with trends (or vice versa)
-- Treat SWOT as the deliverable — TOWS is the deliverable
+- Treat SWOT as the deliverable - TOWS is the deliverable
 - Generate generic options ("invest more")
 - Skip the threat or weakness quadrant because it's uncomfortable
 - Score options only on upside (ignore downside and reversibility)

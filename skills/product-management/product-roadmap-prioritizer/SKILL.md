@@ -9,7 +9,7 @@ description: "Runs candidate features through Reach-Impact-Confidence-Effort (RI
 
 ## What this skill is
 
-A workflow that scores candidate features across four complementary prioritization frameworks — Reach-Impact-Confidence-Effort (RICE), Kano, Must-Should-Could-Won't (MoSCoW), and Cost of Delay — surfaces where they agree and disagree, and turns that into a ranked quarterly roadmap with explicit reasoning. Designed so that every "no" can be defended with the same rigor as every "yes."
+A workflow that scores candidate features across four complementary prioritization frameworks - Reach-Impact-Confidence-Effort (RICE), Kano, Must-Should-Could-Won't (MoSCoW), and Cost of Delay - surfaces where they agree and disagree, and turns that into a ranked quarterly roadmap with explicit reasoning. Designed so that every "no" can be defended with the same rigor as every "yes."
 
 ## What it solves
 
@@ -49,10 +49,10 @@ For each candidate:
 Reach-Impact-Confidence-Effort (RICE) = (Reach × Impact × Confidence) / Effort
 ```
 
-- **Reach** — number of users affected per time period
-- **Impact** — 0.25 (minimal) / 0.5 / 1 (medium) / 2 / 3 (massive)
-- **Confidence** — 50% / 80% / 100% — based on quality of evidence
-- **Effort** — person-months
+- **Reach** - number of users affected per time period
+- **Impact** - 0.25 (minimal) / 0.5 / 1 (medium) / 2 / 3 (massive)
+- **Confidence** - 50% / 80% / 100% - based on quality of evidence
+- **Effort** - person-months
 
 Document the data source behind each number. A RICE score with no evidence is a feeling.
 
@@ -75,10 +75,10 @@ A roadmap of all must-haves is a defensive crouch. A roadmap of all delighters i
 ## Phase 4: Categorize with MoSCoW (per release)
 
 For each candidate **within a release window**, apply the Must-Should-Could-Won't (MoSCoW) categorization:
-- **Must** — non-negotiable; release fails without it
-- **Should** — important; release weaker without it
-- **Could** — nice to have; first to cut
-- **Won't (this time)** — explicitly out of scope
+- **Must** - non-negotiable; release fails without it
+- **Should** - important; release weaker without it
+- **Could** - nice to have; first to cut
+- **Won't (this time)** - explicitly out of scope
 
 Rule of thumb: Must ≤ 60% of release capacity. Anything higher means everything is "must," which means nothing is.
 
@@ -106,8 +106,8 @@ Build the convergence table:
 | Candidate | RICE rank | Kano | MoSCoW | CD3 rank | Convergence |
 |-----------|----------:|------|--------|---------:|-------------|
 | A | 1 | Performance | Must | 1 | Strong yes |
-| B | 5 | Delighter | Should | 3 | Mixed — investigate |
-| C | 12 | Must-have | Must | 8 | Table stakes — do |
+| B | 5 | Delighter | Should | 3 | Mixed - investigate |
+| C | 12 | Must-have | Must | 8 | Table stakes - do |
 | D | 2 | Indifferent | Could | 15 | RICE alone is misleading |
 
 Where frameworks agree → high confidence to commit. Where they disagree → the disagreement IS the strategy conversation. Don't average; investigate.
@@ -137,7 +137,7 @@ Stakeholder reply template for declined requests:
 **Always**
 - Source every RICE input from evidence
 - Apply at least two frameworks before committing
-- Investigate divergence — don't average it away
+- Investigate divergence - don't average it away
 - Cap "Must" at 60% of release capacity
 - Document why each declined item was declined
 

@@ -40,12 +40,12 @@ Every number gets a source or explicit assumption marker.
 ## Framework Reference
 
 **TAM-SAM-SOM** with dual methodology:
-- Top-down: Market reports — narrow to segment
-- Bottom-up: Unit economics — multiply out
+- Top-down: Market reports - narrow to segment
+- Bottom-up: Unit economics - multiply out
 - Triangulation increases confidence
 
 ## Tips for Best Results
 1. Keep context files updated
-2. Be conservative — optimistic estimates lose credibility
-3. Show your work — transparent assumptions > black box
-4. Multiple approaches — if they diverge, you're missing something
+2. Be conservative - optimistic estimates lose credibility
+3. Show your work - transparent assumptions > black box
+4. Multiple approaches - if they diverge, you're missing something

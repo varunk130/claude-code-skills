@@ -1,6 +1,6 @@
 ---
 name: dcf-valuation-builder
-description: "Builds a transparent Discounted Cash Flow (DCF) valuation with a 5–10 year forecast, terminal value, Weighted Average Cost of Capital (WACC) derivation, sensitivity tables, and a football-field summary. Use when valuing a company, business unit, acquisition target, or capital project; pressure-testing an investment thesis; preparing a board valuation memo; or stress-testing assumptions against precedent transactions and trading comparables."
+description: "Builds a transparent Discounted Cash Flow (DCF) valuation with a 5-10 year forecast, terminal value, Weighted Average Cost of Capital (WACC) derivation, sensitivity tables, and a football-field summary. Use when valuing a company, business unit, acquisition target, or capital project; pressure-testing an investment thesis; preparing a board valuation memo; or stress-testing assumptions against precedent transactions and trading comparables."
 ---
 
 # DCF Valuation Builder
@@ -34,7 +34,7 @@ Before modeling, establish:
 - Valuation purpose (M&A, fairness opinion, internal Internal Rate of Return (IRR) hurdle, restructuring, tax)
 - Currency and inflation assumptions
 - Forecast horizon (5 years default; 10 years for long-cycle assets like infrastructure, pharmaceuticals, energy)
-- Available data: 3–5 years historical financials, management forecast, comparable set, recent transactions
+- Available data: 3-5 years historical financials, management forecast, comparable set, recent transactions
 
 Log every input source with file name, date, and confidence rating (High / Medium / Low).
 
@@ -46,7 +46,7 @@ Pick the right driver tree:
 - **Volume × price**: units × Average Selling Price (ASP), broken by segment or geography
 - **Consumption**: active users × Average Revenue Per User (ARPU) × engagement
 
-Always show three scenarios — Base, Bull (+1 standard deviation), Bear (−1 standard deviation) — with explicit Compound Annual Growth Rate (CAGR) for each.
+Always show three scenarios - Base, Bull (+1 standard deviation), Bear (−1 standard deviation) - with explicit Compound Annual Growth Rate (CAGR) for each.
 
 ## Phase 3: Operating model
 
@@ -70,7 +70,7 @@ Validate that capital expenditure approximately equals D&A at terminal year (ste
 
 ## Phase 4: WACC derivation
 
-Show every input — never hardcode WACC.
+Show every input - never hardcode WACC.
 
 | Component | Value | Source |
 |-----------|-------|--------|

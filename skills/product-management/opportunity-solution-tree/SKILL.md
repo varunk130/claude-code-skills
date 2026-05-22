@@ -1,6 +1,6 @@
 ---
 name: opportunity-solution-tree
-description: "Builds an Opportunity Solution Tree (OST) — desired outcome at the top, prioritized opportunities, candidate solutions, and assumption tests that connect discovery work to a measurable business outcome. Use when planning continuous product discovery, deciding what to research next, structuring quarterly discovery work, or aligning a product trio (product manager / designer / engineer) on what to test."
+description: "Builds an Opportunity Solution Tree (OST) - desired outcome at the top, prioritized opportunities, candidate solutions, and assumption tests that connect discovery work to a measurable business outcome. Use when planning continuous product discovery, deciding what to research next, structuring quarterly discovery work, or aligning a product trio (product manager / designer / engineer) on what to test."
 ---
 
 # Opportunity Solution Tree
@@ -9,7 +9,7 @@ description: "Builds an Opportunity Solution Tree (OST) — desired outcome at t
 
 ## What this skill is
 
-A workflow for building an Opportunity Solution Tree (OST) — the discovery framework popularized by Teresa Torres that anchors discovery work to a clear outcome, surfaces opportunities (unmet customer needs, pain points, desires), generates multiple solution candidates, and identifies the assumption tests that need to run before committing. Produces a living artifact a product trio can update weekly.
+A workflow for building an Opportunity Solution Tree (OST) - the discovery framework popularized by Teresa Torres that anchors discovery work to a clear outcome, surfaces opportunities (unmet customer needs, pain points, desires), generates multiple solution candidates, and identifies the assumption tests that need to run before committing. Produces a living artifact a product trio can update weekly.
 
 ## What it solves
 
@@ -29,7 +29,7 @@ A workflow for building an Opportunity Solution Tree (OST) — the discovery fra
 
 ## Phase 1: Define the outcome at the top
 
-The root of every tree is a **single, measurable outcome** — a customer behavior the business cares about.
+The root of every tree is a **single, measurable outcome** - a customer behavior the business cares about.
 
 Outcome statement format:
 > Increase [metric] from [baseline] to [target] by [date].
@@ -37,14 +37,14 @@ Outcome statement format:
 Rules for a good outcome:
 - It is a behavior, not a feature ("more activations" not "ship onboarding v2")
 - It is measurable today (you can see the baseline)
-- It has a target — vague aspirations hide trade-offs
+- It has a target - vague aspirations hide trade-offs
 - It is owned by the product trio for the cycle
 
 If the outcome is a business Key Performance Indicator (KPI) such as revenue or retention, restate it as the **leading customer behavior** that drives it.
 
 ## Phase 2: Map opportunities
 
-Opportunities are customer **needs, pain points, and desires** — never solutions. Source them from:
+Opportunities are customer **needs, pain points, and desires** - never solutions. Source them from:
 - Customer interviews (continuous discovery weekly cadence)
 - Support tickets, Net Promoter Score (NPS) verbatims
 - Sales call recordings
@@ -65,16 +65,16 @@ A tree with only parents is too abstract to act on. A tree with only children mi
 ## Phase 3: Prioritize opportunities
 
 Score each opportunity on:
-- **Reach** — how many target customers experience this?
-- **Severity** — how painful when it happens?
-- **Strategic alignment** — does solving it support the outcome at the top?
-- **Confidence** — how sure are we, based on evidence?
+- **Reach** - how many target customers experience this?
+- **Severity** - how painful when it happens?
+- **Strategic alignment** - does solving it support the outcome at the top?
+- **Confidence** - how sure are we, based on evidence?
 
 Use a 2-by-2 matrix of **opportunity size × strategic alignment**. Pick **one opportunity** per cycle for the trio to focus on. Multiple parallel opportunities dilute discovery.
 
 ## Phase 4: Generate solution candidates
 
-For the chosen opportunity, brainstorm **at least 3–5 solution candidates**. The first solution is almost never the best.
+For the chosen opportunity, brainstorm **at least 3-5 solution candidates**. The first solution is almost never the best.
 
 Solution-generation prompts:
 - Magic wand: if there were no constraints, what would solve this?
@@ -114,9 +114,9 @@ The OST is a living artifact, not a one-time deliverable:
 ## Output
 
 - One outcome at the root of the tree
-- 5–15 opportunities organized parent → child
+- 5-15 opportunities organized parent → child
 - One prioritized opportunity for this cycle with reasoning
-- 3–5 solution candidates per chosen opportunity
+- 3-5 solution candidates per chosen opportunity
 - Assumption-test plan for each candidate with success criteria
 - Living artifact (Mural, Miro, FigJam) with edit history
 

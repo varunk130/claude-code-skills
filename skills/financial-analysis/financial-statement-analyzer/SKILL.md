@@ -9,7 +9,7 @@ description: "Performs structured fundamental analysis of annual reports (Form 1
 
 ## What this skill is
 
-A structured workflow that reads the full Form 10-K and Form 10-Q stack — income statement, balance sheet, cash flow, Management's Discussion and Analysis (MD&A), footnotes, risk factors, and proxy statement — and produces a one-page summary with margin waterfalls, quality-of-earnings score, segment decomposition, and an accounting red-flag log. Designed to surface the data that the headline numbers hide.
+A structured workflow that reads the full Form 10-K and Form 10-Q stack - income statement, balance sheet, cash flow, Management's Discussion and Analysis (MD&A), footnotes, risk factors, and proxy statement - and produces a one-page summary with margin waterfalls, quality-of-earnings score, segment decomposition, and an accounting red-flag log. Designed to surface the data that the headline numbers hide.
 
 ## What it solves
 
@@ -17,7 +17,7 @@ A structured workflow that reads the full Form 10-K and Form 10-Q stack — inco
 - Margin analysis with no waterfall identifying which line item moved
 - Missed red flags hiding in footnotes, risk factors, and Cash Conversion Cycle (CCC) trends
 - Segment data taken at face value (without checking corporate-overhead allocation)
-- Skipping the year-over-year diff of risk factors — the single most under-read disclosure
+- Skipping the year-over-year diff of risk factors - the single most under-read disclosure
 
 ## When to invoke
 
@@ -30,25 +30,25 @@ A structured workflow that reads the full Form 10-K and Form 10-Q stack — inco
 ## Phase 1: Source the filings
 
 Confirm the latest:
-- Annual report (Form 10-K, or Form 20-F for foreign issuers) — most recent fiscal year
-- Quarterly report (Form 10-Q) — trailing 4 quarters
-- Current report (Form 8-K) — material events, guidance, restatements (last 12 months)
-- Proxy statement (Form DEF 14A) — executive compensation, related-party transactions, board composition
+- Annual report (Form 10-K, or Form 20-F for foreign issuers) - most recent fiscal year
+- Quarterly report (Form 10-Q) - trailing 4 quarters
+- Current report (Form 8-K) - material events, guidance, restatements (last 12 months)
+- Proxy statement (Form DEF 14A) - executive compensation, related-party transactions, board composition
 - Earnings release plus supplemental (segment data often only here)
-- Earnings call transcript — tone, question-and-answer pressure points
+- Earnings call transcript - tone, question-and-answer pressure points
 
 Log filing date and period for each. Note any restatements.
 
 ## Phase 2: Quality of revenue
 
 - Revenue recognition policy (Accounting Standards Codification (ASC) 606 adherence)
-- Performance obligation timing — ratable versus point-in-time
-- Deferred revenue trend (balance sheet liability) — should grow with bookings
-- Remaining Performance Obligation (RPO) or backlog — directional read on future revenue
+- Performance obligation timing - ratable versus point-in-time
+- Deferred revenue trend (balance sheet liability) - should grow with bookings
+- Remaining Performance Obligation (RPO) or backlog - directional read on future revenue
 - Customer concentration (top-10 percent of revenue, footnotes)
-- Geographic and segment mix — where is growth coming from?
-- Channel inventory and sell-in versus sell-through (Consumer Packaged Goods (CPG), hardware) — channel-stuffing risk
-- Non-GAAP adjustments — list each and decide if defensible
+- Geographic and segment mix - where is growth coming from?
+- Channel inventory and sell-in versus sell-through (Consumer Packaged Goods (CPG), hardware) - channel-stuffing risk
+- Non-GAAP adjustments - list each and decide if defensible
 
 Compute organic growth = reported growth − Mergers and Acquisitions (M&A) contribution − foreign exchange − accounting policy change.
 
@@ -89,13 +89,13 @@ Compare **Cash Flow from Operations (CFO) / Net income**:
 - Less than 1× across multiple periods → earnings-quality concern
 - Identify the gap (working capital, Stock-Based Compensation (SBC), deferred tax)
 
-Free Cash Flow (FCF) / Adjusted EBITDA conversion: Software as a Service (SaaS) 60–80% healthy; services 80%+.
+Free Cash Flow (FCF) / Adjusted EBITDA conversion: Software as a Service (SaaS) 60-80% healthy; services 80%+.
 
 ## Phase 5: Balance sheet and capital structure
 
 - Net debt / Adjusted EBITDA → covenant headroom, refinancing risk
 - Interest coverage = Adjusted EBITDA / interest expense
-- Maturity wall (footnotes) — concentration in next 18 months?
+- Maturity wall (footnotes) - concentration in next 18 months?
 - Off-balance-sheet items (operating leases on balance sheet under ASC 842, purchase commitments, contingent consideration)
 - Goodwill plus intangibles as percent of equity → impairment risk
 - Pension and Other Post-Employment Benefits (OPEB) underfunded status
@@ -122,7 +122,7 @@ Cross-check the auditor's report: going concern, Critical Audit Matter (CAM), or
 
 - Revenue plus operating earnings (EBIT) by segment with margins
 - Inter-segment eliminations
-- Allocation of corporate overhead — does management hide losses?
+- Allocation of corporate overhead - does management hide losses?
 - Segment capital expenditure if disclosed
 - Identify the value-driver and the value-destroyer segments
 - Sum-of-the-parts cross-check on consolidated multiples
@@ -130,15 +130,15 @@ Cross-check the auditor's report: going concern, Critical Audit Matter (CAM), or
 ## Phase 8: MD&A and risk factors
 
 - MD&A: specific versus vague year-over-year explanations
-- **Year-over-year diff of risk factors** — new risks added are the most revealing single signal in the filing
-- Critical accounting estimates — where management has the most judgment
-- Earnings call tone — hedging language, Chief Financial Officer (CFO) guidance walk
+- **Year-over-year diff of risk factors** - new risks added are the most revealing single signal in the filing
+- Critical accounting estimates - where management has the most judgment
+- Earnings call tone - hedging language, Chief Financial Officer (CFO) guidance walk
 
 ## Output
 
 - One-page executive summary: bull case, bear case, decisive data point
 - Margin and CCC waterfalls with year-over-year drivers
-- Quality-of-earnings score (1–10) with reasoning
+- Quality-of-earnings score (1-10) with reasoning
 - Red-flag log with severity and follow-up question
 - Peer comparable table: growth, gross margin, operating margin, FCF margin, Return on Invested Capital (ROIC), leverage
 - 3 questions to ask the CFO on the next earnings call
@@ -147,7 +147,7 @@ Cross-check the auditor's report: going concern, Critical Audit Matter (CAM), or
 
 **Always**
 - Reconcile non-GAAP to GAAP and judge each adjustment
-- Read footnotes — that's where the disclosures live
+- Read footnotes - that's where the disclosures live
 - Compare CFO to net income across multiple years
 - Cross-check segment data against the press release supplemental
 - Document data gaps explicitly

@@ -1,6 +1,6 @@
 ---
 name: capital-allocation-framework
-description: "Ranks competing investments using Net Present Value (NPV), Internal Rate of Return (IRR), payback period, Profitability Index (PI), and strategic option value — then produces a portfolio-level recommendation. Use when evaluating capital expenditure requests, comparing Mergers and Acquisitions (M&A) targets, sizing Research and Development (R&D) bets, prioritizing engineering investments, sun-setting initiatives, or preparing a board capital allocation memo."
+description: "Ranks competing investments using Net Present Value (NPV), Internal Rate of Return (IRR), payback period, Profitability Index (PI), and strategic option value - then produces a portfolio-level recommendation. Use when evaluating capital expenditure requests, comparing Mergers and Acquisitions (M&A) targets, sizing Research and Development (R&D) bets, prioritizing engineering investments, sun-setting initiatives, or preparing a board capital allocation memo."
 ---
 
 # Capital Allocation Framework
@@ -9,7 +9,7 @@ description: "Ranks competing investments using Net Present Value (NPV), Interna
 
 ## What this skill is
 
-An end-to-end framework that combines quantitative return metrics — Net Present Value (NPV), Internal Rate of Return (IRR), payback, Profitability Index (PI) — with strategic option value and execution risk scoring. It surfaces the efficient frontier of investments, flags portfolio-level concentration risk, and produces a one-page memo a Chief Financial Officer (CFO) or board can actually approve.
+An end-to-end framework that combines quantitative return metrics - Net Present Value (NPV), Internal Rate of Return (IRR), payback, Profitability Index (PI) - with strategic option value and execution risk scoring. It surfaces the efficient frontier of investments, flags portfolio-level concentration risk, and produces a one-page memo a Chief Financial Officer (CFO) or board can actually approve.
 
 ## What it solves
 
@@ -29,7 +29,7 @@ An end-to-end framework that combines quantitative return metrics — Net Presen
 
 ## Phase 1: Inventory the opportunity set
 
-Catalog every competing use of capital — including do-nothing, share buyback, dividend, and debt paydown:
+Catalog every competing use of capital - including do-nothing, share buyback, dividend, and debt paydown:
 
 | ID | Initiative | Sponsor | Ask ($M) | Horizon | Reversibility |
 |----|-----------|---------|---------:|---------|---------------|
@@ -39,7 +39,7 @@ Reject any submission missing sponsor, horizon, or success metric.
 
 ## Phase 2: Financial returns
 
-**Net Present Value (NPV) — primary metric:**
+**Net Present Value (NPV) - primary metric:**
 
 ```
 NPV = Σ FCFt / (1 + r)^t − initial investment
@@ -47,13 +47,13 @@ NPV = Σ FCFt / (1 + r)^t − initial investment
 
 Use the Weighted Average Cost of Capital (WACC) adjusted by project risk class (consumer versus enterprise, mature versus early-stage, geographic).
 
-**Internal Rate of Return (IRR)** — flag multiple-IRR pitfalls for projects with interim negative cash flows.
+**Internal Rate of Return (IRR)** - flag multiple-IRR pitfalls for projects with interim negative cash flows.
 
-**Payback (undiscounted and discounted)** — liquidity and execution-risk lens, not a primary ranking metric.
+**Payback (undiscounted and discounted)** - liquidity and execution-risk lens, not a primary ranking metric.
 
-**Profitability Index (PI)** — use this, not NPV, when capital is rationed (ranks correctly per dollar invested).
+**Profitability Index (PI)** - use this, not NPV, when capital is rationed (ranks correctly per dollar invested).
 
-**Equivalent Annual Annuity (EAA)** — required when comparing projects with different lifespans:
+**Equivalent Annual Annuity (EAA)** - required when comparing projects with different lifespans:
 
 ```
 EAA = NPV × r / (1 − (1 + r)^−n)
@@ -85,7 +85,7 @@ Decision rule: if the P10 NPV is negative, the project requires an explicit down
 
 ## Phase 5: Execution risk scoring
 
-Score each project 1–5 on each dimension:
+Score each project 1-5 on each dimension:
 
 | Dimension | Weight |
 |-----------|-------:|
@@ -109,7 +109,7 @@ Rank opportunities and plot the efficient frontier:
 
 Draw cumulative capital versus cumulative NPV. The kink is the optimal capital envelope. Cross-check for:
 - Concentration risk (any bet > 25% of total ask?)
-- Time-bucket balance (under 2 years / 2–5 years / 5+ years)
+- Time-bucket balance (under 2 years / 2-5 years / 5+ years)
 - Capability cluster (stacking too many bets on one team?)
 - Strategic theme balance (aligned with the 3 stated priorities?)
 
@@ -117,7 +117,7 @@ Draw cumulative capital versus cumulative NPV. The kink is the optimal capital e
 
 - Ranked initiative table with NPV, PI, risk-adjusted value, and option value
 - Efficient-frontier chart with recommended capital envelope
-- One-page memo: what's funded, what's deferred, what's killed — and why
+- One-page memo: what's funded, what's deferred, what's killed - and why
 - Capital flex scenarios (+20% / −20%) with what changes
 - Stage-gate triggers for the top 3 bets
 - Pre-mortem for each top-3 initiative

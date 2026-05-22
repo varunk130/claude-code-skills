@@ -16,8 +16,8 @@ Executives, founders, PMs, dealmakers, procurement leads, and strategists making
 
 ## Design principles
 
-- **Formalize before solving** — players, actions, information, payoffs explicit
-- **Match the equilibrium concept to the situation** — one-shot vs. repeated, complete vs. incomplete information
-- **Predict the response, then the response to the response** — terminal equilibria matter, not round-zero
-- **Stress-test for noise and gaming** — every recommendation includes robustness checks
-- **Translate theory into action** — each output ends in a concrete move
+- **Formalize before solving** - players, actions, information, payoffs explicit
+- **Match the equilibrium concept to the situation** - one-shot vs. repeated, complete vs. incomplete information
+- **Predict the response, then the response to the response** - terminal equilibria matter, not round-zero
+- **Stress-test for noise and gaming** - every recommendation includes robustness checks
+- **Translate theory into action** - each output ends in a concrete move

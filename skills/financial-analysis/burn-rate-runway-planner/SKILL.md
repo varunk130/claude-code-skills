@@ -5,7 +5,7 @@ description: "Models cash burn, runway, and scenario-based cash flow with explic
 
 # Burn Rate and Runway Planner
 
-> Turns the operating plan into an honest cash narrative — with decision triggers, not just a runway number.
+> Turns the operating plan into an honest cash narrative - with decision triggers, not just a runway number.
 
 ## What this skill is
 
@@ -31,7 +31,7 @@ A startup Chief Financial Officer (CFO) instrument that decomposes burn, builds 
 
 - Cash plus equivalents as of date
 - Available debt capacity (undrawn lines, available Simple Agreement for Future Equity (SAFE) notes or convertible notes)
-- Restricted cash — exclude from runway math
+- Restricted cash - exclude from runway math
 - Net Accounts Receivable (AR) plus Accounts Payable (AP) position (working capital)
 
 Define:
@@ -61,7 +61,7 @@ Flag any line growing more than 10% month-over-month and the top 3 categories.
 
 Apply the Paul Graham framing:
 - **Default alive**: at current growth, will revenue exceed expenses before cash runs out?
-- **Default dead**: it won't — fundraise or cost cuts required
+- **Default dead**: it won't - fundraise or cost cuts required
 
 Compute:
 - Revenue month-over-month growth (trailing 6 months, trimmed mean)
@@ -74,9 +74,9 @@ Present the default-alive curve: cash balance over time at current growth.
 
 Always build three scenarios:
 
-**Base** — current plan, current sales productivity, current churn
-**Conservative** — hiring frozen, sales productivity −20%, churn +25%, no new round
-**Stretch** — hiring +30%, sales productivity +15%, new round closes in 4 months
+**Base** - current plan, current sales productivity, current churn
+**Conservative** - hiring frozen, sales productivity −20%, churn +25%, no new round
+**Stretch** - hiring +30%, sales productivity +15%, new round closes in 4 months
 
 Build the levers table:
 
@@ -89,7 +89,7 @@ Build the levers table:
 | Negotiate vendor deferral | +$X | +Y months | One-time benefit |
 | Draw on credit line | +$X | +Y months | Adds interest |
 
-Stack levers by **return per unit of strategic damage** — layoffs are rarely the first move if other levers exist.
+Stack levers by **return per unit of strategic damage** - layoffs are rarely the first move if other levers exist.
 
 ## Phase 5: 13-week rolling forecast
 
@@ -107,9 +107,9 @@ Flag any week where ending cash is less than 30 days of operating expense.
 | Runway remaining | Action |
 |------------------|--------|
 | 18+ months | No pressure; focus on growth metrics |
-| 12–18 months | Prepare data room; soft conversations with existing investors |
-| 9–12 months | Active fundraise process |
-| 6–9 months | Bridge round or extension; activate cost cuts |
+| 12-18 months | Prepare data room; soft conversations with existing investors |
+| 9-12 months | Active fundraise process |
+| 6-9 months | Bridge round or extension; activate cost cuts |
 | Less than 6 months | Survival mode; aggressive cuts; strategic alternatives |
 
 Tie each trigger to a calendar date based on current burn.
@@ -122,7 +122,7 @@ Tie each trigger to a calendar date based on current burn.
 - Recommended levers in priority order with dollar and strategic-cost impact
 - Fundraise calendar with trigger dates
 - 13-week tactical forecast with liquidity warnings flagged
-- 3–5 leading indicators that would shift the plan
+- 3-5 leading indicators that would shift the plan
 
 ## Operating rules
 
