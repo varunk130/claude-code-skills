@@ -19,8 +19,8 @@ Product managers, product leaders, designers, engineering managers, and product 
 
 ## Design principles
 
-- **Outcomes over outputs** — every artifact ties to a measurable customer behavior
-- **Evidence-anchored** — opportunities and decisions cite the customer signal that produced them
-- **Multi-framework** — at least two lenses before committing to a strategic call
-- **Trio-friendly** — outputs are usable by PM, design, and engineering together
-- **Continuous, not project-based** — designed to live and update weekly
+- **Outcomes over outputs** - every artifact ties to a measurable customer behavior
+- **Evidence-anchored** - opportunities and decisions cite the customer signal that produced them
+- **Multi-framework** - at least two lenses before committing to a strategic call
+- **Trio-friendly** - outputs are usable by PM, design, and engineering together
+- **Continuous, not project-based** - designed to live and update weekly

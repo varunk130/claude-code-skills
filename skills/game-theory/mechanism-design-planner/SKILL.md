@@ -1,6 +1,6 @@
 ---
 name: mechanism-design-planner
-description: "Designs auctions, matching mechanisms, pricing schemes, and incentive structures using mechanism-design principles — Incentive Compatibility (IC), Individual Rationality (IR), revenue equivalence, and budget balance. Use when designing a marketplace pricing model, a referral program, an internal resource allocation, a Request for Proposal (RFP) or procurement process, an auction format, or any allocation rule where participants act strategically."
+description: "Designs auctions, matching mechanisms, pricing schemes, and incentive structures using mechanism-design principles - Incentive Compatibility (IC), Individual Rationality (IR), revenue equivalence, and budget balance. Use when designing a marketplace pricing model, a referral program, an internal resource allocation, a Request for Proposal (RFP) or procurement process, an auction format, or any allocation rule where participants act strategically."
 ---
 
 # Mechanism Design Planner
@@ -30,14 +30,14 @@ A workflow that frames an allocation problem as a mechanism-design problem, surf
 
 ## Phase 1: State the problem formally
 
-- **Participants** — buyers, sellers, candidates, applicants
-- **Private information** — what does each participant know that others (and the designer) don't?
-- **Allocation outcome** — what is being allocated and to whom?
-- **Transfers** — what payments or rewards move between parties?
-- **Designer's objective** — efficiency, revenue, fairness, participation, simplicity (pick 1–2 primary)
-- **Constraints** — budget, legal, computational, fairness
+- **Participants** - buyers, sellers, candidates, applicants
+- **Private information** - what does each participant know that others (and the designer) don't?
+- **Allocation outcome** - what is being allocated and to whom?
+- **Transfers** - what payments or rewards move between parties?
+- **Designer's objective** - efficiency, revenue, fairness, participation, simplicity (pick 1-2 primary)
+- **Constraints** - budget, legal, computational, fairness
 
-Without explicit private information, mechanism design doesn't apply — it's just an allocation rule.
+Without explicit private information, mechanism design doesn't apply - it's just an allocation rule.
 
 ## Phase 2: Specify desired properties
 
@@ -75,7 +75,7 @@ Pick the mechanism whose properties match your objectives.
 
 The Revenue Equivalence Theorem: under standard assumptions (risk-neutral bidders, Independent Private Values (IPV), symmetric, no reserve), all efficient single-item auctions yield the same expected revenue to the seller.
 
-Implication: format choice is often **not** about expected revenue — it's about variance, transparency, complexity, IC, and resistance to collusion.
+Implication: format choice is often **not** about expected revenue - it's about variance, transparency, complexity, IC, and resistance to collusion.
 
 Compute under the chosen mechanism:
 - Expected efficiency (probability the highest-value participant wins)
@@ -85,23 +85,23 @@ Compute under the chosen mechanism:
 
 ## Phase 5: Reserve prices, fees, and quotas
 
-- **Reserve price** — minimum price; trades efficiency for revenue (excludes low-value buyers)
+- **Reserve price** - minimum price; trades efficiency for revenue (excludes low-value buyers)
   - The Myerson optimal reserve: where marginal revenue equals zero; depends on value distribution
-- **Entry fee** — screens out low-value participants; can reduce participation
-- **Quotas or caps** — limit allocation per participant; useful in matching to prevent monopolization
-- **Subsidies** — encourage participation on the thin side of the market
+- **Entry fee** - screens out low-value participants; can reduce participation
+- **Quotas or caps** - limit allocation per participant; useful in matching to prevent monopolization
+- **Subsidies** - encourage participation on the thin side of the market
 
 Each lever has efficiency, revenue, and participation trade-offs. Quantify each.
 
 ## Phase 6: Collusion and gaming resistance
 
 Stress-test the mechanism:
-- **Bid rotation** — bidders take turns winning
-- **Sham bidding** — phantom bidders inflating second-price auctions
-- **Coordination via signaling** — early bids signaling intentions (open auctions susceptible)
-- **Sniping** — last-second bids in soft-close auctions
-- **Misreporting** — overstating need to get a larger allocation
-- **Reverse-engineering scores** — gaming a scoring formula
+- **Bid rotation** - bidders take turns winning
+- **Sham bidding** - phantom bidders inflating second-price auctions
+- **Coordination via signaling** - early bids signaling intentions (open auctions susceptible)
+- **Sniping** - last-second bids in soft-close auctions
+- **Misreporting** - overstating need to get a larger allocation
+- **Reverse-engineering scores** - gaming a scoring formula
 
 Design defenses:
 - Hard close versus soft close
@@ -135,7 +135,7 @@ For any non-trivial mechanism, simulate:
 
 **Always**
 - State the private information explicitly
-- Choose 1–2 primary objectives (efficiency, revenue, fairness, simplicity)
+- Choose 1-2 primary objectives (efficiency, revenue, fairness, simplicity)
 - Pick a mechanism whose properties match the objectives
 - Stress-test against collusion and gaming
 - Simulate before launch

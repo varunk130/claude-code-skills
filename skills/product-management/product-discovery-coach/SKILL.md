@@ -29,7 +29,7 @@ A coaching workflow that diagnoses where a product team is in its discovery matu
 
 ## Phase 1: Diagnose discovery maturity
 
-Score the team 1–5 on each:
+Score the team 1-5 on each:
 
 | Practice | 1 | 5 |
 |----------|---|---|
@@ -40,15 +40,15 @@ Score the team 1–5 on each:
 | Opportunity Solution Tree (OST) | None | Living, updated weekly |
 | Discovery / delivery cadence | Sequential | Dual-track parallel |
 
-Identify the **single weakest dimension** — that is the focus for the next 90 days.
+Identify the **single weakest dimension** - that is the focus for the next 90 days.
 
 ## Phase 2: Install the weekly trio cadence
 
 The trio (product manager plus designer plus tech lead) meets weekly for **90 minutes**:
-- **15 minutes** — outcome status (metric trend, leading indicators)
-- **30 minutes** — review interviews from last week, update opportunities
-- **30 minutes** — assumption tests in flight; design next test
-- **15 minutes** — story map updates and next-week commitments
+- **15 minutes** - outcome status (metric trend, leading indicators)
+- **30 minutes** - review interviews from last week, update opportunities
+- **30 minutes** - assumption tests in flight; design next test
+- **15 minutes** - story map updates and next-week commitments
 
 No status updates. No backlog grooming. This is the discovery operating ritual.
 

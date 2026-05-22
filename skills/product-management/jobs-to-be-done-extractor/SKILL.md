@@ -1,6 +1,6 @@
 ---
 name: jobs-to-be-done-extractor
-description: "Extracts Jobs-to-be-Done (JTBD) statements (functional, emotional, social) from raw research — interviews, surveys, support tickets, sales calls — and produces a job map with progress measures and outcome statements. Use when reframing a product around customer outcomes, segmenting beyond demographics, building a competitive switching analysis, prioritizing features, or aligning product, marketing, and sales on the same job."
+description: "Extracts Jobs-to-be-Done (JTBD) statements (functional, emotional, social) from raw research - interviews, surveys, support tickets, sales calls - and produces a job map with progress measures and outcome statements. Use when reframing a product around customer outcomes, segmenting beyond demographics, building a competitive switching analysis, prioritizing features, or aligning product, marketing, and sales on the same job."
 ---
 
 # Jobs-to-be-Done Extractor
@@ -46,11 +46,11 @@ For each customer signal, write a job statement using the canonical form:
 > When [situation], I want to [motivation], so I can [expected outcome].
 
 Categorize each into:
-- **Functional** — the practical task being accomplished
-- **Emotional** — how the customer wants to feel
-- **Social** — how they want to be perceived
+- **Functional** - the practical task being accomplished
+- **Emotional** - how the customer wants to feel
+- **Social** - how they want to be perceived
 
-Most products serve a primary functional job plus 1–2 emotional or social jobs. Identify the **main job** versus **related jobs** versus **little hires**.
+Most products serve a primary functional job plus 1-2 emotional or social jobs. Identify the **main job** versus **related jobs** versus **little hires**.
 
 ## Phase 3: Build the job map
 
@@ -77,9 +77,9 @@ Convert each desired outcome into a measurable statement:
 
 Example: *Minimize the time it takes to verify the report matches the source data.*
 
-Score each outcome on 1–10:
-- **Importance** — how critical to the customer
-- **Satisfaction** — how well current solutions deliver
+Score each outcome on 1-10:
+- **Importance** - how critical to the customer
+- **Satisfaction** - how well current solutions deliver
 
 Plot on the Opportunity Score matrix:
 
@@ -111,12 +111,12 @@ For each segment, identify:
 
 ## Output
 
-- 5–12 prioritized job statements (functional plus emotional plus social)
+- 5-12 prioritized job statements (functional plus emotional plus social)
 - Job map with 8 stages and desired outcomes per stage
 - Opportunity Score matrix flagging underserved and overserved outcomes
 - Forces of progress diagram for top switching scenarios
 - Hire / fire analysis per segment
-- 3–5 messaging seeds for marketing and sales
+- 3-5 messaging seeds for marketing and sales
 
 ## Operating rules
 
@@ -129,7 +129,7 @@ For each segment, identify:
 
 **Never**
 - Mix demographic personas with JTBD segments
-- Skip the "when" situation — it's where the job lives
+- Skip the "when" situation - it's where the job lives
 - Reduce a job to a feature request
 - Anchor on the first interview (verify across multiple sources)
 - Confuse the customer's words with their job

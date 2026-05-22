@@ -37,15 +37,15 @@ For each interview, log:
 - Whether incentives were offered
 - Whether the participant is current, former, or prospective customer
 
-Minimum saturation guideline: 5–8 interviews per segment for generative discovery; more for major decisions.
+Minimum saturation guideline: 5-8 interviews per segment for generative discovery; more for major decisions.
 
 ## Phase 2: Code the utterances
 
-Read each transcript line by line. Tag passages with **codes** — short labels for the topic discussed.
+Read each transcript line by line. Tag passages with **codes** - short labels for the topic discussed.
 
 Two-pass approach:
-1. **Open coding** — generate codes inductively from the data
-2. **Axial coding** — group related codes into categories
+1. **Open coding** - generate codes inductively from the data
+2. **Axial coding** - group related codes into categories
 
 Each code must include:
 - A verbatim quote from the transcript
@@ -60,7 +60,7 @@ Group codes into themes. For each theme:
 - Theme title in the customer's voice
 - Definition
 - Number of participants who mentioned it (saturation count)
-- 3–5 representative verbatim quotes
+- 3-5 representative verbatim quotes
 - Segments where the theme is strongest
 - Disconfirming evidence (interviews where the theme didn't appear)
 
@@ -104,8 +104,8 @@ Each hypothesis links back to:
 ## Phase 7: Separate observation from interpretation
 
 The synthesis output has two tiers, clearly labeled:
-- **What we heard** (verbatim, quoted, sourced) — high confidence
-- **What it might mean** (analyst interpretation) — explicitly labeled as inference
+- **What we heard** (verbatim, quoted, sourced) - high confidence
+- **What it might mean** (analyst interpretation) - explicitly labeled as inference
 
 Never blur the line. Stakeholders will treat them as the same unless you separate them.
 

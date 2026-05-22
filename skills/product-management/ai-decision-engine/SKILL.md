@@ -3,7 +3,7 @@ name: ai-decision-engine
 description: "Strategic product decision engine that reads ALL available project context (PRDs, research docs, metrics, competitive intel, roadmaps, CLAUDE.md) and provides holistic, multi-dimensional strategic recommendations. Use when making product prioritization decisions, quarterly planning, evaluating build/ship/kill tradeoffs, resolving conflicting stakeholder input, determining what to build next, or any strategic question requiring synthesis across multiple information sources."
 ---
 
-# PM Decision Engine — Strategic Context Synthesizer
+# PM Decision Engine - Strategic Context Synthesizer
 
 This skill is a strategic reasoning system. It reads ALL available project context, applies multiple frameworks simultaneously, looks for convergence, and produces a recommendation with explicit reasoning chains.
 
@@ -63,15 +63,15 @@ For top 2-3 options:
 
 ### Framework 4: Pre-Mortem
 "It's 6 months from now and this FAILED. What happened?"
-- Failure scenario 1: [specific] — Probability: [%] — Early warning: [signal]
-- Failure scenario 2: [specific] — Probability: [%] — Early warning: [signal]
-- Failure scenario 3: [specific] — Probability: [%] — Early warning: [signal]
+- Failure scenario 1: [specific] - Probability: [%] - Early warning: [signal]
+- Failure scenario 2: [specific] - Probability: [%] - Early warning: [signal]
+- Failure scenario 3: [specific] - Probability: [%] - Early warning: [signal]
 
 ## PHASE 4: Synthesis & Recommendation
 
-**TL;DR:** One sentence — what to do and why
+**TL;DR:** One sentence - what to do and why
 
-**Confidence level:** High / Medium / Low — because [reason]
+**Confidence level:** High / Medium / Low - because [reason]
 
 **Framework convergence:**
 - What each framework says

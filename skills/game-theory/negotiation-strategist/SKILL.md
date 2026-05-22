@@ -17,7 +17,7 @@ A pre-negotiation workflow that codifies your interests, your Best Alternative t
 - Single-issue bargaining when multi-issue trades create value
 - Anchoring badly (or being anchored) because the open wasn't prepared
 - Conceding without getting something in return
-- Confusing positions with interests — and missing the integrative deal
+- Confusing positions with interests - and missing the integrative deal
 
 ## When to invoke
 
@@ -31,9 +31,9 @@ A pre-negotiation workflow that codifies your interests, your Best Alternative t
 ## Phase 1: Identify interests, not just positions
 
 For each side, list:
-- **Stated positions** — what they say they want (e.g., "$50 per seat per month")
-- **Underlying interests** — why they want it (e.g., "hit Q4 budget; show win to Chief Financial Officer (CFO); reduce vendor sprawl")
-- **Constraints** — what they cannot do (regulatory, internal policy, signed precedent)
+- **Stated positions** - what they say they want (e.g., "$50 per seat per month")
+- **Underlying interests** - why they want it (e.g., "hit Q4 budget; show win to Chief Financial Officer (CFO); reduce vendor sprawl")
+- **Constraints** - what they cannot do (regulatory, internal policy, signed precedent)
 
 Interests outnumber positions and overlap more than positions do. The negotiation moves when you find an interest-level alignment.
 
@@ -42,11 +42,11 @@ Interests outnumber positions and overlap more than positions do. The negotiatio
 **Best Alternative to a Negotiated Agreement (BATNA)** is your fallback if this deal falls through:
 - List actual alternatives, not hypothetical ones
 - Quantify each (revenue, cost, time)
-- Pick the best — that's your BATNA
+- Pick the best - that's your BATNA
 
 **Reservation price** is the worst deal you'd still accept (one notch better than BATNA). Below this, you walk.
 
-Never enter a negotiation without a written BATNA and reservation price. Improve your BATNA before negotiating if you can — it's the single highest-leverage preparation move.
+Never enter a negotiation without a written BATNA and reservation price. Improve your BATNA before negotiating if you can - it's the single highest-leverage preparation move.
 
 ## Phase 3: Estimate the counterparty's BATNA and reservation
 
@@ -55,7 +55,7 @@ Use whatever you have:
 - Internal signals (urgency, end-of-quarter pressure, regulatory timelines)
 - Past behavior (have they walked before? at what level?)
 
-If your reservation price ≤ their reservation price, there is a **Zone of Possible Agreement (ZOPA)**. Negotiation happens inside it. If no ZOPA, the deal isn't viable — change the issues.
+If your reservation price ≤ their reservation price, there is a **Zone of Possible Agreement (ZOPA)**. Negotiation happens inside it. If no ZOPA, the deal isn't viable - change the issues.
 
 ## Phase 4: Expand to multi-issue trades
 
@@ -66,8 +66,8 @@ For each side, list all issues and rank by importance (1 = most, n = least):
 | Issue | Your priority | Counterparty's priority | Trade potential |
 |-------|--------------:|------------------------:|-----------------|
 | Price | 1 | 1 | Distributive |
-| Payment terms | 5 | 2 | High — they care more |
-| Contract length | 2 | 5 | High — you care more |
+| Payment terms | 5 | 2 | High - they care more |
+| Contract length | 2 | 5 | High - you care more |
 | Exclusivity | 3 | 4 | Modest |
 | Service Level Agreement (SLA) | 4 | 3 | Modest |
 
@@ -76,35 +76,35 @@ The high-trade-potential issues are where value is created. Concede on what they
 ## Phase 5: Anchoring and opening move
 
 The opener defines the range. Anchoring rules:
-- Open **ambitious but justifiable** — well outside the midpoint, with a rationale (precedent, comparables, internal cost)
-- The rationale matters more than the number — "industry comparables say $X"
-- If they open first, **don't counter-anchor immediately** — ask for the rationale, then reframe
+- Open **ambitious but justifiable** - well outside the midpoint, with a rationale (precedent, comparables, internal cost)
+- The rationale matters more than the number - "industry comparables say $X"
+- If they open first, **don't counter-anchor immediately** - ask for the rationale, then reframe
 
 Decide: do you go first, or wait? Go first if you have better information about ZOPA. Wait if you don't.
 
 ## Phase 6: Concession plan
 
 Plan concessions before the meeting. Rules:
-- Make smaller concessions over time, not larger ones — signals you're approaching your reservation
-- Never concede unilaterally — every concession asks for one back
+- Make smaller concessions over time, not larger ones - signals you're approaching your reservation
+- Never concede unilaterally - every concession asks for one back
 - Use **conditional concessions**: "If you can do X, I can do Y"
-- Bundle, don't unbundle — concede multiple low-priority items together
+- Bundle, don't unbundle - concede multiple low-priority items together
 
 | Round | Your move | Counter-ask | Walk-away trigger |
 |-------|-----------|-------------|--------------------|
-| 1 | Open at $X, 36 months, SLA Y | — | They counter below $W |
+| 1 | Open at $X, 36 months, SLA Y | - | They counter below $W |
 | 2 | $X-10, 36 months, SLA Y | Add Z | Below reservation |
 | 3 | $X-15, 24 months, SLA Y | Approval timing | etc. |
 
 ## Phase 7: Tactical playbook
 
-Common tactics — know them, plan for them:
-- **Good cop / bad cop** — name it to neutralize
-- **Higher authority** — "I need to check with my boss" delays; counter by asking for the decision-maker
-- **Deadline pressure** — verify the deadline is real; if artificial, ignore
-- **Take-it-or-leave-it** — call the bluff if BATNA supports it
-- **Nibble** — small late asks; refuse all nibbles or reopen the package
-- **Silence** — let the silence sit; the next speaker often concedes
+Common tactics - know them, plan for them:
+- **Good cop / bad cop** - name it to neutralize
+- **Higher authority** - "I need to check with my boss" delays; counter by asking for the decision-maker
+- **Deadline pressure** - verify the deadline is real; if artificial, ignore
+- **Take-it-or-leave-it** - call the bluff if BATNA supports it
+- **Nibble** - small late asks; refuse all nibbles or reopen the package
+- **Silence** - let the silence sit; the next speaker often concedes
 
 ## Phase 8: Simulate the counterparty
 
@@ -123,7 +123,7 @@ Pre-game with a colleague playing the counterparty. Specifically:
 - Anchoring plan with justified opener
 - Concession schedule with conditional asks
 - Tactical playbook with anticipated tactics named
-- Walk-away triggers — explicit
+- Walk-away triggers - explicit
 - Post-negotiation review template
 
 ## Operating rules

@@ -20,8 +20,8 @@ Chief Executive Officers (CEOs), strategy leads, founders, general managers, pro
 
 ## Design principles
 
-- **Structure over speculation** — frameworks make the reasoning visible
-- **Pair internal with external** — capabilities and trends analyzed together
-- **Multi-horizon** — today's positioning plus 3-year trajectory
-- **Action over description** — every analysis ends in moves with owners
-- **Defensible under pushback** — every claim cites evidence
+- **Structure over speculation** - frameworks make the reasoning visible
+- **Pair internal with external** - capabilities and trends analyzed together
+- **Multi-horizon** - today's positioning plus 3-year trajectory
+- **Action over description** - every analysis ends in moves with owners
+- **Defensible under pushback** - every claim cites evidence

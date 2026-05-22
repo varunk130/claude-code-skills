@@ -1,6 +1,6 @@
 ---
 name: repeated-game-strategist
-description: "Analyzes repeated-game interactions — competitor dynamics, partner trust, supplier-buyer relationships — using the folk theorem, tit-for-tat (TFT), grim trigger, discount-factor analysis, and reputation effects to recommend a sustainable strategy. Use when designing a long-running competitive posture, structuring a multi-period partnership, deciding whether to retaliate against a defection, building a vendor relationship strategy, or planning repeated-bid procurement."
+description: "Analyzes repeated-game interactions - competitor dynamics, partner trust, supplier-buyer relationships - using the folk theorem, tit-for-tat (TFT), grim trigger, discount-factor analysis, and reputation effects to recommend a sustainable strategy. Use when designing a long-running competitive posture, structuring a multi-period partnership, deciding whether to retaliate against a defection, building a vendor relationship strategy, or planning repeated-bid procurement."
 ---
 
 # Repeated Game Strategist
@@ -9,7 +9,7 @@ description: "Analyzes repeated-game interactions — competitor dynamics, partn
 
 ## What this skill is
 
-A workflow for analyzing repeated interactions (competitors, partners, suppliers, customers, internal teams) where the same parties meet again and again. Applies the folk theorem, computes the critical discount factor for cooperation to be sustainable, evaluates classic strategies — Tit-for-Tat (TFT), grim trigger, generous TFT, and win-stay-lose-shift (Pavlov) — and recommends a policy with explicit triggers for retaliation, forgiveness, and reset.
+A workflow for analyzing repeated interactions (competitors, partners, suppliers, customers, internal teams) where the same parties meet again and again. Applies the folk theorem, computes the critical discount factor for cooperation to be sustainable, evaluates classic strategies - Tit-for-Tat (TFT), grim trigger, generous TFT, and win-stay-lose-shift (Pavlov) - and recommends a policy with explicit triggers for retaliation, forgiveness, and reset.
 
 ## What it solves
 
@@ -30,24 +30,24 @@ A workflow for analyzing repeated interactions (competitors, partners, suppliers
 
 ## Phase 1: Specify the repeated interaction
 
-- **Players** — typically 2; multi-player is harder to coordinate
-- **Stage game** — payoff matrix for one round
-- **Time horizon** — finite (and known? unknown?) or infinite
-- **Frequency** — how often does the game repeat?
-- **Discount factor δ** — how much do future payoffs count?
+- **Players** - typically 2; multi-player is harder to coordinate
+- **Stage game** - payoff matrix for one round
+- **Time horizon** - finite (and known? unknown?) or infinite
+- **Frequency** - how often does the game repeat?
+- **Discount factor δ** - how much do future payoffs count?
   δ ≈ 1 / (1 + discount rate per period)
-- **Observability** — can each player perfectly observe the other's action? With what lag?
-- **Noise** — can actions or outcomes be misinterpreted?
+- **Observability** - can each player perfectly observe the other's action? With what lag?
+- **Noise** - can actions or outcomes be misinterpreted?
 
 If the stage game is not a true social dilemma (cooperation Pareto-dominates one-shot Nash equilibrium), repeated-game analysis adds little.
 
 ## Phase 2: Identify the cooperation gain
 
 Compute payoffs in each state:
-- (C, C) — both cooperate
-- (D, D) — both defect (one-shot Nash equilibrium)
-- (C, D) — you cooperate, they defect (sucker payoff)
-- (D, C) — you defect, they cooperate (temptation payoff)
+- (C, C) - both cooperate
+- (D, D) - both defect (one-shot Nash equilibrium)
+- (C, D) - you cooperate, they defect (sucker payoff)
+- (D, C) - you defect, they cooperate (temptation payoff)
 
 Standard Prisoner's Dilemma (PD) ranking: T > R > P > S, where R = mutual cooperation, T = temptation, P = mutual punishment, S = sucker.
 
@@ -93,11 +93,11 @@ Decision guide:
 
 ## Phase 5: Reputation effects (incomplete information)
 
-In a finite-horizon game, cooperation unravels via backward induction — unless players have private information about their type.
+In a finite-horizon game, cooperation unravels via backward induction - unless players have private information about their type.
 
 The Kreps-Milgrom-Roberts-Wilson reputation effect: if there's a small probability you're a "crazy" TFT type, even a rational opponent will cooperate for most of the finite horizon.
 
-Implication: invest in **reputation** — observable history of cooperation, slow forgiveness, transparent retaliation — to make the "crazy type" prior credible.
+Implication: invest in **reputation** - observable history of cooperation, slow forgiveness, transparent retaliation - to make the "crazy type" prior credible.
 
 ## Phase 6: Retaliation policy
 
@@ -110,7 +110,7 @@ Define when to retaliate, how hard, for how long, and when to reset:
 | Severity | How proportionate? | Tit-for-tat scale |
 | Duration | How long? | Just long enough to restore deterrence |
 | Forgiveness | When do we return to cooperation? | After observable peace gesture |
-| Public posture | Do we announce retaliation? | Yes — improves deterrence |
+| Public posture | Do we announce retaliation? | Yes - improves deterrence |
 | Asymmetric cost | What's the cost to you of retaliating? | Don't escalate beyond your sustainable cost |
 
 ## Phase 7: Multi-player extensions

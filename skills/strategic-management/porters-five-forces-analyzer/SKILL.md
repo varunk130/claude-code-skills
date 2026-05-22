@@ -9,7 +9,7 @@ description: "Performs a rigorous Porter's Five Forces analysis: industry struct
 
 ## What this skill is
 
-A workflow that applies the Five Forces framework developed by Michael Porter with quantitative pressure scoring (1–5 per force) and the structural drivers behind each score. It surfaces the dominant force, identifies where the company can move the structure in its favor, and produces a positioning recommendation that goes beyond "the industry is attractive or unattractive."
+A workflow that applies the Five Forces framework developed by Michael Porter with quantitative pressure scoring (1-5 per force) and the structural drivers behind each score. It surfaces the dominant force, identifies where the company can move the structure in its favor, and produces a positioning recommendation that goes beyond "the industry is attractive or unattractive."
 
 ## What it solves
 
@@ -29,15 +29,15 @@ A workflow that applies the Five Forces framework developed by Michael Porter wi
 
 ## Phase 1: Define the industry boundary
 
-Industries are not obvious — and a bad boundary choice invalidates the analysis. Decide:
-- **Product or service scope** — what's in, what's out (e.g., "Business-to-Business (B2B) fleet telematics" vs. "vehicle hardware")
-- **Geography** — global, regional, country-specific
-- **Customer segment** — enterprise versus small and medium business; consumer versus industrial
-- **Value chain stage** — manufacturer, distributor, retailer, service provider
+Industries are not obvious - and a bad boundary choice invalidates the analysis. Decide:
+- **Product or service scope** - what's in, what's out (e.g., "Business-to-Business (B2B) fleet telematics" vs. "vehicle hardware")
+- **Geography** - global, regional, country-specific
+- **Customer segment** - enterprise versus small and medium business; consumer versus industrial
+- **Value chain stage** - manufacturer, distributor, retailer, service provider
 
 Different boundaries can produce different forces. Document the choice explicitly.
 
-## Phase 2: Force 1 — Supplier power
+## Phase 2: Force 1 - Supplier power
 
 Score 1 (weak) to 5 (strong) and explain drivers:
 
@@ -52,7 +52,7 @@ Score 1 (weak) to 5 (strong) and explain drivers:
 
 Cite specific suppliers when known (e.g., Taiwan Semiconductor Manufacturing Company (TSMC) for advanced silicon).
 
-## Phase 3: Force 2 — Buyer power
+## Phase 3: Force 2 - Buyer power
 
 | Driver | Pushes power UP | Pushes power DOWN |
 |--------|-----------------|-------------------|
@@ -63,9 +63,9 @@ Cite specific suppliers when known (e.g., Taiwan Semiconductor Manufacturing Com
 | Product differentiation | Commoditized | Highly differentiated |
 | Buyer information | Full price transparency | Asymmetric |
 
-Sub-segment buyers — enterprise behaves differently from small and medium business.
+Sub-segment buyers - enterprise behaves differently from small and medium business.
 
-## Phase 4: Force 3 — Threat of new entrants
+## Phase 4: Force 3 - Threat of new entrants
 
 | Barrier | High barrier | Low barrier |
 |---------|--------------|-------------|
@@ -81,9 +81,9 @@ Sub-segment buyers — enterprise behaves differently from small and medium busi
 
 Score the **net entry barrier** 1 (low → high entry threat) to 5 (high → low threat).
 
-## Phase 5: Force 4 — Threat of substitutes
+## Phase 5: Force 4 - Threat of substitutes
 
-Substitutes are alternative solutions to the same customer job — not direct competitors. Examples:
+Substitutes are alternative solutions to the same customer job - not direct competitors. Examples:
 - Video conferencing → in-person meetings, asynchronous video, written documents
 - Ride-sharing → public transit, walking, owning a car, working from home
 
@@ -93,9 +93,9 @@ Substitutes are alternative solutions to the same customer job — not direct co
 | Buyer propensity to substitute | High | Low (entrenched habits) |
 | Cost of switching to substitute | Low | High |
 
-Map the **performance trajectory** of substitutes over the next 3–5 years.
+Map the **performance trajectory** of substitutes over the next 3-5 years.
 
-## Phase 6: Force 5 — Rivalry intensity
+## Phase 6: Force 5 - Rivalry intensity
 
 | Driver | Higher rivalry | Lower rivalry |
 |--------|---------------|---------------|
@@ -108,7 +108,7 @@ Map the **performance trajectory** of substitutes over the next 3–5 years.
 
 ## Phase 7: Aggregate and dominant force
 
-| Force | Score (1–5) | Dominant drivers | Trajectory (3 years) |
+| Force | Score (1-5) | Dominant drivers | Trajectory (3 years) |
 |-------|------------:|------------------|----------------------|
 | Supplier power | x | | ↑↓→ |
 | Buyer power | x | | ↑↓→ |
@@ -117,9 +117,9 @@ Map the **performance trajectory** of substitutes over the next 3–5 years.
 | Rivalry | x | | ↑↓→ |
 
 Identify:
-- **Dominant force** — the one most depressing industry profitability
-- **Industry attractiveness** — sum scores; under 12 attractive, 12–18 moderate, over 18 difficult
-- **Direction of travel** — net force pressure trajectory
+- **Dominant force** - the one most depressing industry profitability
+- **Industry attractiveness** - sum scores; under 12 attractive, 12-18 moderate, over 18 difficult
+- **Direction of travel** - net force pressure trajectory
 
 ## Phase 8: Strategic implications
 
@@ -146,7 +146,7 @@ The point of the Five Forces is not just "what's the industry like?" but **what 
 
 **Always**
 - State the industry boundary explicitly
-- Score each force on a 1–5 scale with drivers cited
+- Score each force on a 1-5 scale with drivers cited
 - Identify the dominant force, not a generic "competition"
 - Project a 3-year trajectory per force
 - Translate analysis into specific strategic moves

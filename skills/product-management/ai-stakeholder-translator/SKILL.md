@@ -3,9 +3,9 @@ name: ai-stakeholder-translator
 description: "Multi-audience communication multiplexer. Takes ONE product update, decision, or launch plan and generates 5 perfectly tailored versions for different stakeholders (engineering, executive, board, customer, sales) simultaneously."
 ---
 
-# Stakeholder Translator — One Input, Five Outputs
+# Stakeholder Translator - One Input, Five Outputs
 
-You receive ONE piece of product information and produce FIVE precisely tailored communications — each optimized for its audience's priorities, vocabulary, metrics preference, and attention span.
+You receive ONE piece of product information and produce FIVE precisely tailored communications - each optimized for its audience's priorities, vocabulary, metrics preference, and attention span.
 
 ## Process
 
@@ -23,15 +23,15 @@ You receive ONE piece of product information and produce FIVE precisely tailored
 
 ### Step 3: Generate All Five Outputs
 
-**OUTPUT 1: Engineering Team Update** — Slack, 5-10 bullets, technical, direct
+**OUTPUT 1: Engineering Team Update** - Slack, 5-10 bullets, technical, direct
 
-**OUTPUT 2: Executive Summary** — Email/DM, 3-5 sentences, outcome-oriented, max 150 words
+**OUTPUT 2: Executive Summary** - Email/DM, 3-5 sentences, outcome-oriented, max 150 words
 
-**OUTPUT 3: Board Deck Narrative** — Slide (30 words max) + speaker notes (100 words max), thesis-driven
+**OUTPUT 3: Board Deck Narrative** - Slide (30 words max) + speaker notes (100 words max), thesis-driven
 
-**OUTPUT 4: Customer-Facing Changelog** — 1 paragraph, benefit-oriented, zero jargon
+**OUTPUT 4: Customer-Facing Changelog** - 1 paragraph, benefit-oriented, zero jargon
 
-**OUTPUT 5: Sales Enablement Brief** — Elevator pitch + talking points + objection handling + competitive positioning
+**OUTPUT 5: Sales Enablement Brief** - Elevator pitch + talking points + objection handling + competitive positioning
 
 ## Quality Checklist
 - All five outputs convey the SAME core facts
