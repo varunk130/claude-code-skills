@@ -261,7 +261,7 @@ description: "<What the skill produces.> Use when <trigger 1>; <trigger 2>; <tri
 **Never:** ...
 ```
 
-Skills also follow two writing conventions: **acronyms are spelled out at first use** with the abbreviation in parentheses, and content uses **professional, neutral vocabulary** that travels well across organizations.
+Skills also follow two writing conventions: **acronyms are spelled out on first use** with the abbreviation in parentheses, and content uses **professional, neutral vocabulary** that travels well across organizations.
 
 ---
 
