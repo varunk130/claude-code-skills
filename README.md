@@ -118,7 +118,7 @@ Skills are organized into five categories. Each category folder has its own READ
 | [capital-allocation-framework](skills/financial-analysis/capital-allocation-framework/SKILL.md) | Ranked investment portfolio across Net Present Value (NPV), Internal Rate of Return (IRR), Profitability Index (PI), and Equivalent Annual Annuity (EAA) plus strategic option value and risk-adjusted frontier |
 | [dcf-valuation-builder](skills/financial-analysis/dcf-valuation-builder/SKILL.md) | Full Discounted Cash Flow (DCF) with WACC build, two terminal-value methods reconciled, sensitivity table, football field |
 | [financial-statement-analyzer](skills/financial-analysis/financial-statement-analyzer/SKILL.md) | Form 10-K and Form 10-Q teardown with margin waterfall, quality-of-earnings score, accounting red-flag log |
-| [saas-cohort-analyzer](skills/financial-analysis/saas-cohort-analyzer/SKILL.md) | Cohort retention triangles, NRR / GRR, LTV, CAC payback, movement bridge, segmentation cuts |
+| [saas-cohort-analyzer](skills/financial-analysis/saas-cohort-analyzer/SKILL.md) | Cohort retention triangles, Net Revenue Retention (NRR) / Gross Revenue Retention (GRR), Lifetime Value (LTV), Customer Acquisition Cost (CAC) payback, movement bridge, segmentation cuts |
 
 ### Product Management (8 skills)
 
