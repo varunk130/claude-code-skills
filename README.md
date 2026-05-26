@@ -175,7 +175,7 @@ Skills are organized into five categories. Each category folder has its own READ
 
 ## 🔌 Plugin Skills (bundled)
 
-Skills from installed Claude Code plugins. These are managed by the plugin system and provide additional capabilities.
+Skills bundled with installed Claude Code plugins. These are maintained by their plugin authors and update whenever you update the plugin.
 
 ### Document Skills (anthropic-agent-skills)
 
