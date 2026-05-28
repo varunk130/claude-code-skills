@@ -336,6 +336,6 @@ Part of a portfolio of AI agent and skill libraries for product, GTM, and decisi
 
 <div align="center">
 
-<sub>Built by <a href="https://github.com/varunk130">Varun Kulkarni</a> - part of a portfolio of AI agent systems for product, finance, and strategy teams.</sub>
+<sub>Built by <a href="https://github.com/varunk130">Varun Kulkarni</a> — part of a portfolio of AI agent systems for product, finance, and strategy teams.</sub>
 
 </div>
