@@ -2,7 +2,7 @@
 
 # 🧰 Claude Code Custom Skills
 
-### A curated, categorized library of production-grade skills for Claude Code - finance, product, strategy, and game theory.
+### A curated, categorized library of production-grade skills for Claude Code — finance, product, strategy, and game theory.
 
 [![Custom Skills](https://img.shields.io/badge/Custom_Skills-29-blue?style=for-the-badge)](#-skill-categories)
 [![Categories](https://img.shields.io/badge/Categories-5-orange?style=for-the-badge)](#-skill-categories)
