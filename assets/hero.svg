@@ -1,0 +1,168 @@
+<svg viewBox="0 0 1280 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Claude Code Skills. 29 production-grade skills across 5 domains.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0e1a"/>
+      <stop offset="55%" stop-color="#10162c"/>
+      <stop offset="100%" stop-color="#0a0e1a"/>
+    </linearGradient>
+    <radialGradient id="glowOrange" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D97757" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#D97757" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c5cff" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c2342" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#10162c" stop-opacity="0.96"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#ffd9c8"/>
+      <stop offset="100%" stop-color="#D97757"/>
+    </linearGradient>
+    <linearGradient id="termGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1226"/>
+      <stop offset="100%" stop-color="#070a18"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#ffffff" opacity="0.06"/>
+    </pattern>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feOffset dy="6"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.4"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="560" fill="url(#bg)"/>
+  <rect width="1280" height="560" fill="url(#dots)"/>
+
+  <circle cx="160" cy="120" r="320" fill="url(#glowOrange)"/>
+  <circle cx="1120" cy="500" r="360" fill="url(#glowPurple)"/>
+
+  <g opacity="0.18" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="280" x2="1280" y2="280"/>
+    <line x1="80" y1="0" x2="80" y2="560"/>
+    <line x1="1200" y1="0" x2="1200" y2="560"/>
+  </g>
+
+  <g transform="translate(80, 60)">
+    <rect x="0" y="0" width="220" height="32" rx="16" fill="#161c30" stroke="#D97757" stroke-opacity="0.55" stroke-width="1"/>
+    <circle cx="18" cy="16" r="4" fill="#D97757"/>
+    <circle cx="18" cy="16" r="7" fill="none" stroke="#D97757" stroke-opacity="0.55" stroke-width="1"/>
+    <text x="36" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12" font-weight="700" fill="#D97757" letter-spacing="1.5">BUILT FOR CLAUDE CODE</text>
+  </g>
+
+  <text x="80" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="56" font-weight="800" fill="url(#title)" letter-spacing="-1.8">Claude Code Skills</text>
+
+  <text x="80" y="198" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="20" font-weight="500" fill="#dde4f5">
+    <tspan fill="#ffffff" font-weight="700">29 production-grade skills</tspan> across <tspan fill="#ffffff" font-weight="700">5 domains</tspan>, ready to drop in.
+  </text>
+
+  <text x="80" y="228" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="15" font-weight="400" fill="#b3bed8">
+    Rigorous, opinionated workflows that Claude Code runs end-to-end on demand.
+  </text>
+
+  <g transform="translate(80, 258)" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" letter-spacing="0.6">
+    <g transform="translate(0, 0)">
+      <circle cx="6" cy="10" r="4" fill="#22c55e"/>
+      <text x="18" y="14" fill="#d4f4dd">FINANCE</text>
+    </g>
+    <g transform="translate(110, 0)">
+      <circle cx="6" cy="10" r="4" fill="#3b82f6"/>
+      <text x="18" y="14" fill="#d4e2f7">PRODUCT</text>
+    </g>
+    <g transform="translate(225, 0)">
+      <circle cx="6" cy="10" r="4" fill="#a855f7"/>
+      <text x="18" y="14" fill="#ead4f7">STRATEGY</text>
+    </g>
+    <g transform="translate(345, 0)">
+      <circle cx="6" cy="10" r="4" fill="#f59e0b"/>
+      <text x="18" y="14" fill="#f7e9d4">GAME THEORY</text>
+    </g>
+    <g transform="translate(488, 0)">
+      <circle cx="6" cy="10" r="4" fill="#06b6d4"/>
+      <text x="18" y="14" fill="#d4f1f7">DOCS</text>
+    </g>
+  </g>
+
+  <g transform="translate(720, 60)" filter="url(#softShadow)">
+    <rect width="480" height="280" rx="14" fill="url(#termGrad)" stroke="#2a3354" stroke-width="1"/>
+    <rect width="480" height="36" rx="14" fill="#0a0e1f"/>
+    <rect y="22" width="480" height="14" fill="#0a0e1f"/>
+    <circle cx="18" cy="18" r="5" fill="#ff5f57"/>
+    <circle cx="36" cy="18" r="5" fill="#febc2e"/>
+    <circle cx="54" cy="18" r="5" fill="#28c840"/>
+    <text x="240" y="23" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="600" fill="#c8d2e8">claude-code  ·  29 skills loaded</text>
+
+    <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" transform="translate(18, 60)">
+      <text y="0" fill="#8b97b8" font-weight="700">$</text>
+      <text x="14" y="0" fill="#22c55e">/dcf-valuation-builder</text>
+      <text y="18" fill="#f3f6ff" font-weight="500">  ↳ WACC build, 2 terminals, sensitivity, football field</text>
+
+      <text y="46" fill="#8b97b8" font-weight="700">$</text>
+      <text x="14" y="46" fill="#3b82f6">/jobs-to-be-done-extractor</text>
+      <text y="64" fill="#f3f6ff" font-weight="500">  ↳ Functional, emotional, social jobs, opportunity scores</text>
+
+      <text y="92" fill="#8b97b8" font-weight="700">$</text>
+      <text x="14" y="92" fill="#a855f7">/porters-five-forces-analyzer</text>
+      <text y="110" fill="#f3f6ff" font-weight="500">  ↳ Five Forces scorecard, trajectory, strategic plays</text>
+
+      <text y="138" fill="#8b97b8" font-weight="700">$</text>
+      <text x="14" y="138" fill="#f59e0b">/negotiation-strategist</text>
+      <text y="156" fill="#f3f6ff" font-weight="500">  ↳ BATNA, ZOPA, trade matrix, concession schedule</text>
+
+      <text y="184" fill="#8b97b8" font-weight="700">$</text>
+      <text x="14" y="184" fill="#06b6d4">/pdf-processing</text>
+      <text y="202" fill="#f3f6ff" font-weight="500">  ↳ Extract, fill forms, merge, split</text>
+
+      <text y="222" fill="#9ba8c8" font-size="12" font-style="italic">+ 24 more skills, full catalog below ↓</text>
+    </g>
+  </g>
+
+  <g transform="translate(80, 400)" filter="url(#softShadow)">
+    <g transform="translate(0, 0)">
+      <rect width="220" height="130" rx="14" fill="url(#card)" stroke="#22c55e" stroke-opacity="0.35" stroke-width="1"/>
+      <text x="20" y="46" font-family="-apple-system, sans-serif" font-size="38" font-weight="800" fill="#ffffff">6</text>
+      <text x="62" y="46" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" fill="#e6ecf8">skills</text>
+      <text x="20" y="76" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#ffffff" letter-spacing="0.3">Financial</text>
+      <text x="20" y="94" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#ffffff" letter-spacing="0.3">Analysis</text>
+      <rect x="20" y="108" width="48" height="3" rx="1.5" fill="#22c55e"/>
+    </g>
+    <g transform="translate(230, 0)">
+      <rect width="220" height="130" rx="14" fill="url(#card)" stroke="#3b82f6" stroke-opacity="0.35" stroke-width="1"/>
+      <text x="20" y="46" font-family="-apple-system, sans-serif" font-size="38" font-weight="800" fill="#ffffff">8</text>
+      <text x="62" y="46" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" fill="#e6ecf8">skills</text>
+      <text x="20" y="76" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#ffffff" letter-spacing="0.3">Product</text>
+      <text x="20" y="94" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#ffffff" letter-spacing="0.3">Management</text>
+      <rect x="20" y="108" width="48" height="3" rx="1.5" fill="#3b82f6"/>
+    </g>
+    <g transform="translate(460, 0)">
+      <rect width="220" height="130" rx="14" fill="url(#card)" stroke="#a855f7" stroke-opacity="0.35" stroke-width="1"/>
+      <text x="20" y="46" font-family="-apple-system, sans-serif" font-size="38" font-weight="800" fill="#ffffff">9</text>
+      <text x="62" y="46" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" fill="#e6ecf8">skills</text>
+      <text x="20" y="76" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#ffffff" letter-spacing="0.3">Strategic</text>
+      <text x="20" y="94" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#ffffff" letter-spacing="0.3">Management</text>
+      <rect x="20" y="108" width="48" height="3" rx="1.5" fill="#a855f7"/>
+    </g>
+    <g transform="translate(690, 0)">
+      <rect width="220" height="130" rx="14" fill="url(#card)" stroke="#f59e0b" stroke-opacity="0.35" stroke-width="1"/>
+      <text x="20" y="46" font-family="-apple-system, sans-serif" font-size="38" font-weight="800" fill="#ffffff">5</text>
+      <text x="62" y="46" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" fill="#e6ecf8">skills</text>
+      <text x="20" y="76" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#ffffff" letter-spacing="0.3">Game</text>
+      <text x="20" y="94" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#ffffff" letter-spacing="0.3">Theory</text>
+      <rect x="20" y="108" width="48" height="3" rx="1.5" fill="#f59e0b"/>
+    </g>
+    <g transform="translate(920, 0)">
+      <rect width="220" height="130" rx="14" fill="url(#card)" stroke="#06b6d4" stroke-opacity="0.35" stroke-width="1"/>
+      <text x="20" y="46" font-family="-apple-system, sans-serif" font-size="38" font-weight="800" fill="#ffffff">1</text>
+      <text x="62" y="46" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" fill="#e6ecf8">skill</text>
+      <text x="20" y="76" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#ffffff" letter-spacing="0.3">Document</text>
+      <text x="20" y="94" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#ffffff" letter-spacing="0.3">Processing</text>
+      <rect x="20" y="108" width="48" height="3" rx="1.5" fill="#06b6d4"/>
+    </g>
+  </g>
+</svg>
