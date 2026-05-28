@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/hero.svg" alt="Claude Code Skills. 29 production-grade skills across 5 domains." width="100%"/>
+
 # 🧰 Claude Code Custom Skills
 
 ### A curated, categorized library of production-grade skills for Claude Code — finance, product, strategy, and game theory.
