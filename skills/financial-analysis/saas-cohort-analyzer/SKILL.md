@@ -61,7 +61,7 @@ For each cohort and period, build the bridge:
 | Seat or plan expansion | Same logos, more revenue | +$ | x% |
 | Reactivations | Re-engaged churned accounts | +$ | x% |
 | Contractions | Downgrades or seat loss | −$ | x% |
-| Voluntary churn | Customer cancelled | −$ | x% |
+| Voluntary churn | Customer canceled | −$ | x% |
 | Involuntary churn | Payment failure | −$ | x% |
 | **Ending MRR** | **Sum** | **$Y** | **NRR%** |
 
