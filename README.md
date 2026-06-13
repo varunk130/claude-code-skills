@@ -39,7 +39,7 @@
 
 ## What is a skill?
 
-A **skill** is a single markdown file (`SKILL.md`) that gives Claude Code domain-specific knowledge, a structured workflow, and clear output expectations. Drop the file into `~/.claude/skills/` and Claude loads it on demand - invoked by slash command or by natural-language match against the description.
+A **skill** is a single markdown file (`SKILL.md`) that gives Claude Code domain-specific knowledge, a structured workflow, and clear output expectations. Drop the file into `~/.claude/skills/` and Claude loads it on demand — invoked by slash command or by natural-language match against the description.
 
 Every skill in this repository follows the **same standard format** (see [Standard skill format](#standard-skill-format)) so they're easy to learn, easy to compose, and easy to extend.
 
