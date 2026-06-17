@@ -4,6 +4,11 @@ Notable changes to this project, newest first.
 
 The format is loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## 2026-06-16 - Documentation
+
+### Changed
+- Updated the ai-customer-discovery-skills status in Related Work (5 of 12 skills shipped).
+
 ## 2026-05-17 - v2.1: Polish pass and category focus
 
 ### Polish
