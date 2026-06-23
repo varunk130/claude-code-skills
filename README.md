@@ -111,7 +111,7 @@ Skills are organized into five categories. Each category folder has its own READ
 
 ### Financial Analysis (6 skills)
 
-> Rigorous, defensible financial modeling and analysis. Outputs survive an investment committee or board grilling. - [Category README](skills/financial-analysis/README.md)
+> Rigorous, defensible financial modeling and analysis. Outputs survive an investment committee or board grilling. — [Category README](skills/financial-analysis/README.md)
 
 | Skill | What it produces |
 |-------|------------------|
@@ -124,7 +124,7 @@ Skills are organized into five categories. Each category folder has its own READ
 
 ### Product Management (8 skills)
 
-> Skills for the modern product manager and product trio: continuous discovery, multi-framework prioritization, customer research synthesis. - [Category README](skills/product-management/README.md)
+> Skills for the modern product manager and product trio: continuous discovery, multi-framework prioritization, customer research synthesis. — [Category README](skills/product-management/README.md)
 
 | Skill | What it produces |
 |-------|------------------|
@@ -139,7 +139,7 @@ Skills are organized into five categories. Each category folder has its own READ
 
 ### Strategic Management (9 skills)
 
-> Classical and modern strategy frameworks executed with rigor. - [Category README](skills/strategic-management/README.md)
+> Classical and modern strategy frameworks executed with rigor. — [Category README](skills/strategic-management/README.md)
 
 | Skill | What it produces |
 |-------|------------------|
@@ -155,7 +155,7 @@ Skills are organized into five categories. Each category folder has its own READ
 
 ### Game Theory (5 skills)
 
-> Apply game theory to real decisions: pricing wars, negotiation, mechanism design, repeated interactions. - [Category README](skills/game-theory/README.md)
+> Apply game theory to real decisions: pricing wars, negotiation, mechanism design, repeated interactions. — [Category README](skills/game-theory/README.md)
 
 | Skill | What it produces |
 |-------|------------------|
@@ -167,7 +167,7 @@ Skills are organized into five categories. Each category folder has its own READ
 
 ### Document Processing (1 skill)
 
-> Document extraction, transformation, merging, and form handling. - [Category README](skills/document-processing/README.md)
+> Document extraction, transformation, merging, and form handling. — [Category README](skills/document-processing/README.md)
 
 | Skill | What it produces |
 |-------|------------------|
