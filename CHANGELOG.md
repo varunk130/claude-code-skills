@@ -4,6 +4,12 @@ Notable changes to this project, newest first.
 
 The format is loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## 2026-06-29 - Documentation
+
+### Changed
+- Corrected the AI-Eval-Skills reference in Related Work to 7 skills (the upstream repo added the tool-use-eval skill).
+- Added the three Next.js multi-agent demos (Compound, Beacon, Atlas) to the Related Work section.
+
 ## 2026-06-16 - Documentation
 
 ### Changed
