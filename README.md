@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Claude Code Skills. 29 production-grade skills across 5 domains." width="100%"/>
+<img src="assets/hero.svg" alt="Claude Code Skills — 29 production-grade skills across 5 domains." width="100%"/>
 
 # 🧰 Claude Code Custom Skills
 
