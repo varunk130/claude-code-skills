@@ -8,7 +8,7 @@
 
 [![Custom Skills](https://img.shields.io/badge/Custom_Skills-29-blue?style=for-the-badge)](#-skill-categories)
 [![Categories](https://img.shields.io/badge/Categories-5-orange?style=for-the-badge)](#-skill-categories)
-[![Plugin Skills](https://img.shields.io/badge/Plugin_Skills-bundled-green?style=for-the-badge)](#-plugin-skills-bundled)
+[![Plugin Skills](https://img.shields.io/badge/Plugin_Skills-23-green?style=for-the-badge)](#-plugin-skills-bundled)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-D97757?logo=anthropic&logoColor=white&style=for-the-badge)](https://claude.ai/code)
 
