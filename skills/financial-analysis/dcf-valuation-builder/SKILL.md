@@ -31,7 +31,7 @@ A structured, auditable workflow that turns a set of financial assumptions into 
 
 Before modeling, establish:
 - Valuation date and fiscal-year convention
-- Valuation purpose (M&A, fairness opinion, internal Internal Rate of Return (IRR) hurdle, restructuring, tax)
+- Valuation purpose (M&A, fairness opinion, Internal Rate of Return (IRR) hurdle, restructuring, tax)
 - Currency and inflation assumptions
 - Forecast horizon (5 years default; 10 years for long-cycle assets like infrastructure, pharmaceuticals, energy)
 - Available data: 3-5 years historical financials, management forecast, comparable set, recent transactions
