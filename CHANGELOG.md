@@ -4,6 +4,15 @@ Notable changes to this project, newest first.
 
 The format is loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## 2026-10-03 - Documentation
+
+### Changed
+
+- Corrected the ai-ux-skill-library reference in Related Work to 13 frameworks and the ai-gtm-skill-library reference to 37 skills.
+- Showed the bundled plugin skill count (23) in the Plugin Skills badge instead of "bundled".
+- Removed a duplicated word in the DCF valuation purpose list.
+- Normalized `assets/hero.svg` line endings to LF and added `.gitattributes`.
+
 ## 2026-06-29 - Documentation
 
 ### Changed
