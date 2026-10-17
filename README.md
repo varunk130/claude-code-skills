@@ -33,6 +33,7 @@
 - [Standard skill format](#standard-skill-format)
 - [Authoring a new skill](#authoring-a-new-skill)
 - [Contributing](#contributing)
+- [Related work](#related-work)
 - [License](#license)
 
 ---
