@@ -9,7 +9,7 @@ Skills for the modern product manager: continuous discovery, prioritization, cus
 | [ai-stakeholder-translator](ai-stakeholder-translator/SKILL.md) | 5 audience-tailored communications (engineering, executives, board, customers, sales) from one update |
 | [customer-interview-synthesizer](customer-interview-synthesizer/SKILL.md) | Coded transcripts, themes, JTBD signals, forces of progress, opportunity hypotheses |
 | [jobs-to-be-done-extractor](jobs-to-be-done-extractor/SKILL.md) | Functional / emotional / social job statements, job map, outcome scoring, hire/fire analysis |
-| [opportunity-solution-tree](opportunity-solution-tree/SKILL.md) | Outcome → opportunities → solutions → assumption tests living tree |
+| [opportunity-solution-tree](opportunity-solution-tree/SKILL.md) | Outcome → opportunities → solutions → assumption tests, as a living tree |
 | [product-discovery-coach](product-discovery-coach/SKILL.md) | Continuous discovery practice: trio cadence, assumption mapping, dual-track |
 | [product-roadmap-prioritizer](product-roadmap-prioritizer/SKILL.md) | RICE + Kano + MoSCoW + Cost of Delay scoring, convergence analysis, quarterly roadmap |
 
