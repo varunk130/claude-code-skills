@@ -97,7 +97,7 @@ cp -r /path/to/claude-code-skills/skills/<category>/* .claude/skills/
 
 ---
 
-## 📂 Skill Categories
+## 📂 Skill categories
 
 Skills are organized into five categories. Each category folder has its own README with the full skill index and design principles.
 
@@ -175,7 +175,7 @@ Skills are organized into five categories. Each category folder has its own READ
 
 ---
 
-## 🔌 Plugin Skills (bundled)
+## 🔌 Plugin skills (bundled)
 
 Skills bundled with installed Claude Code plugins. These are maintained by their plugin authors and update whenever you update the plugin.
 
