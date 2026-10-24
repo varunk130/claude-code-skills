@@ -1,0 +1,34 @@
+name: Skill bug report
+description: A skill gives wrong guidance, fails to trigger, or produces broken output.
+labels: [bug]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill name
+      placeholder: dcf-valuation-builder
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: What you asked Claude
+      description: The prompt or slash command you used.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What went wrong
+      description: Wrong formula, missing step, skill not selected, malformed output, and so on.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected instead
+  - type: input
+    id: version
+    attributes:
+      label: Claude Code version
+      placeholder: Output of `claude --version`

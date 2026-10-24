@@ -1,0 +1,44 @@
+name: New skill proposal
+description: Propose a skill that fills a gap in the library.
+labels: [new-skill]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Proposed skill name (kebab-case)
+      placeholder: churn-risk-forecaster
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - ai-ux-design
+        - ai-marketing-growth
+        - product-management
+        - strategic-management
+        - financial-analysis
+        - game-theory
+        - New category (explain below)
+    validations:
+      required: true
+  - type: textarea
+    id: produces
+    attributes:
+      label: What the skill produces
+      description: The concrete deliverable a user could hand to a stakeholder.
+    validations:
+      required: true
+  - type: textarea
+    id: triggers
+    attributes:
+      label: When someone would invoke it
+      description: Three or more phrases a user would actually type.
+    validations:
+      required: true
+  - type: textarea
+    id: overlap
+    attributes:
+      label: Overlap with existing skills
+      description: Which existing skills come closest, and why they are not enough.
