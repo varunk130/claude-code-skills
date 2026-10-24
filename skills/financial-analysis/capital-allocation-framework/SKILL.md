@@ -45,7 +45,7 @@ Reject any submission missing sponsor, horizon, or success metric.
 NPV = Σ FCFt / (1 + r)^t − initial investment
 ```
 
-Use the Weighted Average Cost of Capital (WACC) adjusted by project risk class (consumer versus enterprise, mature versus early-stage, geographic).
+where FCFt is the Free Cash Flow (FCF) in period t and r is the discount rate. Use the Weighted Average Cost of Capital (WACC) adjusted by project risk class (consumer versus enterprise, mature versus early-stage, geographic).
 
 **Internal Rate of Return (IRR)** - flag multiple-IRR pitfalls for projects with interim negative cash flows.
 
