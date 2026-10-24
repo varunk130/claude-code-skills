@@ -37,6 +37,7 @@ git clone https://github.com/varunk130/claude-code-skills.git && cd claude-code-
 - [Quickstart](#-quickstart)
 - [Skill categories](#-skill-categories)
   - [AI UX & Design](#ai-ux--design-7-skills)
+  - [AI Marketing & Growth](#ai-marketing--growth-7-skills)
   - [Financial Analysis](#financial-analysis-6-skills)
   - [Product Management](#product-management-8-skills)
   - [Strategic Management](#strategic-management-9-skills)
@@ -116,6 +117,7 @@ Skills are organized into five categories. Each category folder has its own READ
 | Category | Skills | What it's for |
 |----------|-------:|---------------|
 | [🤖 AI UX & Design](skills/ai-ux-design/) | 7 | Agent autonomy, human-in-the-loop, failure states, uncertainty, prompt surfaces, usability testing for AI |
+| [📈 AI Marketing & Growth](skills/ai-marketing-growth/) | 7 | AI search visibility, positioning, launches, experiments, activation, content quality, inference-aware pricing |
 | [💰 Financial Analysis](skills/financial-analysis/) | 6 | Valuation, capital allocation, SaaS economics, cash management, fundamental analysis |
 | [📦 Product Management](skills/product-management/) | 8 | Discovery, prioritization, customer research, strategic decisions, communication |
 | [🧭 Strategic Management](skills/strategic-management/) | 9 | Industry analysis, positioning, landscape mapping, OKRs, go-to-market |
@@ -134,6 +136,20 @@ Skills are organized into five categories. Each category folder has its own READ
 | [human-in-the-loop-designer](skills/ai-ux-design/human-in-the-loop-designer/SKILL.md) | Human-in-the-loop (HITL) touchpoint design: checkpoints, approval gates, escalation triggers, handoff packages, interruption-cost scoring, and review-fatigue limits |
 | [prompt-surface-designer](skills/ai-ux-design/prompt-surface-designer/SKILL.md) | Chat and agent input experience: capability inventory, blank-box risk score, scored starter prompts, input affordances, follow-ups, and first-run onboarding |
 | [uncertainty-and-explainability-patterns](skills/ai-ux-design/uncertainty-and-explainability-patterns/SKILL.md) | Confidence, citation, and reasoning pattern spec matched to audience and risk, with calibration checks and anti-pattern review |
+
+### AI Marketing & Growth (7 skills)
+
+> Market, launch, price, and grow AI products, and keep AI-assisted marketing honest. - [Category README](skills/ai-marketing-growth/README.md)
+
+| Skill | What it produces |
+|-------|------------------|
+| [ai-activation-optimizer](skills/ai-marketing-growth/ai-activation-optimizer/SKILL.md) | Retention-validated aha moment, time to first good output, quality-aware activation funnel, first-session scaffolding, and quality-gated nudges |
+| [ai-content-quality-gate](skills/ai-marketing-growth/ai-content-quality-gate/SKILL.md) | Publish / revise / kill verdict for AI-assisted content with claim verification log, added-value score, AI-tell list, and brand-voice scorecard |
+| [ai-feature-experiment-designer](skills/ai-marketing-growth/ai-feature-experiment-designer/SKILL.md) | A/B test design for AI features with offline evaluation gate, variance-aware sample size, cost / latency / override guardrails, and pre-registered decision rules |
+| [ai-launch-playbook](skills/ai-marketing-growth/ai-launch-playbook/SKILL.md) | AI launch plan with readiness gates, demo-led narrative, capacity-sized waitlist, channel plan, day-0 to day-30 runbook, and failure-mode communications |
+| [ai-pricing-margin-modeler](skills/ai-marketing-growth/ai-pricing-margin-modeler/SKILL.md) | Cost per successful task, usage distribution, gross-margin floor, packaging margin comparison at median, 90th, and 99th percentile usage, and price-change guardrails |
+| [ai-product-positioning](skills/ai-marketing-growth/ai-product-positioning/SKILL.md) | Scored differentiation ladder (model, data, workflow, distribution, trust), answers to the general-assistant, wrapper, and fast-follow objections, and messaging hierarchy |
+| [ai-search-visibility-optimizer](skills/ai-marketing-growth/ai-search-visibility-optimizer/SKILL.md) | Generative Engine Optimization (GEO) audit with intent-weighted query set, share-of-answer scores, citation-source gap map, entity fixes, and re-test plan |
 
 ### Financial Analysis (6 skills)
 
