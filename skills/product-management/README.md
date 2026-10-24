@@ -5,7 +5,7 @@ Skills for the modern product manager: continuous discovery, prioritization, cus
 | Skill | What it produces |
 |-------|------------------|
 | [ai-decision-engine](ai-decision-engine/SKILL.md) | Multi-framework strategic recommendations from full project context (PRDs, research, metrics, competitive intel) |
-| [ai-product-strategy](ai-product-strategy/SKILL.md) | AI opportunity assessments with build/buy/partner analysis and data moat evaluation |
+| [ai-product-strategy](ai-product-strategy/SKILL.md) | AI opportunity map with build / buy / partner calls, data moat rating, trust requirements, phased roadmap, and risk register |
 | [ai-stakeholder-translator](ai-stakeholder-translator/SKILL.md) | 5 audience-tailored communications (engineering, executives, board, customers, sales) from one update |
 | [customer-interview-synthesizer](customer-interview-synthesizer/SKILL.md) | Coded transcripts, themes, JTBD signals, forces of progress, opportunity hypotheses |
 | [jobs-to-be-done-extractor](jobs-to-be-done-extractor/SKILL.md) | Functional / emotional / social job statements, job map, outcome scoring, hire/fire analysis |
