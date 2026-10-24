@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Claude Code Skills: 42 production-grade skills across 6 domains." width="100%"/>
+<img src="assets/hero.svg" alt="Claude Code Skills: 42 expert workflows across six categories, each ending in a deliverable such as an autonomy map, a pricing model, or an AI search audit." width="100%"/>
 
 # 🧰 Claude Code Custom Skills
 
@@ -115,6 +115,12 @@ for d in skills/*/*/; do cp -R "${d%/}" ~/.claude/skills/; done
 ## 👀 See it in action
 
 Worked examples show exactly what a skill produces, with every number computed the way the skill specifies:
+
+<p align="center">
+  <a href="examples/agent-autonomy-level-mapper-support-agent.md"><img src="assets/examples/agent-autonomy-level-mapper.svg" width="32%" alt="Support agent autonomy map"/></a>
+  <a href="examples/ai-pricing-margin-modeler-writing-assistant.md"><img src="assets/examples/ai-pricing-margin-modeler.svg" width="32%" alt="Writing assistant pricing model"/></a>
+  <a href="examples/ai-search-visibility-optimizer-devtool.md"><img src="assets/examples/ai-search-visibility-optimizer.svg" width="32%" alt="Developer tool AI search audit"/></a>
+</p>
 
 | Example | Skill | What you get |
 |---------|-------|--------------|
