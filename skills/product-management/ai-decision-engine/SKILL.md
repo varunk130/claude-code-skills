@@ -1,107 +1,133 @@
 ---
 name: ai-decision-engine
-description: "Strategic product decision engine that reads ALL available project context (PRDs, research docs, metrics, competitive intel, roadmaps, CLAUDE.md) and provides holistic, multi-dimensional strategic recommendations. Use when making product prioritization decisions, quarterly planning, evaluating build/ship/kill tradeoffs, resolving conflicting stakeholder input, determining what to build next, or any strategic question requiring synthesis across multiple information sources."
+description: "Produces a multi-framework strategic product recommendation from all available project context - Product Requirements Documents (PRDs), research, metrics, competitive intelligence, and roadmaps - with a source log, situation model, weighted scoring, second-order effects, a pre-mortem, and explicit conditions that would change the call. Use when making product prioritization decisions; running quarterly planning; evaluating build, ship, or kill trade-offs; resolving conflicting stakeholder input; deciding what to build next; or answering any strategic question that needs synthesis across multiple sources."
 ---
 
-# PM Decision Engine - Strategic Context Synthesizer
+# AI Decision Engine
 
-This skill is a strategic reasoning system. It reads ALL available project context, applies multiple frameworks simultaneously, looks for convergence, and produces a recommendation with explicit reasoning chains.
+> Read everything, apply four frameworks, and show the reasoning chain behind the call.
 
-## PHASE 1: Context Assembly (Always Do This First)
+## What this skill is
 
-Before answering ANY strategic question, scan the working directory for:
-- CLAUDE.md or README.md → product context, team info, constraints
-- docs/ or specs/ → existing PRDs, feature specs
-- research/ → user research, interview notes, survey results
-- data/ or metrics/ → analytics exports, dashboards
-- competitive/ → competitor analysis, market research
-- roadmap/ → planning artifacts
+A strategic reasoning system for product decisions. It first assembles every relevant source in the working directory, builds an explicit model of the situation, then runs four frameworks in parallel and looks for convergence. The result is a recommendation with a stated confidence level, visible trade-offs, and the evidence that would reverse it.
 
-For each source found, log:
-| Source | Key Signal | Recency | Confidence |
-|--------|-----------|---------|------------|
-| [filename] | [what it tells us] | [when updated] | [high/med/low] |
+## What it solves
+
+- Decisions made from the last conversation or loudest stakeholder instead of the full evidence base
+- Single-framework analysis that hides what other lenses would reveal
+- Recommendations with no stated confidence, trade-offs, or opportunity cost
+- Contradictions between research, metrics, and roadmap that go unnoticed
+- Plans that never ask how they could fail or what would change the answer
+- "Do nothing" never being considered as a real option
+
+## When to invoke
+
+- Choosing between competing initiatives for the next quarter
+- Deciding whether to build, ship, iterate, or kill a feature
+- Stakeholders disagree and the team needs an evidence-based resolution
+- A strategic question spans research, metrics, competitive, and roadmap sources
+- Pressure-testing a decision before presenting it to leadership
+
+## Phase 1: Context assembly
+
+Before answering any strategic question, scan the working directory for:
+- `CLAUDE.md` or `README.md` - product context, team, constraints
+- `docs/` or `specs/` - existing PRDs and feature specs
+- `research/` - user research, interview notes, survey results
+- `data/` or `metrics/` - analytics exports and dashboards
+- `competitive/` - competitor analysis and market research
+- `roadmap/` - planning artifacts
+
+Log each source found:
+
+| Source | Key signal | Recency | Confidence |
+|--------|------------|---------|------------|
+| [filename] | [what it tells us] | [when updated] | [high / medium / low] |
 
 If critical context is missing, say so: "I don't have [X]. My recommendation will be stronger with it."
 
-## PHASE 2: Situation Model
+## Phase 2: Situation model
 
 Write this out before reasoning:
-- **Product stage:** Early / Growth / Mature / Turnaround
-- **Primary constraint:** Engineering capacity / Market timing / Revenue pressure / Tech debt / Competitive threat
-- **Active bets:** What we're currently building and why
-- **Unresolved tensions:** Where evidence conflicts
-- **Decision type:** One-way door (irreversible) vs. Two-way door (reversible)
+- **Product stage** - early, growth, mature, or turnaround
+- **Primary constraint** - engineering capacity, market timing, revenue pressure, technical debt, or competitive threat
+- **Active bets** - what is being built now and why
+- **Unresolved tensions** - where the evidence conflicts
+- **Decision type** - one-way door (irreversible) or two-way door (reversible)
 
-## PHASE 3: Multi-Framework Analysis
+## Phase 3: Impact and confidence matrix
 
-Apply ALL FOUR frameworks. Never rely on just one.
+List every option, including "do nothing."
 
-### Framework 1: Impact x Confidence Matrix
-| Option | Expected Impact | Confidence | Evidence Sources |
-|--------|----------------|------------|------------------|
-| [A] | [quantified if possible] | [High/Med/Low] | [which docs] |
+| Option | Expected impact | Confidence | Evidence sources |
+|--------|-----------------|------------|------------------|
+| [A] | [quantified if possible] | [high / medium / low] | [which documents] |
 
-### Framework 2: Strategic Alignment Scoring
-Score each option 1-5:
+## Phase 4: Strategic alignment scoring
+
+Score each option 1-5 per dimension and calculate the weighted total. Show the math.
+
 | Dimension | Weight |
-|-----------|--------|
+|-----------|-------:|
 | User pain severity | 25% |
 | Business impact (revenue, retention, expansion) | 25% |
 | Strategic fit (alignment with vision) | 20% |
 | Timing sensitivity (competitive urgency) | 15% |
 | Execution feasibility | 15% |
 
-Calculate weighted scores. Show the math.
+```
+Weighted score = sum of (dimension score x weight)
+```
 
-### Framework 3: Second-Order Effects
-For top 2-3 options:
-- Direct effect → Second-order effect → Third-order effect
-- Opportunity cost (what gets delayed/killed)
-- Team effect (morale, skills, hiring)
-- Market signal (what this tells customers and competitors)
+## Phase 5: Second-order effects and pre-mortem
 
-### Framework 4: Pre-Mortem
-"It's 6 months from now and this FAILED. What happened?"
-- Failure scenario 1: [specific] - Probability: [%] - Early warning: [signal]
-- Failure scenario 2: [specific] - Probability: [%] - Early warning: [signal]
-- Failure scenario 3: [specific] - Probability: [%] - Early warning: [signal]
+For the top two or three options:
+- **Effect chain** - direct effect → second-order effect → third-order effect
+- **Opportunity cost** - what gets delayed or killed
+- **Team effect** - morale, skills, hiring
+- **Market signal** - what the choice tells customers and competitors
 
-## PHASE 4: Synthesis & Recommendation
+Then run a pre-mortem: "It is six months from now and this failed. What happened?"
 
-**TL;DR:** One sentence - what to do and why
+| Failure scenario | Probability | Early warning signal |
+|------------------|------------:|----------------------|
+| [specific scenario 1] | [%] | [signal] |
+| [specific scenario 2] | [%] | [signal] |
+| [specific scenario 3] | [%] | [signal] |
 
-**Confidence level:** High / Medium / Low - because [reason]
+## Phase 6: Synthesis and recommendation
 
-**Framework convergence:**
-- What each framework says
-- Where they agree and disagree
-- What the divergence tells us
+- **Summary** - one sentence: what to do and why
+- **Confidence level** - high, medium, or low, with the reason
+- **Framework convergence** - what each framework says, where they agree and disagree, and what the divergence reveals
+- **The recommendation** - two to three paragraphs of clear reasoning
+- **What would change this recommendation**
+  1. If we learned [X], we might instead do [Y]
+  2. If metric [Z] changes by more than [N%], reconsider
+  3. If a competitor does [W], reassess
+- **Immediate next steps (this week)** - three specific actions with owners
 
-**The recommendation:** 2-3 paragraphs with clear reasoning.
+## Output
 
-**What would change this recommendation:**
-1. If we learned [X], we might instead do [Y]
-2. If metric [Z] changes by more than [N%], reconsider
-3. If competitor does [W], reassess
+- Source log with signal, recency, and confidence per source
+- Situation model
+- Impact and confidence matrix including "do nothing"
+- Weighted alignment scores with the math shown
+- Second-order effects and pre-mortem for the leading options
+- Recommendation with confidence level, reversal conditions, and next steps
 
-**Immediate next steps (this week):**
-1. [Specific action]
-2. [Specific action]
-3. [Specific action]
+## Operating rules
 
-## Reasoning Rules
-
-**Always:**
-- Show reasoning chains
-- Quantify where possible
-- Acknowledge uncertainty with confidence levels
+**Always**
+- Assemble and log the context before reasoning
+- Show reasoning chains and the scoring math
+- Quantify where possible and state confidence levels
 - Include "do nothing" as an explicit option
 - Separate observation from interpretation
 
-**Never:**
-- Apply a single framework alone
+**Never**
+- Rely on a single framework
 - Ignore contradictions between sources
-- Recommend without stating trade-offs
-- Be a yes-machine
-- Forget opportunity cost
+- Recommend without stating trade-offs and opportunity cost
+- Agree with the framing of the question just because it was asked that way
+- Hide missing context instead of naming it
