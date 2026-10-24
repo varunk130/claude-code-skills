@@ -4,6 +4,28 @@ Notable changes to this project, newest first.
 
 The format is loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## 2026-10-24 - v3.0: AI UX and AI marketing categories
+
+### Added
+- AI UX & Design category with 7 skills: agent-autonomy-level-mapper, ai-failure-state-designer, ai-usability-test-planner, ai-ux-audit, human-in-the-loop-designer, prompt-surface-designer, uncertainty-and-explainability-patterns.
+- AI Marketing & Growth category with 7 skills: ai-activation-optimizer, ai-content-quality-gate, ai-feature-experiment-designer, ai-launch-playbook, ai-pricing-margin-modeler, ai-product-positioning, ai-search-visibility-optimizer.
+- `install.sh`, which installs all skills or selected categories at user or project level.
+- `scripts/validate_skills.py` and a GitHub Actions workflow that runs it with an installer smoke test.
+- Worked examples in `examples/`.
+- Issue templates and a pull request template.
+
+### Changed
+- Rewrote ai-agent-financial-analyst, ai-decision-engine, ai-product-strategy, ai-stakeholder-translator, go-to-market-strategy, gtm-engineering, market-sizing, and pricing-strategy-analyzer to the standard skill format.
+- Standardized every skill description on "Use when" triggers separated by semicolons.
+- New README opening, a Find the right skill table, and a refreshed hero image.
+
+### Fixed
+- The Quickstart install command nested skills inside category folders, where Claude Code does not discover them.
+
+### Removed
+- The bundled plugin skills, which were copies of skills maintained by Anthropic, Figma, Notion, and Stripe. The README now links to the official sources.
+- The pdf-processing placeholder skill and the Document Processing category.
+
 ## 2026-10-03 - Documentation
 
 ### Changed
