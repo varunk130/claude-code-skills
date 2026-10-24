@@ -6,11 +6,12 @@ Thanks for considering a contribution to this skills library.
 
 1. **Open an issue** describing the gap and the proposed skill name (kebab-case).
 2. **Wait for a thumbs-up** from a maintainer - this avoids duplicate work.
-3. **Create the file** at `skills/<category>/<skill-name>/SKILL.md` using [`docs/SKILL_TEMPLATE.md`](docs/SKILL_TEMPLATE.md). Categories live under `skills/`: `financial-analysis`, `product-management`, `strategic-management`, `game-theory`, `document-processing`.
+3. **Create the file** at `skills/<category>/<skill-name>/SKILL.md` using [`docs/SKILL_TEMPLATE.md`](docs/SKILL_TEMPLATE.md). Categories live under `skills/`: `ai-ux-design`, `ai-marketing-growth`, `product-management`, `strategic-management`, `financial-analysis`, `game-theory`.
 4. **Update the catalog**:
    - Add a row to the corresponding table in the root [README.md](README.md).
    - Add a row to the category README at `skills/<category>/README.md`.
-5. **Open a PR** titled `feat(<category>): add <skill-name> skill`.
+5. **Validate** with `python3 scripts/validate_skills.py`. CI runs the same check on every pull request.
+6. **Open a PR** titled `feat(<category>): add <skill-name> skill`.
 
 ## SKILL.md format
 
