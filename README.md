@@ -35,6 +35,7 @@ git clone https://github.com/varunk130/claude-code-skills.git && cd claude-code-
 - [What is a skill?](#what-is-a-skill)
 - [How it works](#how-it-works)
 - [Quickstart](#-quickstart)
+- [See it in action](#-see-it-in-action)
 - [Find the right skill](#-find-the-right-skill)
 - [Skill categories](#-skill-categories)
   - [AI UX & Design](#ai-ux--design-7-skills)
@@ -108,6 +109,20 @@ for d in skills/*/*/; do cp -R "${d%/}" ~/.claude/skills/; done
 ```
 
 > 💡 New to Claude Code skills? See the [official skills guide](https://docs.anthropic.com/en/docs/claude-code/skills) for installation locations and discovery rules.
+
+---
+
+## 👀 See it in action
+
+Worked examples show exactly what a skill produces, with every number computed the way the skill specifies:
+
+| Example | Skill | What you get |
+|---------|-------|--------------|
+| [Support agent autonomy map](examples/agent-autonomy-level-mapper-support-agent.md) | agent-autonomy-level-mapper | 10 support actions scored on stakes, reversibility, and measured accuracy, each assigned an autonomy level with approval gates |
+| [Writing assistant pricing model](examples/ai-pricing-margin-modeler-writing-assistant.md) | ai-pricing-margin-modeler | Cost per successful task, heavy-user exposure, and six packaging options compared at median and tail usage |
+| [Developer tool AI search audit](examples/ai-search-visibility-optimizer-devtool.md) | ai-search-visibility-optimizer | Share of answer across four AI assistants, citation-source gaps, and a prioritized fix backlog |
+
+More in [examples/](examples/).
 
 ---
 
