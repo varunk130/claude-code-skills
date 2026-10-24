@@ -8,7 +8,6 @@
 
 [![Custom Skills](https://img.shields.io/badge/Custom_Skills-29-blue?style=for-the-badge)](#-skill-categories)
 [![Categories](https://img.shields.io/badge/Categories-5-orange?style=for-the-badge)](#-skill-categories)
-[![Plugin Skills](https://img.shields.io/badge/Plugin_Skills-23-green?style=for-the-badge)](#-plugin-skills-bundled)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-D97757?logo=anthropic&logoColor=white&style=for-the-badge)](https://claude.ai/code)
 
@@ -29,7 +28,7 @@
   - [Strategic Management](#strategic-management-9-skills)
   - [Game Theory](#game-theory-5-skills)
   - [Document Processing](#document-processing-1-skill)
-- [Plugin skills (bundled)](#-plugin-skills-bundled)
+- [Pairs well with](#pairs-well-with)
 - [Standard skill format](#standard-skill-format)
 - [Authoring a new skill](#authoring-a-new-skill)
 - [Contributing](#contributing)
@@ -176,52 +175,12 @@ Skills are organized into five categories. Each category folder has its own READ
 
 ---
 
-## 🔌 Plugin skills (bundled)
+## Pairs well with
 
-Skills bundled with installed Claude Code plugins. These are maintained by their plugin authors and update whenever you update the plugin.
+This library focuses on business decision-making. For file formats and tool integrations, install the official skills from their maintainers:
 
-### Document Skills (anthropic-agent-skills)
-
-| Skill | Description |
-|-------|-------------|
-| [algorithmic-art](plugin-skills/document-skills/algorithmic-art/SKILL.md) | Generative art with p5.js, seeded randomness, interactive parameters |
-| [brand-guidelines](plugin-skills/document-skills/brand-guidelines/SKILL.md) | Apply Anthropic brand colors and typography to artifacts |
-| [canvas-design](plugin-skills/document-skills/canvas-design/SKILL.md) | Museum-quality visual art as PDF or PNG |
-| [doc-coauthoring](plugin-skills/document-skills/doc-coauthoring/SKILL.md) | Structured 3-stage workflow for co-authoring documentation |
-| [docx](plugin-skills/document-skills/docx/SKILL.md) | Create, read, and edit Word documents with tracked changes, comments, and formatting |
-| [internal-comms](plugin-skills/document-skills/internal-comms/SKILL.md) | Three-Paragraph (3P) updates, newsletters, FAQs, status reports |
-| [mcp-builder](plugin-skills/document-skills/mcp-builder/SKILL.md) | Build Model Context Protocol (MCP) servers to integrate Large Language Models (LLMs) with external services |
-| [pdf](plugin-skills/document-skills/pdf/SKILL.md) | Full PDF processing: read, merge, split, rotate, watermark, OCR, encrypt, fill forms |
-| [pptx](plugin-skills/document-skills/pptx/SKILL.md) | Create, read, and edit PowerPoint with design guidelines and visual QA |
-| [skill-creator](plugin-skills/document-skills/skill-creator/SKILL.md) | Create effective Claude Code skills with progressive disclosure |
-| [slack-gif-creator](plugin-skills/document-skills/slack-gif-creator/SKILL.md) | Animated GIFs optimized for Slack with PIL and easing functions |
-| [theme-factory](plugin-skills/document-skills/theme-factory/SKILL.md) | 10 pre-set themes plus custom theme generation |
-| [web-artifacts-builder](plugin-skills/document-skills/web-artifacts-builder/SKILL.md) | Multi-component HTML artifacts with React, Tailwind CSS, and shadcn/ui |
-| [webapp-testing](plugin-skills/document-skills/webapp-testing/SKILL.md) | Test local web applications with Playwright plus server lifecycle management |
-| [xlsx](plugin-skills/document-skills/xlsx/SKILL.md) | Spreadsheets with formulas, formatting, and financial modeling conventions |
-
-### Figma Plugin
-
-| Skill | Description |
-|-------|-------------|
-| [code-connect-components](plugin-skills/figma/code-connect-components/SKILL.md) | Connect Figma design components to code implementations |
-| [create-design-system-rules](plugin-skills/figma/create-design-system-rules/SKILL.md) | Generate project-specific design system rules |
-| [implement-design](plugin-skills/figma/implement-design/SKILL.md) | Translate Figma designs into production-ready code with 1:1 fidelity |
-
-### Notion Plugin
-
-| Skill | Description |
-|-------|-------------|
-| [knowledge-capture](plugin-skills/notion/knowledge-capture/SKILL.md) | Conversations to structured Notion documentation |
-| [meeting-intelligence](plugin-skills/notion/meeting-intelligence/SKILL.md) | Meeting prep with Notion context and Claude research |
-| [research-documentation](plugin-skills/notion/research-documentation/SKILL.md) | Search Notion workspace and synthesize into research documents |
-| [spec-to-implementation](plugin-skills/notion/spec-to-implementation/SKILL.md) | Specifications to Notion tasks with implementation plans and tracking |
-
-### Stripe Plugin
-
-| Skill | Description |
-|-------|-------------|
-| [stripe-best-practices](plugin-skills/stripe/stripe-best-practices/SKILL.md) | Stripe integrations: payments, checkout, subscriptions, Connect |
+- [anthropics/skills](https://github.com/anthropics/skills) - Anthropic's skills for Word, PowerPoint, Excel, PDF, skill authoring, and more
+- [Claude Code plugins](https://docs.anthropic.com/en/docs/claude-code/plugins) - install vendor plugins such as Figma, Notion, and Stripe, which bundle their own skills
 
 ---
 
