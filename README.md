@@ -35,6 +35,7 @@ git clone https://github.com/varunk130/claude-code-skills.git && cd claude-code-
 - [What is a skill?](#what-is-a-skill)
 - [How it works](#how-it-works)
 - [Quickstart](#-quickstart)
+- [Find the right skill](#-find-the-right-skill)
 - [Skill categories](#-skill-categories)
   - [AI UX & Design](#ai-ux--design-7-skills)
   - [AI Marketing & Growth](#ai-marketing--growth-7-skills)
@@ -107,6 +108,26 @@ for d in skills/*/*/; do cp -R "${d%/}" ~/.claude/skills/; done
 ```
 
 > 💡 New to Claude Code skills? See the [official skills guide](https://docs.anthropic.com/en/docs/claude-code/skills) for installation locations and discovery rules.
+
+---
+
+## 🔎 Find the right skill
+
+| If you want to... | Start with |
+|-------------------|------------|
+| Decide what an AI agent may do without asking | [agent-autonomy-level-mapper](skills/ai-ux-design/agent-autonomy-level-mapper/SKILL.md) |
+| Review an AI feature before launch | [ai-ux-audit](skills/ai-ux-design/ai-ux-audit/SKILL.md) |
+| Design what users see when the AI is wrong, slow, or unsure | [ai-failure-state-designer](skills/ai-ux-design/ai-failure-state-designer/SKILL.md) |
+| Show up in ChatGPT, Claude, Perplexity, and AI Overviews answers | [ai-search-visibility-optimizer](skills/ai-marketing-growth/ai-search-visibility-optimizer/SKILL.md) |
+| Answer "why not just use a general-purpose assistant?" | [ai-product-positioning](skills/ai-marketing-growth/ai-product-positioning/SKILL.md) |
+| Price an AI product without losing money on heavy users | [ai-pricing-margin-modeler](skills/ai-marketing-growth/ai-pricing-margin-modeler/SKILL.md) |
+| A/B test a feature whose output varies run to run | [ai-feature-experiment-designer](skills/ai-marketing-growth/ai-feature-experiment-designer/SKILL.md) |
+| Turn interview notes into themes and opportunities | [customer-interview-synthesizer](skills/product-management/customer-interview-synthesizer/SKILL.md) |
+| Prioritize a roadmap with more than one framework | [product-roadmap-prioritizer](skills/product-management/product-roadmap-prioritizer/SKILL.md) |
+| Value a company or business unit | [dcf-valuation-builder](skills/financial-analysis/dcf-valuation-builder/SKILL.md) |
+| Plan cash and runway | [burn-rate-runway-planner](skills/financial-analysis/burn-rate-runway-planner/SKILL.md) |
+| Predict how a competitor will react to your move | [competitive-response-modeler](skills/game-theory/competitive-response-modeler/SKILL.md) |
+| Prepare for a negotiation | [negotiation-strategist](skills/game-theory/negotiation-strategist/SKILL.md) |
 
 ---
 
