@@ -1,6 +1,6 @@
 ---
 name: customer-interview-synthesizer
-description: "Synthesizes raw customer interview transcripts into themes, quotes, Jobs-to-be-Done (JTBD) signals, force-of-progress diagrams, and actionable opportunity hypotheses with confidence levels. Use after a round of discovery, switching, win-loss, or churn interviews; when preparing a research readout; when aligning a team on what the customer signal actually says; or when feeding inputs into an Opportunity Solution Tree (OST)."
+description: "Synthesizes raw customer interview transcripts into themes, quotes, Jobs-to-be-Done (JTBD) signals, force-of-progress diagrams, and actionable opportunity hypotheses with confidence levels. Use when synthesizing a round of discovery, switching, win-loss, or churn interviews; preparing a research readout; aligning a team on what the customer signal actually says; or feeding inputs into an Opportunity Solution Tree (OST)."
 ---
 
 # Customer Interview Synthesizer

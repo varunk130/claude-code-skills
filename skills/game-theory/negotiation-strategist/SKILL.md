@@ -1,6 +1,6 @@
 ---
 name: negotiation-strategist
-description: "Prepares for a negotiation using the Best Alternative to a Negotiated Agreement (BATNA), reservation price, Zone of Possible Agreement (ZOPA), multi-issue trade design, anchoring tactics, and concession plans, then simulates the counterparty and produces a play-by-play strategy. Use before commercial negotiations, Mergers and Acquisitions (M&A) talks, vendor or partnership deals, internal resource negotiations, hiring offers, or any multi-issue bargaining where preparation outranks instinct."
+description: "Prepares for a negotiation using the Best Alternative to a Negotiated Agreement (BATNA), reservation price, Zone of Possible Agreement (ZOPA), multi-issue trade design, anchoring tactics, and concession plans, then simulates the counterparty and produces a play-by-play strategy. Use when preparing for a commercial negotiation; entering Mergers and Acquisitions (M&A) talks; negotiating a vendor or partnership deal; negotiating internal resources or a hiring offer; or facing any multi-issue bargaining where preparation outranks instinct."
 ---
 
 # Negotiation Strategist
