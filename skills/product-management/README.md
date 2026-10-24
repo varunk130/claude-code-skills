@@ -4,14 +4,14 @@ Skills for the modern product manager: continuous discovery, prioritization, cus
 
 | Skill | What it produces |
 |-------|------------------|
-| [ai-decision-engine](ai-decision-engine/SKILL.md) | Multi-framework strategic recommendations from full project context (PRDs, research, metrics, competitive intel) |
+| [ai-decision-engine](ai-decision-engine/SKILL.md) | Multi-framework strategic recommendations from full project context (Product Requirements Documents (PRDs), research, metrics, competitive intel) |
 | [ai-product-strategy](ai-product-strategy/SKILL.md) | AI opportunity map with build / buy / partner calls, data moat rating, trust requirements, phased roadmap, and risk register |
-| [ai-stakeholder-translator](ai-stakeholder-translator/SKILL.md) | 5 audience-tailored communications (engineering, executives, board, customers, sales) from one update |
-| [customer-interview-synthesizer](customer-interview-synthesizer/SKILL.md) | Coded transcripts, themes, JTBD signals, forces of progress, opportunity hypotheses |
-| [jobs-to-be-done-extractor](jobs-to-be-done-extractor/SKILL.md) | Functional / emotional / social job statements, job map, outcome scoring, hire/fire analysis |
+| [ai-stakeholder-translator](ai-stakeholder-translator/SKILL.md) | 5 audience-tailored communications (engineering, executives, board, customers, sales) from one product update |
+| [customer-interview-synthesizer](customer-interview-synthesizer/SKILL.md) | Coded transcripts, themes, Jobs-to-be-Done (JTBD) signals, forces of progress, opportunity hypotheses |
+| [jobs-to-be-done-extractor](jobs-to-be-done-extractor/SKILL.md) | Functional / emotional / social job statements, job map, outcome scoring, hire / fire analysis |
 | [opportunity-solution-tree](opportunity-solution-tree/SKILL.md) | Outcome → opportunities → solutions → assumption tests, as a living tree |
-| [product-discovery-coach](product-discovery-coach/SKILL.md) | Continuous discovery practice: trio cadence, assumption mapping, dual-track |
-| [product-roadmap-prioritizer](product-roadmap-prioritizer/SKILL.md) | RICE + Kano + MoSCoW + Cost of Delay scoring, convergence analysis, quarterly roadmap |
+| [product-discovery-coach](product-discovery-coach/SKILL.md) | Continuous discovery practice: weekly trio cadence, assumption mapping, discovery / delivery dual track |
+| [product-roadmap-prioritizer](product-roadmap-prioritizer/SKILL.md) | Reach-Impact-Confidence-Effort (RICE) plus Kano plus Must-Should-Could-Won't (MoSCoW) plus Cost of Delay scoring with convergence analysis and quarterly roadmap |
 
 ## Who these are for
 
