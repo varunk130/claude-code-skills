@@ -15,6 +15,19 @@
 
 </div>
 
+**Expert frameworks, packaged as Claude Code skills.** Ask for a discounted cash flow model, an autonomy map for your AI agent, or a pricing model that accounts for inference cost, and Claude follows a practitioner-grade workflow to a deliverable you can hand to a stakeholder, instead of improvising a generic answer.
+
+```bash
+git clone https://github.com/varunk130/claude-code-skills.git && cd claude-code-skills && ./install.sh
+```
+
+**Why this library**
+
+- **Built for AI products.** Dedicated categories for designing UX for AI agents and for marketing, pricing, and growing AI products, alongside classic finance, product, and strategy frameworks.
+- **Every skill ends in a deliverable.** A scored audit, a model, a memo, or a plan, never a list of tips.
+- **One standard format.** Every skill has the same sections, explicit triggers, and Always / Never operating rules, so they are easy to learn and extend.
+- **Validated in CI.** A format check and an installer smoke test run on every change.
+
 ---
 
 ## Table of Contents
