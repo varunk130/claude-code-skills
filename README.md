@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Claude Code Skills — 29 production-grade skills across 5 domains." width="100%"/>
+<img src="assets/hero.svg" alt="Claude Code Skills: 42 production-grade skills across 6 domains." width="100%"/>
 
 # 🧰 Claude Code Custom Skills
 
-### A curated, categorized library of production-grade skills for Claude Code — finance, product, strategy, game theory, and document processing.
+### 42 production-grade Claude Code skills for AI UX, AI marketing and growth, product, strategy, finance, and game theory.
 
-[![Custom Skills](https://img.shields.io/badge/Custom_Skills-29-blue?style=for-the-badge)](#-skill-categories)
-[![Categories](https://img.shields.io/badge/Categories-5-orange?style=for-the-badge)](#-skill-categories)
+[![Skills](https://img.shields.io/badge/Skills-42-blue?style=for-the-badge)](#-skill-categories)
+[![Categories](https://img.shields.io/badge/Categories-6-orange?style=for-the-badge)](#-skill-categories)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-D97757?logo=anthropic&logoColor=white&style=for-the-badge)](https://claude.ai/code)
 
@@ -112,7 +112,7 @@ for d in skills/*/*/; do cp -R "${d%/}" ~/.claude/skills/; done
 
 ## 📂 Skill categories
 
-Skills are organized into five categories. Each category folder has its own README with the full skill index and design principles.
+Skills are organized into six categories. Each category folder has its own README with the full skill index and design principles.
 
 | Category | Skills | What it's for |
 |----------|-------:|---------------|
