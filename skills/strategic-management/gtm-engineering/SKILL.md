@@ -1,110 +1,131 @@
 ---
 name: gtm-engineering
-description: 'Designs the technical infrastructure that powers go-to-market - lead scoring models, CRM enrichment pipelines, lifecycle automation, attribution, and reverse ETL. Use when: gtm engineering, revops engineering, lead scoring, lead routing, CRM data pipeline, marketing automation architecture, attribution model, reverse ETL, customer data platform, growth engineering.'
+description: "Designs the technical and data infrastructure behind a go-to-market (GTM) motion - data topology, canonical schema, lead and account scoring, routing with Service Level Agreements (SLAs), lifecycle automation, attribution, reverse Extract-Transform-Load (ETL) sync contracts, and observability. Use when designing a lead scoring or Product Qualified Lead (PQL) model; architecting data flows between the Customer Relationship Management (CRM) system, marketing automation, and the warehouse; setting up multi-touch attribution; planning reverse ETL; or auditing a broken Revenue Operations (RevOps) stack."
 ---
 
 # GTM Engineering
 
-Designs the technical and data infrastructure that powers a modern go-to-market motion - the systems behind lead scoring, routing, enrichment, lifecycle automation, attribution, and the data flows between product, CRM, marketing automation, and the warehouse.
+> Treat the revenue stack like a product: schemas, contracts, tests, and observability.
 
-This is **not** GTM strategy (positioning, channels, messaging). This is the plumbing that makes GTM strategy actually executable at scale.
+## What this skill is
 
-## When to Use This Skill
-- Designing a lead scoring or PQL/MQL model
-- Architecting CRM ↔ warehouse ↔ MAP data flows
-- Building lifecycle automation (onboarding, expansion, churn-risk)
-- Setting up multi-touch attribution
-- Planning reverse ETL from warehouse to Salesforce/HubSpot/Marketo
-- Auditing a broken or fragmented RevOps stack
-- Standing up the GTM data layer for a new company or motion
+A workflow for designing the plumbing that makes go-to-market (GTM) strategy executable at scale: lead scoring, routing, enrichment, lifecycle automation, attribution, and the data flows between product, Customer Relationship Management (CRM), Marketing Automation Platform (MAP), and the warehouse. It is not GTM strategy (positioning, channels, messaging); it is the execution layer that strategy depends on.
 
-## The Problem
+## What it solves
 
-Most GTM stacks are an accidental archaeology of point tools wired together with Zapier and hope. Lead scores don't reflect actual conversion data, attribution models contradict each other, sales reps work the wrong leads, and nobody can answer "what does a good lead actually look like?" The strategy doesn't fail - the execution layer does.
+- Point tools wired together with no-code connectors and hope, with no clear source of truth
+- Lead scores that do not reflect actual conversion data
+- Attribution models that contradict each other and settle nothing
+- Sales reps working the wrong leads because routing and Service Level Agreements (SLAs) are undefined
+- Nobody can answer "what does a good lead actually look like?"
+- Sync failures and score drift discovered by sales complaints instead of monitoring
 
-GTM Engineering is the discipline of treating the revenue stack like a product: with schemas, contracts, observability, and tested logic.
+## When to invoke
 
-## What You'll Need
+- Designing a lead scoring, Marketing Qualified Lead (MQL), or Product Qualified Lead (PQL) model
+- Architecting CRM, warehouse, and MAP data flows
+- Building lifecycle automation for onboarding, expansion, or churn risk
+- Setting up multi-touch attribution or reverse Extract-Transform-Load (ETL) to operational tools
+- Auditing a fragmented Revenue Operations (RevOps) stack or standing one up for a new motion
 
-**Critical inputs (ask if not provided):**
-- Sales motion (PLG, sales-led, hybrid, channel)
-- Current stack (CRM, MAP, CDP, warehouse, product analytics)
-- Definition of a "qualified" lead/account in this business
-- Where data currently lives and where it's broken
+Gather first: the sales motion (product-led, sales-led, hybrid, channel), the current stack, the business's definition of a qualified lead or account, and where data is broken. Helpful extras: four quarters of conversion data by source and segment, existing scoring rules, SLA targets, and data team capacity.
 
-**Nice-to-have inputs:**
-- Conversion data by source/segment (last 4 quarters)
-- Existing scoring rules
-- SLA targets (lead routing time, enrichment latency)
-- Data team capacity / tooling budget
+## Phase 1: Map the current data topology
 
-## Process
+Inventory every system that produces or consumes GTM data, using these typical layers:
 
-### Step 1: Map the Current Data Topology
-Inventory every system that produces or consumes GTM data. Identify the source of truth for accounts, contacts, opportunities, product usage, and intent signals. Flag duplicates, conflicts, and orphaned fields.
+| Layer | Examples |
+|-------|----------|
+| Sources | Product events, CRM, MAP, ads, billing, support, intent providers |
+| Warehouse | Snowflake, BigQuery, Databricks (the source of truth) |
+| Modeling | dbt, SQLMesh (canonical entities and metrics) |
+| Activation | Reverse ETL (Hightouch, Census) to CRM, MAP, ads, team chat |
+| Operational tools | Salesforce, HubSpot, Marketo, Customer.io, Outreach |
+| Observability | Monte Carlo, Sifflet, custom dbt tests |
 
-### Step 2: Define the Canonical Schema
-Specify the unified account/contact/event model that downstream systems will conform to. Decide what lives in the warehouse vs. CRM vs. MAP and why.
+Identify the source of truth for accounts, contacts, opportunities, product usage, and intent. Flag duplicates, conflicts, and orphaned fields.
 
-### Step 3: Build the Lead/Account Scoring Model
-Choose the model type appropriate to data volume:
-- **Rules-based** - small data, high explainability
-- **Logistic regression / gradient boosting** - sufficient labeled history
-- **Two-model (fit × intent)** - separate ICP fit from buying intent
+## Phase 2: Define the canonical schema
 
-Validate against historical conversion data, not gut feel.
+Specify the unified account, contact, and event model every downstream system conforms to. For each entity, decide what lives in the warehouse versus the CRM versus the MAP, and why.
 
-### Step 4: Design Routing & SLA Logic
-Specify routing rules (round-robin, territory, account ownership, capacity-aware) and the SLA clock for each lead type. Define escalation paths when SLAs breach.
+## Phase 3: Build the scoring model
 
-### Step 5: Architect Lifecycle Automation
-Map the journeys (onboarding, activation, expansion, churn-risk, win-back). For each, specify trigger event, audience query, channel, exit criteria, and the metric it moves.
+| Model type | Use when |
+|------------|----------|
+| Rules-based | Little data, high need for explainability |
+| Logistic regression or gradient boosting | Enough labeled conversion history |
+| Two-model (fit x intent) | Separating Ideal Customer Profile (ICP) fit from buying intent |
 
-### Step 6: Specify the Attribution Model
-Pick the model honestly: first-touch, last-touch, linear, time-decay, U-shaped, W-shaped, or data-driven (Markov / Shapley). Document its known biases. Plan for at least two parallel models so debate is data-grounded.
-
-### Step 7: Define Reverse ETL & Sync Contracts
-For every field synced from warehouse → operational tool, specify: source query, refresh cadence, conflict resolution, downstream consumer, and a backfill strategy.
-
-### Step 8: Add Observability & Tests
-Lead score drift, routing latency, enrichment hit rate, sync failures, dedupe collisions - all need monitoring. Treat the GTM stack like production infrastructure.
-
-## What You'll Get
-
-- Current-state data topology diagram
-- Canonical account/contact/event schema
-- Lead/account scoring model spec (with validation plan)
-- Routing rules + SLA matrix
-- Lifecycle journey specs (trigger → audience → channel → exit)
-- Attribution model selection memo
-- Reverse ETL sync contracts
-- Observability checklist (metrics, alerts, owners)
-- Phased rollout plan (what ships in 30 / 60 / 90 days)
-
-## Framework Reference
-
-**The GTM Data Stack - typical layers:**
-- **Sources** - Product events, CRM, MAP, ads, billing, support, intent providers
-- **Warehouse** - Snowflake / BigQuery / Databricks (the source of truth)
-- **Modeling layer** - dbt / SQLMesh (canonical entities and metrics)
-- **Activation** - Reverse ETL (Hightouch / Census) → CRM, MAP, ads, Slack
-- **Operational tools** - Salesforce / HubSpot, Marketo / Customer.io, Outreach
-- **Observability** - Monte Carlo / Sifflet / custom dbt tests
-
-**Scoring model anti-patterns:**
-- Scoring on activity (opens/clicks) instead of fit + intent
+Validate against historical closed-won data, not intuition. Avoid these anti-patterns:
+- Scoring on activity (opens, clicks) instead of fit and intent
 - One score that conflates fit and intent (ship two)
 - Never re-validating against actual closed-won data
-- Manual rule sprawl with no kill-switch for stale rules
+- Rule sprawl with no kill switch for stale rules
 
-**Attribution honesty checklist:**
-- Does the model match the actual sales motion length?
-- Are dark social / direct / brand-search captured anywhere?
-- Are offline touches (events, AE outreach) ingested?
-- Do marketing and sales agree on the model - or just tolerate it?
+## Phase 4: Design routing and SLA logic
 
-**Routing SLA defaults (starting point, tune to motion):**
-- Inbound demo request: < 5 minutes to first touch
-- High-fit PQL: < 1 hour
-- MQL: < 24 hours
-- Re-engagement: nurture, no SLA
+Specify routing rules (round-robin, territory, account ownership, capacity-aware), the SLA clock per lead type, and escalation when an SLA is breached. Starting defaults, tuned to the motion:
+
+| Lead type | First-touch SLA |
+|-----------|-----------------|
+| Inbound demo request | Under 5 minutes |
+| High-fit PQL | Under 1 hour |
+| MQL | Under 24 hours |
+| Re-engagement | Nurture, no SLA |
+
+## Phase 5: Architect lifecycle automation
+
+For each journey (onboarding, activation, expansion, churn risk, win-back), specify:
+
+| Trigger event | Audience query | Channel | Exit criteria | Metric moved |
+|---------------|----------------|---------|---------------|--------------|
+| | | | | |
+
+## Phase 6: Specify the attribution model
+
+Pick the model honestly: first-touch, last-touch, linear, time-decay, U-shaped, W-shaped, or data-driven (Markov chain or Shapley value). Document its known biases and run at least two models in parallel so debates are data-grounded. Check:
+- Does the model match the actual length of the sales cycle?
+- Are dark social, direct, and brand-search traffic captured anywhere?
+- Are offline touches (events, Account Executive (AE) outreach) ingested?
+- Do marketing and sales agree on the model, or merely tolerate it?
+
+## Phase 7: Define reverse ETL and sync contracts
+
+For every field synced from the warehouse to an operational tool:
+
+| Field | Source query | Refresh cadence | Conflict resolution | Downstream consumer | Backfill strategy |
+|-------|--------------|-----------------|---------------------|---------------------|-------------------|
+| | | | | | |
+
+## Phase 8: Add observability and tests
+
+Monitor lead score drift, routing latency, enrichment hit rate, sync failures, and deduplication collisions. Give each metric an alert threshold and an owner. Plan a phased rollout of what ships in 30, 60, and 90 days.
+
+## Output
+
+- Current-state data topology diagram
+- Canonical account, contact, and event schema
+- Scoring model specification with a validation plan
+- Routing rules and SLA matrix
+- Lifecycle journey specifications (trigger, audience, channel, exit)
+- Attribution model selection memo
+- Reverse ETL sync contracts
+- Observability checklist with metrics, alerts, and owners
+- Phased 30/60/90-day rollout plan
+
+## Operating rules
+
+**Always**
+- Name one source of truth per entity
+- Validate scoring against closed-won data
+- Separate fit from intent in scoring
+- Write a sync contract for every reverse ETL field
+- Monitor the GTM stack like production infrastructure
+
+**Never**
+- Confuse GTM engineering with GTM strategy
+- Score leads on email activity alone
+- Rely on a single attribution model without documenting its bias
+- Sync fields to operational tools without conflict resolution rules
+- Leave stale scoring rules running with no kill switch
