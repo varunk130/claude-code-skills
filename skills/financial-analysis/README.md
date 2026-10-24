@@ -6,10 +6,10 @@ Rigorous, defensible financial modeling and analysis skills for valuation, capit
 |-------|------------------|
 | [ai-agent-financial-analyst](ai-agent-financial-analyst/SKILL.md) | Software as a Service (SaaS) financial models: unit economics, feature Return on Investment (ROI), pricing scenarios, market sizing, build versus buy, and revenue projections with sensitivity ranges |
 | [burn-rate-runway-planner](burn-rate-runway-planner/SKILL.md) | Burn decomposition, scenario plans, lever stack, 13-week cash forecast, fundraise trigger calendar |
-| [capital-allocation-framework](capital-allocation-framework/SKILL.md) | Ranked investment portfolio across NPV, IRR, PI, EAA + strategic option value and risk-adjusted frontier |
-| [dcf-valuation-builder](dcf-valuation-builder/SKILL.md) | Full DCF with WACC build, two terminal-value methods reconciled, sensitivity table, football field |
-| [financial-statement-analyzer](financial-statement-analyzer/SKILL.md) | 10-K / 10-Q teardown with margin waterfall, quality-of-earnings score, accounting red-flag log |
-| [saas-cohort-analyzer](saas-cohort-analyzer/SKILL.md) | Cohort retention triangles, NRR/GRR, LTV, CAC payback, movement bridge, segmentation cuts |
+| [capital-allocation-framework](capital-allocation-framework/SKILL.md) | Ranked investment portfolio across Net Present Value (NPV), Internal Rate of Return (IRR), Profitability Index (PI), and Equivalent Annual Annuity (EAA) plus strategic option value and risk-adjusted frontier |
+| [dcf-valuation-builder](dcf-valuation-builder/SKILL.md) | Full Discounted Cash Flow (DCF) with WACC build, two terminal-value methods reconciled, sensitivity table, football field |
+| [financial-statement-analyzer](financial-statement-analyzer/SKILL.md) | Form 10-K and Form 10-Q teardown with margin waterfall, quality-of-earnings score, accounting red-flag log |
+| [saas-cohort-analyzer](saas-cohort-analyzer/SKILL.md) | Cohort retention triangles, Net Revenue Retention (NRR) / Gross Revenue Retention (GRR), Lifetime Value (LTV), Customer Acquisition Cost (CAC) payback, movement bridge, segmentation cuts |
 
 ## Who these are for
 
