@@ -4,7 +4,7 @@ Rigorous, defensible financial modeling and analysis skills for valuation, capit
 
 | Skill | What it produces |
 |-------|------------------|
-| [ai-agent-financial-analyst](ai-agent-financial-analyst/SKILL.md) | SaaS financial models: unit economics, ROI calculators, pricing scenarios, revenue projections |
+| [ai-agent-financial-analyst](ai-agent-financial-analyst/SKILL.md) | Software as a Service (SaaS) financial models: unit economics, feature Return on Investment (ROI), pricing scenarios, market sizing, build versus buy, and revenue projections with sensitivity ranges |
 | [burn-rate-runway-planner](burn-rate-runway-planner/SKILL.md) | Burn decomposition, scenario plans, lever stack, 13-week cash forecast, fundraise trigger calendar |
 | [capital-allocation-framework](capital-allocation-framework/SKILL.md) | Ranked investment portfolio across NPV, IRR, PI, EAA + strategic option value and risk-adjusted frontier |
 | [dcf-valuation-builder](dcf-valuation-builder/SKILL.md) | Full DCF with WACC build, two terminal-value methods reconciled, sensitivity table, football field |
