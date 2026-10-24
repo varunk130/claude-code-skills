@@ -1,6 +1,6 @@
 ---
 name: repeated-game-strategist
-description: "Analyzes repeated-game interactions - competitor dynamics, partner trust, supplier-buyer relationships - using the folk theorem, tit-for-tat (TFT), grim trigger, discount-factor analysis, and reputation effects to recommend a sustainable strategy. Use when designing a long-running competitive posture, structuring a multi-period partnership, deciding whether to retaliate against a defection, building a vendor relationship strategy, or planning repeated-bid procurement."
+description: "Analyzes repeated-game interactions - competitor dynamics, partner trust, supplier-buyer relationships - using the folk theorem, tit-for-tat (TFT), grim trigger, discount-factor analysis, and reputation effects to recommend a sustainable strategy. Use when designing a long-running competitive posture; structuring a multi-period partnership; deciding whether to retaliate against a defection; building a vendor relationship strategy; or planning repeated-bid procurement."
 ---
 
 # Repeated Game Strategist

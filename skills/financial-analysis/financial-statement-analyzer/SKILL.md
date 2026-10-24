@@ -1,6 +1,6 @@
 ---
 name: financial-statement-analyzer
-description: "Performs structured fundamental analysis of annual reports (Form 10-K, Form 10-Q): ratio analysis, quality of earnings, working-capital efficiency, segment decomposition, accounting red flags, and Management's Discussion and Analysis (MD&A) parsing. Use when underwriting an investment, evaluating a competitor, preparing for an earnings call, building peer comparables, or screening for accounting risk."
+description: "Performs structured fundamental analysis of annual reports (Form 10-K, Form 10-Q): ratio analysis, quality of earnings, working-capital efficiency, segment decomposition, accounting red flags, and Management's Discussion and Analysis (MD&A) parsing. Use when underwriting an investment; evaluating a competitor; preparing for an earnings call; building peer comparables; or screening for accounting risk."
 ---
 
 # Financial Statement Analyzer

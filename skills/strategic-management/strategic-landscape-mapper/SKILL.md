@@ -1,6 +1,6 @@
 ---
 name: strategic-landscape-mapper
-description: "Builds a Strategic Landscape Map: a user-need value chain plotted against component maturity stages (novel → custom-built → productized → commoditized), with environmental forces, operating principles, and strategic plays identified. Use when designing platform strategy, deciding what to build, buy, or outsource; anticipating commoditization waves; planning multi-year technology investment; or aligning a leadership team on landscape and direction."
+description: "Builds a Strategic Landscape Map: a user-need value chain plotted against component maturity stages (novel → custom-built → productized → commoditized), with environmental forces, operating principles, and strategic plays identified. Use when designing platform strategy; deciding what to build, buy, or outsource; anticipating commoditization waves; planning multi-year technology investment; or aligning a leadership team on landscape and direction."
 ---
 
 # Strategic Landscape Mapper

@@ -1,6 +1,6 @@
 ---
 name: opportunity-solution-tree
-description: "Builds an Opportunity Solution Tree (OST) - desired outcome at the top, prioritized opportunities, candidate solutions, and assumption tests that connect discovery work to a measurable business outcome. Use when planning continuous product discovery, deciding what to research next, structuring quarterly discovery work, or aligning a product trio (product manager / designer / engineer) on what to test."
+description: "Builds an Opportunity Solution Tree (OST) - desired outcome at the top, prioritized opportunities, candidate solutions, and assumption tests that connect discovery work to a measurable business outcome. Use when planning continuous product discovery; deciding what to research next; structuring quarterly discovery work; or aligning a product trio (product manager / designer / engineer) on what to test."
 ---
 
 # Opportunity Solution Tree

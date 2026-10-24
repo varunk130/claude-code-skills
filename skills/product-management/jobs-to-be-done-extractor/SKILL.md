@@ -1,6 +1,6 @@
 ---
 name: jobs-to-be-done-extractor
-description: "Extracts Jobs-to-be-Done (JTBD) statements (functional, emotional, social) from raw research - interviews, surveys, support tickets, sales calls - and produces a job map with progress measures and outcome statements. Use when reframing a product around customer outcomes, segmenting beyond demographics, building a competitive switching analysis, prioritizing features, or aligning product, marketing, and sales on the same job."
+description: "Extracts Jobs-to-be-Done (JTBD) statements (functional, emotional, social) from raw research - interviews, surveys, support tickets, sales calls - and produces a job map with progress measures and outcome statements. Use when reframing a product around customer outcomes; segmenting beyond demographics; building a competitive switching analysis; prioritizing features; or aligning product, marketing, and sales on the same job."
 ---
 
 # Jobs-to-be-Done Extractor

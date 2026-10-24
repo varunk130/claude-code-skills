@@ -1,6 +1,6 @@
 ---
 name: competitive-response-modeler
-description: "Models multi-round competitive interactions: who reacts, how fast, with what move, and what payoff outcome - using reaction functions, commitment value, and signaling theory. Use when planning a pricing change, market entry, product launch, capacity addition, or any move where competitor reaction will determine whether the move pays off."
+description: "Models multi-round competitive interactions: who reacts, how fast, with what move, and what payoff outcome - using reaction functions, commitment value, and signaling theory. Use when planning a pricing change; preparing a market entry or product launch; adding capacity; or making any move where competitor reaction will determine whether the move pays off."
 ---
 
 # Competitive Response Modeler

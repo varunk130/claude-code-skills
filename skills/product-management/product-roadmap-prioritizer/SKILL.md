@@ -1,6 +1,6 @@
 ---
 name: product-roadmap-prioritizer
-description: "Runs candidate features through Reach-Impact-Confidence-Effort (RICE), Kano, Must-Should-Could-Won't (MoSCoW), and Cost-of-Delay scoring, surfaces convergence and divergence across frameworks, and produces a defensible quarterly priority list with explicit trade-offs. Use when building a quarterly or annual roadmap, resolving conflicting stakeholder input, justifying a deprioritization to a stakeholder, or normalizing requests from multiple sources (sales, customer success, leadership) into one queue."
+description: "Runs candidate features through Reach-Impact-Confidence-Effort (RICE), Kano, Must-Should-Could-Won't (MoSCoW), and Cost-of-Delay scoring, surfaces convergence and divergence across frameworks, and produces a defensible quarterly priority list with explicit trade-offs. Use when building a quarterly or annual roadmap; resolving conflicting stakeholder input; justifying a deprioritization to a stakeholder; or normalizing requests from multiple sources (sales, customer success, leadership) into one queue."
 ---
 
 # Product Roadmap Prioritizer

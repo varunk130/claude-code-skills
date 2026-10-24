@@ -1,6 +1,6 @@
 ---
 name: blue-ocean-strategy-canvas
-description: "Builds a Blue Ocean Strategy Canvas with the as-is competitive value curve, the Eliminate-Reduce-Raise-Create (ERRC) grid, the to-be value curve, and a non-customer analysis to find uncontested market space. Use when an industry is commoditizing, when differentiating against an entrenched incumbent, when designing a new category, or when reframing strategy around buyer utility instead of feature parity."
+description: "Builds a Blue Ocean Strategy Canvas with the as-is competitive value curve, the Eliminate-Reduce-Raise-Create (ERRC) grid, the to-be value curve, and a non-customer analysis to find uncontested market space. Use when an industry is commoditizing; differentiating against an entrenched incumbent; designing a new category; or reframing strategy around buyer utility instead of feature parity."
 ---
 
 # Blue Ocean Strategy Canvas

@@ -1,6 +1,6 @@
 ---
 name: capital-allocation-framework
-description: "Ranks competing investments using Net Present Value (NPV), Internal Rate of Return (IRR), payback period, Profitability Index (PI), and strategic option value - then produces a portfolio-level recommendation. Use when evaluating capital expenditure requests, comparing Mergers and Acquisitions (M&A) targets, sizing Research and Development (R&D) bets, prioritizing engineering investments, sun-setting initiatives, or preparing a board capital allocation memo."
+description: "Ranks competing investments using Net Present Value (NPV), Internal Rate of Return (IRR), payback period, Profitability Index (PI), and strategic option value - then produces a portfolio-level recommendation. Use when evaluating capital expenditure requests; comparing Mergers and Acquisitions (M&A) targets; sizing Research and Development (R&D) bets; prioritizing engineering investments; sun-setting initiatives; or preparing a board capital allocation memo."
 ---
 
 # Capital Allocation Framework

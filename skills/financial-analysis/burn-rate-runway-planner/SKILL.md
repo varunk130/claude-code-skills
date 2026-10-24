@@ -1,6 +1,6 @@
 ---
 name: burn-rate-runway-planner
-description: "Models cash burn, runway, and scenario-based cash flow with explicit triggers, default-alive versus default-dead diagnosis, and a 13-week rolling forecast. Use when planning a fundraise, deciding on layoffs, evaluating hiring plans, modeling a downturn, presenting cash position to the board, or pressure-testing a Chief Financial Officer (CFO) operating plan."
+description: "Models cash burn, runway, and scenario-based cash flow with explicit triggers, default-alive versus default-dead diagnosis, and a 13-week rolling forecast. Use when planning a fundraise; deciding on layoffs; evaluating hiring plans; modeling a downturn; presenting cash position to the board; or pressure-testing a Chief Financial Officer (CFO) operating plan."
 ---
 
 # Burn Rate and Runway Planner

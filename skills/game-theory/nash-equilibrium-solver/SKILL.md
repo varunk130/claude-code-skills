@@ -1,6 +1,6 @@
 ---
 name: nash-equilibrium-solver
-description: "Models a strategic interaction as a normal-form (or extensive-form) game, identifies pure-strategy and mixed-strategy Nash equilibria, applies dominance and iterated elimination, checks subgame perfection, and translates the equilibrium back into a recommended action. Use when analyzing pricing wars, capacity decisions, market entry, bidding strategy, negotiation dynamics, or any two-or-more party interaction where each player's best move depends on what others do."
+description: "Models a strategic interaction as a normal-form (or extensive-form) game, identifies pure-strategy and mixed-strategy Nash equilibria, applies dominance and iterated elimination, checks subgame perfection, and translates the equilibrium back into a recommended action. Use when analyzing a pricing war; making capacity or market entry decisions; planning a bidding strategy; reading negotiation dynamics; or modeling any interaction of two or more parties where each player's best move depends on what others do."
 ---
 
 # Nash Equilibrium Solver

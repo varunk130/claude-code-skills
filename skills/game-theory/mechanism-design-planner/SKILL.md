@@ -1,6 +1,6 @@
 ---
 name: mechanism-design-planner
-description: "Designs auctions, matching mechanisms, pricing schemes, and incentive structures using mechanism-design principles - Incentive Compatibility (IC), Individual Rationality (IR), revenue equivalence, and budget balance. Use when designing a marketplace pricing model, a referral program, an internal resource allocation, a Request for Proposal (RFP) or procurement process, an auction format, or any allocation rule where participants act strategically."
+description: "Designs auctions, matching mechanisms, pricing schemes, and incentive structures using mechanism-design principles - Incentive Compatibility (IC), Individual Rationality (IR), revenue equivalence, and budget balance. Use when designing a marketplace pricing model or referral program; allocating internal resources; running a Request for Proposal (RFP) or procurement process; choosing an auction format; or setting any allocation rule where participants act strategically."
 ---
 
 # Mechanism Design Planner
