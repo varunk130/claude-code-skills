@@ -62,34 +62,33 @@ flowchart LR
 ## ⚡ Quickstart
 
 ```bash
-# 1. Clone this repo
 git clone https://github.com/varunk130/claude-code-skills.git
 cd claude-code-skills
-
-# 2. Install all skills globally for Claude Code
-mkdir -p ~/.claude/skills
-cp -r skills/* ~/.claude/skills/
-
-# 3. Restart Claude Code, then invoke any skill
-#    Examples:
-#      /dcf-valuation-builder
-#      /opportunity-solution-tree
-#      /strategic-landscape-mapper
-#      /negotiation-strategist
+./install.sh            # installs every skill into ~/.claude/skills
 ```
 
-**Install a single category** (e.g., only the finance skills):
+Restart Claude Code, then invoke any skill by name or just describe the task:
+
+```text
+/dcf-valuation-builder
+/opportunity-solution-tree
+"Map the competitive response if we cut prices 20%"
+```
+
+**Install only some categories:**
+
+```bash
+./install.sh --list                          # see categories and skills
+./install.sh financial-analysis game-theory  # install just these
+```
+
+**Project-local install** (skills available only in one project): run `./install.sh --project` from that project's root, using the full path to the script.
+
+**Manual install:** Claude Code looks for skills exactly one level deep (`~/.claude/skills/<skill-name>/SKILL.md`), so copy the skill folders, not the category folders:
 
 ```bash
 mkdir -p ~/.claude/skills
-cp -r skills/financial-analysis/* ~/.claude/skills/
-```
-
-**Project-local install** (skills available only in one project):
-
-```bash
-mkdir -p .claude/skills
-cp -r /path/to/claude-code-skills/skills/<category>/* .claude/skills/
+for d in skills/*/*/; do cp -R "${d%/}" ~/.claude/skills/; done
 ```
 
 > 💡 New to Claude Code skills? See the [official skills guide](https://docs.anthropic.com/en/docs/claude-code/skills) for installation locations and discovery rules.
