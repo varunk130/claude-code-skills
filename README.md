@@ -292,6 +292,7 @@ Quick checklist:
 - Description includes explicit "Use when…" triggers
 - Follows the [Standard skill format](#standard-skill-format) above
 - Acronyms spelled out on first use
+- `python3 scripts/validate_skills.py` passes (CI runs it on every pull request)
 
 ---
 
