@@ -27,7 +27,6 @@
   - [Product Management](#product-management-8-skills)
   - [Strategic Management](#strategic-management-9-skills)
   - [Game Theory](#game-theory-5-skills)
-  - [Document Processing](#document-processing-1-skill)
 - [Pairs well with](#pairs-well-with)
 - [Standard skill format](#standard-skill-format)
 - [Authoring a new skill](#authoring-a-new-skill)
@@ -107,7 +106,6 @@ Skills are organized into five categories. Each category folder has its own READ
 | [📦 Product Management](skills/product-management/) | 8 | Discovery, prioritization, customer research, strategic decisions, communication |
 | [🧭 Strategic Management](skills/strategic-management/) | 9 | Industry analysis, positioning, landscape mapping, OKRs, go-to-market |
 | [♟️ Game Theory](skills/game-theory/) | 5 | Equilibrium analysis, negotiation, competitive dynamics, mechanism design |
-| [📄 Document Processing](skills/document-processing/) | 1 | PDF extraction, form filling, merging |
 
 ### Financial Analysis (6 skills)
 
@@ -164,14 +162,6 @@ Skills are organized into five categories. Each category folder has its own READ
 | [nash-equilibrium-solver](skills/game-theory/nash-equilibrium-solver/SKILL.md) | Pure and mixed Nash equilibria, dominance, subgame perfection, and equilibrium selection |
 | [negotiation-strategist](skills/game-theory/negotiation-strategist/SKILL.md) | Best Alternative to a Negotiated Agreement (BATNA), Zone of Possible Agreement (ZOPA), multi-issue trade matrix, anchoring plan, concession schedule, tactical playbook |
 | [repeated-game-strategist](skills/game-theory/repeated-game-strategist/SKILL.md) | Critical discount factor, strategy selection (Tit-for-Tat, grim trigger, Pavlov), reputation, and retaliation policy |
-
-### Document Processing (1 skill)
-
-> Document extraction, transformation, merging, and form handling. — [Category README](skills/document-processing/README.md)
-
-| Skill | What it produces |
-|-------|------------------|
-| [pdf-processing](skills/document-processing/pdf-processing/SKILL.md) | PDF text extraction, form filling, and document merging |
 
 ---
 
