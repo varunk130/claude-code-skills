@@ -5,10 +5,10 @@ Apply game theory to real decisions: pricing wars, negotiation, mechanism design
 | Skill | What it produces |
 |-------|------------------|
 | [competitive-response-modeler](competitive-response-modeler/SKILL.md) | Multi-round action-reaction tree with reaction functions, commitment moves, and signaling analysis |
-| [mechanism-design-planner](mechanism-design-planner/SKILL.md) | Mechanism design for auctions, matching, and pricing with IC, IR, revenue equivalence, and collusion stress tests |
+| [mechanism-design-planner](mechanism-design-planner/SKILL.md) | Mechanism design for auctions, matching, and pricing with Incentive Compatibility (IC), Individual Rationality (IR), revenue equivalence, and collusion stress tests |
 | [nash-equilibrium-solver](nash-equilibrium-solver/SKILL.md) | Pure and mixed Nash equilibria, dominance, subgame perfection, and equilibrium selection |
-| [negotiation-strategist](negotiation-strategist/SKILL.md) | BATNA, ZOPA, multi-issue trade matrix, anchoring plan, concession schedule, tactical playbook |
-| [repeated-game-strategist](repeated-game-strategist/SKILL.md) | Critical discount factor, strategy selection (TFT, grim, Pavlov), reputation, and retaliation policy |
+| [negotiation-strategist](negotiation-strategist/SKILL.md) | Best Alternative to a Negotiated Agreement (BATNA), Zone of Possible Agreement (ZOPA), multi-issue trade matrix, anchoring plan, concession schedule, tactical playbook |
+| [repeated-game-strategist](repeated-game-strategist/SKILL.md) | Critical discount factor, strategy selection (Tit-for-Tat, grim trigger, Pavlov), reputation, and retaliation policy |
 
 ## Who these are for
 
