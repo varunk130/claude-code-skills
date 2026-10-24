@@ -36,6 +36,7 @@ git clone https://github.com/varunk130/claude-code-skills.git && cd claude-code-
 - [How it works](#how-it-works)
 - [Quickstart](#-quickstart)
 - [Skill categories](#-skill-categories)
+  - [AI UX & Design](#ai-ux--design-7-skills)
   - [Financial Analysis](#financial-analysis-6-skills)
   - [Product Management](#product-management-8-skills)
   - [Strategic Management](#strategic-management-9-skills)
@@ -114,10 +115,25 @@ Skills are organized into five categories. Each category folder has its own READ
 
 | Category | Skills | What it's for |
 |----------|-------:|---------------|
+| [🤖 AI UX & Design](skills/ai-ux-design/) | 7 | Agent autonomy, human-in-the-loop, failure states, uncertainty, prompt surfaces, usability testing for AI |
 | [💰 Financial Analysis](skills/financial-analysis/) | 6 | Valuation, capital allocation, SaaS economics, cash management, fundamental analysis |
 | [📦 Product Management](skills/product-management/) | 8 | Discovery, prioritization, customer research, strategic decisions, communication |
 | [🧭 Strategic Management](skills/strategic-management/) | 9 | Industry analysis, positioning, landscape mapping, OKRs, go-to-market |
 | [♟️ Game Theory](skills/game-theory/) | 5 | Equilibrium analysis, negotiation, competitive dynamics, mechanism design |
+
+### AI UX & Design (7 skills)
+
+> Design the experience of AI products and agents: how much they do on their own, where humans step in, how they fail, and how they show uncertainty. - [Category README](skills/ai-ux-design/README.md)
+
+| Skill | What it produces |
+|-------|------------------|
+| [agent-autonomy-level-mapper](skills/ai-ux-design/agent-autonomy-level-mapper/SKILL.md) | Per-action autonomy map (suggest / draft / act-with-approval / act-and-report / act-silently) from a stakes x reversibility x confidence score, with approval-gate spec and promotion criteria |
+| [ai-failure-state-designer](skills/ai-ux-design/ai-failure-state-designer/SKILL.md) | Failure-mode inventory mapped to User Interface (UI) patterns, recovery actions, latency treatments, and microcopy library |
+| [ai-usability-test-planner](skills/ai-ux-design/ai-usability-test-planner/SKILL.md) | Usability study plan for non-deterministic features: Wizard-of-Oz and seeded-output tasks, variance-aware metrics, trust-calibration measures, offline evaluation pairing |
+| [ai-ux-audit](skills/ai-ux-design/ai-ux-audit/SKILL.md) | Stakes-weighted heuristic scorecard across six AI dimensions with stress-scenario evidence and severity-ranked fix list |
+| [human-in-the-loop-designer](skills/ai-ux-design/human-in-the-loop-designer/SKILL.md) | Human-in-the-loop (HITL) touchpoint design: checkpoints, approval gates, escalation triggers, handoff packages, interruption-cost scoring, and review-fatigue limits |
+| [prompt-surface-designer](skills/ai-ux-design/prompt-surface-designer/SKILL.md) | Chat and agent input experience: capability inventory, blank-box risk score, scored starter prompts, input affordances, follow-ups, and first-run onboarding |
+| [uncertainty-and-explainability-patterns](skills/ai-ux-design/uncertainty-and-explainability-patterns/SKILL.md) | Confidence, citation, and reasoning pattern spec matched to audience and risk, with calibration checks and anti-pattern review |
 
 ### Financial Analysis (6 skills)
 
