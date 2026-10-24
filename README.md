@@ -178,7 +178,7 @@ Skills are organized into six categories. Each category folder has its own READM
 
 | Skill | What it produces |
 |-------|------------------|
-| [ai-agent-financial-analyst](skills/financial-analysis/ai-agent-financial-analyst/SKILL.md) | Software as a Service (SaaS) financial models: unit economics, ROI calculators, pricing scenarios, revenue projections |
+| [ai-agent-financial-analyst](skills/financial-analysis/ai-agent-financial-analyst/SKILL.md) | Software as a Service (SaaS) financial models: unit economics, feature Return on Investment (ROI), pricing scenarios, market sizing, build versus buy, and revenue projections with sensitivity ranges |
 | [burn-rate-runway-planner](skills/financial-analysis/burn-rate-runway-planner/SKILL.md) | Burn decomposition, scenario plans, lever stack, 13-week cash forecast, fundraise trigger calendar |
 | [capital-allocation-framework](skills/financial-analysis/capital-allocation-framework/SKILL.md) | Ranked investment portfolio across Net Present Value (NPV), Internal Rate of Return (IRR), Profitability Index (PI), and Equivalent Annual Annuity (EAA) plus strategic option value and risk-adjusted frontier |
 | [dcf-valuation-builder](skills/financial-analysis/dcf-valuation-builder/SKILL.md) | Full Discounted Cash Flow (DCF) with WACC build, two terminal-value methods reconciled, sensitivity table, football field |
@@ -192,7 +192,7 @@ Skills are organized into six categories. Each category folder has its own READM
 | Skill | What it produces |
 |-------|------------------|
 | [ai-decision-engine](skills/product-management/ai-decision-engine/SKILL.md) | Multi-framework strategic recommendations from full project context (Product Requirements Documents (PRDs), research, metrics, competitive intel) |
-| [ai-product-strategy](skills/product-management/ai-product-strategy/SKILL.md) | AI opportunity assessments with build / buy / partner analysis and data moat evaluation |
+| [ai-product-strategy](skills/product-management/ai-product-strategy/SKILL.md) | AI opportunity map with build / buy / partner calls, data moat rating, trust requirements, phased roadmap, and risk register |
 | [ai-stakeholder-translator](skills/product-management/ai-stakeholder-translator/SKILL.md) | 5 audience-tailored communications (engineering, executives, board, customers, sales) from one product update |
 | [customer-interview-synthesizer](skills/product-management/customer-interview-synthesizer/SKILL.md) | Coded transcripts, themes, Jobs-to-be-Done (JTBD) signals, forces of progress, opportunity hypotheses |
 | [jobs-to-be-done-extractor](skills/product-management/jobs-to-be-done-extractor/SKILL.md) | Functional / emotional / social job statements, job map, outcome scoring, hire / fire analysis |
@@ -207,12 +207,12 @@ Skills are organized into six categories. Each category folder has its own READM
 | Skill | What it produces |
 |-------|------------------|
 | [blue-ocean-strategy-canvas](skills/strategic-management/blue-ocean-strategy-canvas/SKILL.md) | As-is and to-be value curves, Eliminate-Reduce-Raise-Create (ERRC) grid, non-customer analysis, buyer utility map, sequence test |
-| [go-to-market-strategy](skills/strategic-management/go-to-market-strategy/SKILL.md) | Complete go-to-market plan: channels, messaging matrix, launch timeline, success metrics |
-| [gtm-engineering](skills/strategic-management/gtm-engineering/SKILL.md) | Go-to-market data infrastructure: lead scoring, routing, lifecycle automation, attribution, reverse-ETL contracts |
-| [market-sizing](skills/strategic-management/market-sizing/SKILL.md) | Total / Serviceable / Obtainable Addressable Market (TAM / SAM / SOM) via top-down and bottom-up with assumption tracking |
+| [go-to-market-strategy](skills/strategic-management/go-to-market-strategy/SKILL.md) | Complete go-to-market plan: prioritized segments, channels with owners, messaging matrix, launch timeline, 30/60/90-day success metrics |
+| [gtm-engineering](skills/strategic-management/gtm-engineering/SKILL.md) | Go-to-market data infrastructure: lead scoring, routing, lifecycle automation, attribution, reverse Extract-Transform-Load (ETL) sync contracts |
+| [market-sizing](skills/strategic-management/market-sizing/SKILL.md) | Total Addressable Market (TAM), Serviceable Addressable Market (SAM), and Serviceable Obtainable Market (SOM), triangulated across top-down and bottom-up methods with an assumption log |
 | [okr-cascade-planner](skills/strategic-management/okr-cascade-planner/SKILL.md) | Company → function → team Objectives and Key Results (OKRs) cascade with alignment map and quarterly rituals |
 | [porters-five-forces-analyzer](skills/strategic-management/porters-five-forces-analyzer/SKILL.md) | Five Forces scorecard with dominant force, trajectory, and strategic moves per force |
-| [pricing-strategy-analyzer](skills/strategic-management/pricing-strategy-analyzer/SKILL.md) | Pricing analysis with competitive positioning, packaging, and revenue modeling |
+| [pricing-strategy-analyzer](skills/strategic-management/pricing-strategy-analyzer/SKILL.md) | Pricing recommendation from competitive positioning, value metric fit, willingness-to-pay evidence, packaging, revenue scenarios, and a migration plan |
 | [strategic-landscape-mapper](skills/strategic-management/strategic-landscape-mapper/SKILL.md) | User-need value chain on a maturity axis with environmental forces, operating principles, and strategic plays |
 | [swot-tows-analyzer](skills/strategic-management/swot-tows-analyzer/SKILL.md) | Evidence-anchored SWOT plus TOWS matrix producing prioritized strategic options |
 
