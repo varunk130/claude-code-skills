@@ -151,6 +151,7 @@ Before opening a PR for a new skill:
 - [ ] Total length within the guidelines above
 - [ ] Main README updated with the new skill in its category table
 - [ ] Category README updated with the new skill
+- [ ] `python3 scripts/validate_skills.py` reports no problems
 
 ---
 
