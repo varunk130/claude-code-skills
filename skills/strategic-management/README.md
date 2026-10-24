@@ -1,3 +1,5 @@
+<img src="../../assets/categories/strategic-management.svg" alt="Strategic Management skills for Claude Code" width="100%"/>
+
 # Strategic Management Skills
 
 Classical and modern strategy frameworks executed with rigor: industry structure, competitive positioning, landscape mapping, scenario planning, and execution via Objectives and Key Results.

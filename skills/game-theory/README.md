@@ -1,3 +1,5 @@
+<img src="../../assets/categories/game-theory.svg" alt="Game Theory skills for Claude Code" width="100%"/>
+
 # Game Theory Skills
 
 Apply game theory to real decisions: pricing wars, negotiation, mechanism design, repeated interactions, and competitive dynamics. Built on Nash, Vickrey, Schelling, Axelrod, Myerson, and the modern IO literature.

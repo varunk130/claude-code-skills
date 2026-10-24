@@ -1,3 +1,5 @@
+<img src="../../assets/categories/financial-analysis.svg" alt="Financial Analysis skills for Claude Code" width="100%"/>
+
 # Financial Analysis Skills
 
 Rigorous, defensible financial modeling and analysis skills for valuation, capital allocation, SaaS economics, cash management, and fundamental analysis.

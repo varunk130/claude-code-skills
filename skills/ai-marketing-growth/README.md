@@ -1,3 +1,5 @@
+<img src="../../assets/categories/ai-marketing-growth.svg" alt="AI Marketing & Growth skills for Claude Code" width="100%"/>
+
 # AI Marketing & Growth Skills
 
 Marketing and growth workflows built for Artificial Intelligence (AI) products and AI-era channels: visibility in AI assistant answers, positioning against general-purpose assistants, launches, experimentation on non-deterministic features, activation, content quality, and inference-aware pricing.

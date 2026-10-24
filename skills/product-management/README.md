@@ -1,3 +1,5 @@
+<img src="../../assets/categories/product-management.svg" alt="Product Management skills for Claude Code" width="100%"/>
+
 # Product Management Skills
 
 Skills for the modern product manager: continuous discovery, prioritization, customer research synthesis, strategic decision-making, and multi-audience communication.

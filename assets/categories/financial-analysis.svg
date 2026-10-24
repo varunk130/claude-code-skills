@@ -1,0 +1,44 @@
+<svg viewBox="0 0 1280 280" width="1280" height="280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Financial Analysis: 6 Claude Code skills. Valuation, capital allocation, runway, and SaaS unit economics.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0e1a"/><stop offset="55%" stop-color="#10162c"/><stop offset="100%" stop-color="#0a0e1a"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D97757" stop-opacity="0.30"/><stop offset="100%" stop-color="#D97757" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c5cff" stop-opacity="0.22"/><stop offset="100%" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c2342"/><stop offset="100%" stop-color="#11172e"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/><stop offset="65%" stop-color="#ffd9c8"/><stop offset="100%" stop-color="#D97757"/>
+    </linearGradient>
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#ffffff" opacity="0.06"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="14"/><feOffset dy="12"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.45"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    
+  </defs>
+  <rect width="1280" height="280" fill="url(#bg)"/><rect width="1280" height="280" fill="url(#dots)"/><circle cx="150" cy="140" r="260" fill="url(#glowA)"/><circle cx="1150" cy="260" r="300" fill="url(#glowB)"/>
+  <radialGradient id="catglow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#22c55e" stop-opacity="0.35"/><stop offset="100%" stop-color="#22c55e" stop-opacity="0"/></radialGradient>
+  <circle cx="140" cy="140" r="130" fill="url(#catglow)"/>
+  <g transform="translate(80 80)"><rect width="120" height="120" rx="26" fill="#121933" stroke="#22c55e" stroke-opacity="0.6" stroke-width="1.5"/><path d="M18 100 H102" stroke="#22c55e" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="26" y="66" width="16" height="30" rx="3" fill="#22c55e"/><rect x="52" y="46" width="16" height="50" rx="3" fill="#22c55e"/><rect x="78" y="26" width="16" height="70" rx="3" fill="#22c55e"/></g>
+  <text x="236" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="13" font-weight="800" fill="#22c55e" text-anchor="start" letter-spacing="1.6">CATEGORY  ·  6 SKILLS</text>
+  <text x="234" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#f3f6ff" text-anchor="start" letter-spacing="-1">Financial Analysis</text>
+  <text x="236" y="186" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#b3bed8" text-anchor="start" >Valuation, capital allocation, runway, and SaaS unit economics.</text>
+  <text x="236" y="214" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#8b97b8" text-anchor="start" >claude-code-skills</text>
+  <g transform="translate(800 52)"><rect width="400" height="176" rx="14" fill="#0b1022" fill-opacity="0.85" stroke="#2a3354"/>
+  <text x="22" y="28" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" font-weight="700" fill="#22c55e" text-anchor="start" >/</text><text x="34" y="28" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" font-weight="500" fill="#f3f6ff" text-anchor="start" >ai-agent-financial-analyst</text>
+  <text x="22" y="52" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" font-weight="700" fill="#22c55e" text-anchor="start" >/</text><text x="34" y="52" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" font-weight="500" fill="#f3f6ff" text-anchor="start" >burn-rate-runway-planner</text>
+  <text x="22" y="76" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" font-weight="700" fill="#22c55e" text-anchor="start" >/</text><text x="34" y="76" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" font-weight="500" fill="#f3f6ff" text-anchor="start" >capital-allocation-framework</text>
+  <text x="22" y="100" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" font-weight="700" fill="#22c55e" text-anchor="start" >/</text><text x="34" y="100" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" font-weight="500" fill="#f3f6ff" text-anchor="start" >dcf-valuation-builder</text>
+  <text x="22" y="124" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" font-weight="700" fill="#22c55e" text-anchor="start" >/</text><text x="34" y="124" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" font-weight="500" fill="#f3f6ff" text-anchor="start" >financial-statement-analyzer</text>
+  <text x="22" y="148" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" font-weight="700" fill="#22c55e" text-anchor="start" >/</text><text x="34" y="148" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" font-weight="500" fill="#f3f6ff" text-anchor="start" >saas-cohort-analyzer</text>
+  </g>
+</svg>

@@ -1,3 +1,5 @@
+<img src="../../assets/categories/ai-ux-design.svg" alt="AI UX & Design skills for Claude Code" width="100%"/>
+
 # AI UX & Design Skills
 
 User experience design for Artificial Intelligence (AI) products and agents: autonomy, human oversight, failure handling, uncertainty, input design, and research methods built for non-deterministic systems.
