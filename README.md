@@ -55,7 +55,7 @@ git clone https://github.com/varunk130/claude-code-skills.git && cd claude-code-
 
 ## What is a skill?
 
-A **skill** is a single markdown file (`SKILL.md`) that gives Claude Code domain-specific knowledge, a structured workflow, and clear output expectations. Put the skill's folder in `~/.claude/skills/` (so the file sits at `~/.claude/skills/<skill-name>/SKILL.md`) and Claude loads it on demand, either when you type its slash command or when your request matches its description.
+A **skill** is a single Markdown file (`SKILL.md`) that gives Claude Code domain-specific knowledge, a structured workflow, and clear output expectations. Put the skill's folder in `~/.claude/skills/` (so the file sits at `~/.claude/skills/<skill-name>/SKILL.md`) and Claude loads it on demand, either when you type its slash command or when your request matches its description.
 
 Every skill in this repository follows the **same standard format** (see [Standard skill format](#standard-skill-format)) so they're easy to learn, easy to compose, and easy to extend.
 
