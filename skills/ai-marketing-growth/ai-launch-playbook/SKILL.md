@@ -61,7 +61,7 @@ Build the story around one hero task the target user does weekly.
 | Limits | One sentence on what it does not do well yet |
 | Try-it path | The viewer can reproduce the hero task within 5 minutes of signup |
 
-The limits sentence builds trust with technical audiences and pre-empts the "gotcha" thread.
+The limits sentence builds trust with technical audiences and preempts the "gotcha" thread.
 
 ## Phase 3: Waitlist and early-access design
 

@@ -129,7 +129,7 @@ The point of the Five Forces is not just "what's the industry like?" but **what 
 |-------|-----------------|
 | Supplier power | Vertically integrate, multi-source, build alternatives, build internal capability |
 | Buyer power | Differentiate, raise switching costs, segment, build ecosystem |
-| Entrants | Raise barriers (scale, network effects, intellectual property), pre-empt, M&A consolidation |
+| Entrants | Raise barriers (scale, network effects, intellectual property), preempt, M&A consolidation |
 | Substitutes | Improve relative price-performance, redefine the job, partner with substitutes |
 | Rivalry | Differentiate, segment, consolidate via M&A, signal credibly to discourage price wars |
 
