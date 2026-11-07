@@ -87,7 +87,7 @@ Distribution: 5 actions at L5, 1 at L4, 2 at L3, 1 at L2, 1 at L1. Only 3 action
 |---------|---------------|
 | Trigger | Customer requests a new address and order status is "not yet picked up" |
 | Content | Order #, carrier, pickup time, old and new address, address-verification result |
-| Diff | Line-by-line old vs new address with changed fields highlighted |
+| Diff | Line-by-line old vs. new address with changed fields highlighted |
 | Consequence line | "After carrier pickup at 4 pm today, this change cannot be reversed." |
 | Options | Approve, edit address, reject with reason. No always-allow (fraud vector) |
 | Timeout behavior | Do nothing; if the pickup cutoff passes, the card expires and the agent drafts a "too late to change" reply for the rep |

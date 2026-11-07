@@ -116,7 +116,7 @@ Add Organization, Product, and FAQ (frequently asked questions) schema.org marku
 |-----|----------------------|---------------------------|----------------|-------|--------------|
 | Correct category and pricing on review and directory profiles; remove old per-host docs page | Branded fact, Category discovery | H | L | Product marketing | 8 Dec 2026 |
 | Static pricing table with date stamp and FAQ markup | Branded fact | M | L | Web team | 8 Dec 2026 |
-| Honest comparison pages vs Kestrel APM and Driftwatch, including where we do not fit | Comparison, Alternatives | H | M | Product marketing | 8 Dec 2026 |
+| Honest comparison pages vs. Kestrel APM and Driftwatch, including where we do not fit | Comparison, Alternatives | H | M | Product marketing | 8 Dec 2026 |
 | Publish an ingestion-cost benchmark others can cite; pitch to the top 2 editorial sources | Category discovery, Problem-led | H | H | Developer relations | 19 Jan 2027 |
 | Verified-customer review drive (no incentives tied to rating) | Category discovery | M | M | Customer success | 19 Jan 2027 |
 | Disclosed engineer answers on devforum.example | Problem-led | M | M | Developer relations | 19 Jan 2027 |
