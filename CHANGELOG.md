@@ -4,6 +4,13 @@ Notable changes to this project, newest first.
 
 The format is loosely based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [Unreleased]
+
+### Changed
+- Capitalized Markdown in the README.
+- Standardized the spelling of "preempt" in the Porter's Five Forces and AI launch playbook skills.
+- Used "vs." consistently in the worked examples.
+
 ## 2026-10-24 - v3.0: AI UX and AI marketing categories
 
 ### Added
