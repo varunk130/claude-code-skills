@@ -7,7 +7,7 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/en/
 ## [Unreleased]
 
 ### Added
-- CODEOWNERS, Dependabot for GitHub Actions, and a private security reporting link in the issue chooser.
+- CODEOWNERS and a private security reporting link in the issue chooser.
 
 ### Changed
 - Capitalized Markdown in the README.
