@@ -1,1 +1,5 @@
 blank_issues_enabled: true
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/varunk130/claude-code-skills/security/advisories/new
+    about: Please report vulnerabilities privately, not in a public issue.
